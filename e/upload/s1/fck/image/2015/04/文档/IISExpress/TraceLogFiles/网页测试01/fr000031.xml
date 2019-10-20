@@ -1,0 +1,3674 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type='text/xsl' href='freb.xsl'?>
+<!-- saved from url=(0014)about:internet -->
+<failedRequest url="http://localhost:10202/movie.mp4"
+               siteId="2"
+               appPoolId="Clr4IntegratedAppPool"
+               processId="6232"
+               verb="GET"
+               remoteUserName=""
+               userName=""
+               tokenUserName="DESKTOP-9DPVCS7\思之声"
+               authenticationType="anonymous"
+               activityId="{8000000D-0001-FD00-B63F-84710C7967BB}"
+               failureReason="STATUS_CODE"
+               statusCode="404"
+               triggerStatusCode="404"
+               timeTaken="0"
+               xmlns:freb="http://schemas.microsoft.com/win/2006/06/iis/freb"
+               >
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+ <System>
+  <Provider Name="WWW Server" Guid="{3A2A4E84-4C21-4981-AE10-3FDA0D9B0F83}"/>
+  <EventID>0</EventID>
+  <Version>1</Version>
+  <Level>0</Level>
+  <Opcode>1</Opcode>
+  <Keywords>0x0</Keywords>
+  <TimeCreated SystemTime="2018-06-11T13:26:47.735Z"/>
+  <Correlation ActivityID="{8000000D-0001-FD00-B63F-84710C7967BB}"/>
+  <Execution ProcessID="6232" ThreadID="2764"/>
+  <Computer>DESKTOP-9DPVCS7</Computer>
+ </System>
+ <EventData>
+  <Data Name="ContextId">{8000000D-0001-FD00-B63F-84710C7967BB}</Data>
+  <Data Name="SiteId">2</Data>
+  <Data Name="AppPoolId">Clr4IntegratedAppPool</Data>
+  <Data Name="ConnId">1610612743</Data>
+  <Data Name="RawConnId">0</Data>
+  <Data Name="RequestURL">http://localhost:10202/movie.mp4</Data>
+  <Data Name="RequestVerb">GET</Data>
+ </EventData>
+ <RenderingInfo Culture="zh-CN">
+  <Opcode>GENERAL_REQUEST_START</Opcode>
+ </RenderingInfo>
+ <ExtendedTracingInfo xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">
+  <EventGuid>{D42CF7EF-DE92-473E-8B6C-621EA663113A}</EventGuid>
+ </ExtendedTracingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+ <System>
+  <Provider Name="WWW Server" Guid="{3A2A4E84-4C21-4981-AE10-3FDA0D9B0F83}"/>
+  <EventID>0</EventID>
+  <Version>1</Version>
+  <Level>5</Level>
+  <Opcode>4</Opcode>
+  <Keywords>0x100</Keywords>
+  <TimeCreated SystemTime="2018-06-11T13:26:47.735Z"/>
+  <Correlation ActivityID="{8000000D-0001-FD00-B63F-84710C7967BB}"/>
+  <Execution ProcessID="6232" ThreadID="2764"/>
+  <Computer>DESKTOP-9DPVCS7</Computer>
+ </System>
+ <EventData>
+  <Data Name="ContextId">{8000000D-0001-FD00-B63F-84710C7967BB}</Data>
+  <Data Name="ModuleName">DynamicIpRestrictionModule</Data>
+ </EventData>
+ <RenderingInfo Culture="zh-CN">
+  <Opcode>PRE_BEGIN_REQUEST_START</Opcode>
+  <Keywords>
+   <Keyword>RequestNotifications</Keyword>
+  </Keywords>
+ </RenderingInfo>
+ <ExtendedTracingInfo xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">
+  <EventGuid>{002E91E3-E7AE-44AB-8E07-99230FFA6ADE}</EventGuid>
+ </ExtendedTracingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+ <System>
+  <Provider Name="WWW Server" Guid="{3A2A4E84-4C21-4981-AE10-3FDA0D9B0F83}"/>
+  <EventID>0</EventID>
+  <Version>1</Version>
+  <Level>5</Level>
+  <Opcode>5</Opcode>
+  <Keywords>0x100</Keywords>
+  <TimeCreated SystemTime="2018-06-11T13:26:47.735Z"/>
+  <Correlation ActivityID="{8000000D-0001-FD00-B63F-84710C7967BB}"/>
+  <Execution ProcessID="6232" ThreadID="2764"/>
+  <Computer>DESKTOP-9DPVCS7</Computer>
+ </System>
+ <EventData>
+  <Data Name="ContextId">{8000000D-0001-FD00-B63F-84710C7967BB}</Data>
+  <Data Name="ModuleName">DynamicIpRestrictionModule</Data>
+  <Data Name="NotificationStatus">0</Data>
+ </EventData>
+ <RenderingInfo Culture="zh-CN">
+  <Opcode>PRE_BEGIN_REQUEST_END</Opcode>
+  <Keywords>
+   <Keyword>RequestNotifications</Keyword>
+  </Keywords>
+  <freb:Description Data="NotificationStatus">NOTIFICATION_CONTINUE</freb:Description>
+ </RenderingInfo>
+ <ExtendedTracingInfo xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">
+  <EventGuid>{002E91E3-E7AE-44AB-8E07-99230FFA6ADE}</EventGuid>
+ </ExtendedTracingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+ <System>
+  <Provider Name="WWW Server" Guid="{3A2A4E84-4C21-4981-AE10-3FDA0D9B0F83}"/>
+  <EventID>0</EventID>
+  <Version>1</Version>
+  <Level>5</Level>
+  <Opcode>4</Opcode>
+  <Keywords>0x100</Keywords>
+  <TimeCreated SystemTime="2018-06-11T13:26:47.735Z"/>
+  <Correlation ActivityID="{8000000D-0001-FD00-B63F-84710C7967BB}"/>
+  <Execution ProcessID="6232" ThreadID="2764"/>
+  <Computer>DESKTOP-9DPVCS7</Computer>
+ </System>
+ <EventData>
+  <Data Name="ContextId">{8000000D-0001-FD00-B63F-84710C7967BB}</Data>
+  <Data Name="ModuleName">FailedRequestsTracingModule</Data>
+ </EventData>
+ <RenderingInfo Culture="zh-CN">
+  <Opcode>PRE_BEGIN_REQUEST_START</Opcode>
+  <Keywords>
+   <Keyword>RequestNotifications</Keyword>
+  </Keywords>
+ </RenderingInfo>
+ <ExtendedTracingInfo xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">
+  <EventGuid>{002E91E3-E7AE-44AB-8E07-99230FFA6ADE}</EventGuid>
+ </ExtendedTracingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+ <System>
+  <Provider Name="WWW Server" Guid="{3A2A4E84-4C21-4981-AE10-3FDA0D9B0F83}"/>
+  <EventID>0</EventID>
+  <Version>1</Version>
+  <Level>5</Level>
+  <Opcode>5</Opcode>
+  <Keywords>0x100</Keywords>
+  <TimeCreated SystemTime="2018-06-11T13:26:47.735Z"/>
+  <Correlation ActivityID="{8000000D-0001-FD00-B63F-84710C7967BB}"/>
+  <Execution ProcessID="6232" ThreadID="2764"/>
+  <Computer>DESKTOP-9DPVCS7</Computer>
+ </System>
+ <EventData>
+  <Data Name="ContextId">{8000000D-0001-FD00-B63F-84710C7967BB}</Data>
+  <Data Name="ModuleName">FailedRequestsTracingModule</Data>
+  <Data Name="NotificationStatus">0</Data>
+ </EventData>
+ <RenderingInfo Culture="zh-CN">
+  <Opcode>PRE_BEGIN_REQUEST_END</Opcode>
+  <Keywords>
+   <Keyword>RequestNotifications</Keyword>
+  </Keywords>
+  <freb:Description Data="NotificationStatus">NOTIFICATION_CONTINUE</freb:Description>
+ </RenderingInfo>
+ <ExtendedTracingInfo xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">
+  <EventGuid>{002E91E3-E7AE-44AB-8E07-99230FFA6ADE}</EventGuid>
+ </ExtendedTracingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+ <System>
+  <Provider Name="WWW Server" Guid="{3A2A4E84-4C21-4981-AE10-3FDA0D9B0F83}"/>
+  <EventID>0</EventID>
+  <Version>1</Version>
+  <Level>5</Level>
+  <Opcode>4</Opcode>
+  <Keywords>0x100</Keywords>
+  <TimeCreated SystemTime="2018-06-11T13:26:47.735Z"/>
+  <Correlation ActivityID="{8000000D-0001-FD00-B63F-84710C7967BB}"/>
+  <Execution ProcessID="6232" ThreadID="2764"/>
+  <Computer>DESKTOP-9DPVCS7</Computer>
+ </System>
+ <EventData>
+  <Data Name="ContextId">{8000000D-0001-FD00-B63F-84710C7967BB}</Data>
+  <Data Name="ModuleName">RequestMonitorModule</Data>
+ </EventData>
+ <RenderingInfo Culture="zh-CN">
+  <Opcode>PRE_BEGIN_REQUEST_START</Opcode>
+  <Keywords>
+   <Keyword>RequestNotifications</Keyword>
+  </Keywords>
+ </RenderingInfo>
+ <ExtendedTracingInfo xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">
+  <EventGuid>{002E91E3-E7AE-44AB-8E07-99230FFA6ADE}</EventGuid>
+ </ExtendedTracingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+ <System>
+  <Provider Name="WWW Server" Guid="{3A2A4E84-4C21-4981-AE10-3FDA0D9B0F83}"/>
+  <EventID>0</EventID>
+  <Version>1</Version>
+  <Level>5</Level>
+  <Opcode>5</Opcode>
+  <Keywords>0x100</Keywords>
+  <TimeCreated SystemTime="2018-06-11T13:26:47.735Z"/>
+  <Correlation ActivityID="{8000000D-0001-FD00-B63F-84710C7967BB}"/>
+  <Execution ProcessID="6232" ThreadID="2764"/>
+  <Computer>DESKTOP-9DPVCS7</Computer>
+ </System>
+ <EventData>
+  <Data Name="ContextId">{8000000D-0001-FD00-B63F-84710C7967BB}</Data>
+  <Data Name="ModuleName">RequestMonitorModule</Data>
+  <Data Name="NotificationStatus">0</Data>
+ </EventData>
+ <RenderingInfo Culture="zh-CN">
+  <Opcode>PRE_BEGIN_REQUEST_END</Opcode>
+  <Keywords>
+   <Keyword>RequestNotifications</Keyword>
+  </Keywords>
+  <freb:Description Data="NotificationStatus">NOTIFICATION_CONTINUE</freb:Description>
+ </RenderingInfo>
+ <ExtendedTracingInfo xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">
+  <EventGuid>{002E91E3-E7AE-44AB-8E07-99230FFA6ADE}</EventGuid>
+ </ExtendedTracingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+ <System>
+  <Provider Name="WWW Server" Guid="{3A2A4E84-4C21-4981-AE10-3FDA0D9B0F83}"/>
+  <EventID>0</EventID>
+  <Version>1</Version>
+  <Level>5</Level>
+  <Opcode>4</Opcode>
+  <Keywords>0x100</Keywords>
+  <TimeCreated SystemTime="2018-06-11T13:26:47.735Z"/>
+  <Correlation ActivityID="{8000000D-0001-FD00-B63F-84710C7967BB}"/>
+  <Execution ProcessID="6232" ThreadID="2764"/>
+  <Computer>DESKTOP-9DPVCS7</Computer>
+ </System>
+ <EventData>
+  <Data Name="ContextId">{8000000D-0001-FD00-B63F-84710C7967BB}</Data>
+  <Data Name="ModuleName">IsapiFilterModule</Data>
+ </EventData>
+ <RenderingInfo Culture="zh-CN">
+  <Opcode>PRE_BEGIN_REQUEST_START</Opcode>
+  <Keywords>
+   <Keyword>RequestNotifications</Keyword>
+  </Keywords>
+ </RenderingInfo>
+ <ExtendedTracingInfo xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">
+  <EventGuid>{002E91E3-E7AE-44AB-8E07-99230FFA6ADE}</EventGuid>
+ </ExtendedTracingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+ <System>
+  <Provider Name="WWW Server" Guid="{3A2A4E84-4C21-4981-AE10-3FDA0D9B0F83}"/>
+  <EventID>0</EventID>
+  <Version>1</Version>
+  <Level>4</Level>
+  <Opcode>13</Opcode>
+  <Keywords>0x8</Keywords>
+  <TimeCreated SystemTime="2018-06-11T13:26:47.735Z"/>
+  <Correlation ActivityID="{8000000D-0001-FD00-B63F-84710C7967BB}"/>
+  <Execution ProcessID="6232" ThreadID="2764"/>
+  <Computer>DESKTOP-9DPVCS7</Computer>
+ </System>
+ <EventData>
+  <Data Name="ContextId">{8000000D-0001-FD00-B63F-84710C7967BB}</Data>
+ </EventData>
+ <RenderingInfo Culture="zh-CN">
+  <Opcode>FILTER_PREPROC_HEADERS_START</Opcode>
+  <Keywords>
+   <Keyword>Filter</Keyword>
+  </Keywords>
+ </RenderingInfo>
+ <ExtendedTracingInfo xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">
+  <EventGuid>{00237F0D-73EB-4BCF-A232-126693595847}</EventGuid>
+ </ExtendedTracingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+ <System>
+  <Provider Name="WWW Server" Guid="{3A2A4E84-4C21-4981-AE10-3FDA0D9B0F83}"/>
+  <EventID>0</EventID>
+  <Version>1</Version>
+  <Level>0</Level>
+  <Opcode>1</Opcode>
+  <Keywords>0x8</Keywords>
+  <TimeCreated SystemTime="2018-06-11T13:26:47.735Z"/>
+  <Correlation ActivityID="{8000000D-0001-FD00-B63F-84710C7967BB}"/>
+  <Execution ProcessID="6232" ThreadID="2764"/>
+  <Computer>DESKTOP-9DPVCS7</Computer>
+ </System>
+ <EventData>
+  <Data Name="ContextId">{8000000D-0001-FD00-B63F-84710C7967BB}</Data>
+  <Data Name="FilterName">C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\aspnet_filter.dll</Data>
+ </EventData>
+ <RenderingInfo Culture="zh-CN">
+  <Opcode>FILTER_START</Opcode>
+  <Keywords>
+   <Keyword>Filter</Keyword>
+  </Keywords>
+ </RenderingInfo>
+ <ExtendedTracingInfo xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">
+  <EventGuid>{00237F0D-73EB-4BCF-A232-126693595847}</EventGuid>
+ </ExtendedTracingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+ <System>
+  <Provider Name="WWW Server" Guid="{3A2A4E84-4C21-4981-AE10-3FDA0D9B0F83}"/>
+  <EventID>0</EventID>
+  <Version>1</Version>
+  <Level>5</Level>
+  <Opcode>53</Opcode>
+  <Keywords>0x0</Keywords>
+  <TimeCreated SystemTime="2018-06-11T13:26:47.735Z"/>
+  <Correlation ActivityID="{8000000D-0001-FD00-B63F-84710C7967BB}"/>
+  <Execution ProcessID="6232" ThreadID="2764"/>
+  <Computer>DESKTOP-9DPVCS7</Computer>
+ </System>
+ <EventData>
+  <Data Name="ContextId">{8000000D-0001-FD00-B63F-84710C7967BB}</Data>
+  <Data Name="HeaderName">AspFilterSessionId</Data>
+  <Data Name="HeaderValue"></Data>
+  <Data Name="Replace">true</Data>
+ </EventData>
+ <RenderingInfo Culture="zh-CN">
+  <Opcode>GENERAL_SET_REQUEST_HEADER</Opcode>
+ </RenderingInfo>
+ <ExtendedTracingInfo xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">
+  <EventGuid>{D42CF7EF-DE92-473E-8B6C-621EA663113A}</EventGuid>
+ </ExtendedTracingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+ <System>
+  <Provider Name="WWW Server" Guid="{3A2A4E84-4C21-4981-AE10-3FDA0D9B0F83}"/>
+  <EventID>0</EventID>
+  <Version>1</Version>
+  <Level>4</Level>
+  <Opcode>31</Opcode>
+  <Keywords>0x8</Keywords>
+  <TimeCreated SystemTime="2018-06-11T13:26:47.735Z"/>
+  <Correlation ActivityID="{8000000D-0001-FD00-B63F-84710C7967BB}"/>
+  <Execution ProcessID="6232" ThreadID="2764"/>
+  <Computer>DESKTOP-9DPVCS7</Computer>
+ </System>
+ <EventData>
+  <Data Name="ContextId">{8000000D-0001-FD00-B63F-84710C7967BB}</Data>
+  <Data Name="HeaderName">AspFilterSessionId:</Data>
+  <Data Name="HeaderValue"></Data>
+ </EventData>
+ <RenderingInfo Culture="zh-CN">
+  <Opcode>FILTER_SET_REQ_HEADER</Opcode>
+  <Keywords>
+   <Keyword>Filter</Keyword>
+  </Keywords>
+ </RenderingInfo>
+ <ExtendedTracingInfo xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">
+  <EventGuid>{00237F0D-73EB-4BCF-A232-126693595847}</EventGuid>
+ </ExtendedTracingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+ <System>
+  <Provider Name="WWW Server" Guid="{3A2A4E84-4C21-4981-AE10-3FDA0D9B0F83}"/>
+  <EventID>0</EventID>
+  <Version>1</Version>
+  <Level>0</Level>
+  <Opcode>2</Opcode>
+  <Keywords>0x8</Keywords>
+  <TimeCreated SystemTime="2018-06-11T13:26:47.735Z"/>
+  <Correlation ActivityID="{8000000D-0001-FD00-B63F-84710C7967BB}"/>
+  <Execution ProcessID="6232" ThreadID="2764"/>
+  <Computer>DESKTOP-9DPVCS7</Computer>
+ </System>
+ <EventData>
+  <Data Name="ContextId">{8000000D-0001-FD00-B63F-84710C7967BB}</Data>
+  <Data Name="NotificationStatus">134217730</Data>
+ </EventData>
+ <RenderingInfo Culture="zh-CN">
+  <Opcode>FILTER_END</Opcode>
+  <Keywords>
+   <Keyword>Filter</Keyword>
+  </Keywords>
+  <freb:Description Data="NotificationStatus">SF_STATUS_REQ_NEXT_NOTIFICATION</freb:Description>
+ </RenderingInfo>
+ <ExtendedTracingInfo xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">
+  <EventGuid>{00237F0D-73EB-4BCF-A232-126693595847}</EventGuid>
+ </ExtendedTracingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+ <System>
+  <Provider Name="WWW Server" Guid="{3A2A4E84-4C21-4981-AE10-3FDA0D9B0F83}"/>
+  <EventID>0</EventID>
+  <Version>1</Version>
+  <Level>4</Level>
+  <Opcode>14</Opcode>
+  <Keywords>0x8</Keywords>
+  <TimeCreated SystemTime="2018-06-11T13:26:47.735Z"/>
+  <Correlation ActivityID="{8000000D-0001-FD00-B63F-84710C7967BB}"/>
+  <Execution ProcessID="6232" ThreadID="2764"/>
+  <Computer>DESKTOP-9DPVCS7</Computer>
+ </System>
+ <EventData>
+  <Data Name="ContextId">{8000000D-0001-FD00-B63F-84710C7967BB}</Data>
+ </EventData>
+ <RenderingInfo Culture="zh-CN">
+  <Opcode>FILTER_PREPROC_HEADERS_END</Opcode>
+  <Keywords>
+   <Keyword>Filter</Keyword>
+  </Keywords>
+ </RenderingInfo>
+ <ExtendedTracingInfo xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">
+  <EventGuid>{00237F0D-73EB-4BCF-A232-126693595847}</EventGuid>
+ </ExtendedTracingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+ <System>
+  <Provider Name="WWW Server" Guid="{3A2A4E84-4C21-4981-AE10-3FDA0D9B0F83}"/>
+  <EventID>0</EventID>
+  <Version>1</Version>
+  <Level>5</Level>
+  <Opcode>5</Opcode>
+  <Keywords>0x100</Keywords>
+  <TimeCreated SystemTime="2018-06-11T13:26:47.735Z"/>
+  <Correlation ActivityID="{8000000D-0001-FD00-B63F-84710C7967BB}"/>
+  <Execution ProcessID="6232" ThreadID="2764"/>
+  <Computer>DESKTOP-9DPVCS7</Computer>
+ </System>
+ <EventData>
+  <Data Name="ContextId">{8000000D-0001-FD00-B63F-84710C7967BB}</Data>
+  <Data Name="ModuleName">IsapiFilterModule</Data>
+  <Data Name="NotificationStatus">0</Data>
+ </EventData>
+ <RenderingInfo Culture="zh-CN">
+  <Opcode>PRE_BEGIN_REQUEST_END</Opcode>
+  <Keywords>
+   <Keyword>RequestNotifications</Keyword>
+  </Keywords>
+  <freb:Description Data="NotificationStatus">NOTIFICATION_CONTINUE</freb:Description>
+ </RenderingInfo>
+ <ExtendedTracingInfo xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">
+  <EventGuid>{002E91E3-E7AE-44AB-8E07-99230FFA6ADE}</EventGuid>
+ </ExtendedTracingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+ <System>
+  <Provider Name="WWW Server" Guid="{3A2A4E84-4C21-4981-AE10-3FDA0D9B0F83}"/>
+  <EventID>0</EventID>
+  <Version>1</Version>
+  <Level>5</Level>
+  <Opcode>4</Opcode>
+  <Keywords>0x100</Keywords>
+  <TimeCreated SystemTime="2018-06-11T13:26:47.735Z"/>
+  <Correlation ActivityID="{8000000D-0001-FD00-B63F-84710C7967BB}"/>
+  <Execution ProcessID="6232" ThreadID="2764"/>
+  <Computer>DESKTOP-9DPVCS7</Computer>
+ </System>
+ <EventData>
+  <Data Name="ContextId">{8000000D-0001-FD00-B63F-84710C7967BB}</Data>
+  <Data Name="ModuleName">RewriteModule</Data>
+ </EventData>
+ <RenderingInfo Culture="zh-CN">
+  <Opcode>PRE_BEGIN_REQUEST_START</Opcode>
+  <Keywords>
+   <Keyword>RequestNotifications</Keyword>
+  </Keywords>
+ </RenderingInfo>
+ <ExtendedTracingInfo xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">
+  <EventGuid>{002E91E3-E7AE-44AB-8E07-99230FFA6ADE}</EventGuid>
+ </ExtendedTracingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+ <System>
+  <Provider Name="WWW Server" Guid="{3A2A4E84-4C21-4981-AE10-3FDA0D9B0F83}"/>
+  <EventID>0</EventID>
+  <Version>1</Version>
+  <Level>5</Level>
+  <Opcode>5</Opcode>
+  <Keywords>0x100</Keywords>
+  <TimeCreated SystemTime="2018-06-11T13:26:47.735Z"/>
+  <Correlation ActivityID="{8000000D-0001-FD00-B63F-84710C7967BB}"/>
+  <Execution ProcessID="6232" ThreadID="2764"/>
+  <Computer>DESKTOP-9DPVCS7</Computer>
+ </System>
+ <EventData>
+  <Data Name="ContextId">{8000000D-0001-FD00-B63F-84710C7967BB}</Data>
+  <Data Name="ModuleName">RewriteModule</Data>
+  <Data Name="NotificationStatus">0</Data>
+ </EventData>
+ <RenderingInfo Culture="zh-CN">
+  <Opcode>PRE_BEGIN_REQUEST_END</Opcode>
+  <Keywords>
+   <Keyword>RequestNotifications</Keyword>
+  </Keywords>
+  <freb:Description Data="NotificationStatus">NOTIFICATION_CONTINUE</freb:Description>
+ </RenderingInfo>
+ <ExtendedTracingInfo xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">
+  <EventGuid>{002E91E3-E7AE-44AB-8E07-99230FFA6ADE}</EventGuid>
+ </ExtendedTracingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+ <System>
+  <Provider Name="WWW Server" Guid="{3A2A4E84-4C21-4981-AE10-3FDA0D9B0F83}"/>
+  <EventID>0</EventID>
+  <Version>1</Version>
+  <Level>4</Level>
+  <Opcode>55</Opcode>
+  <Keywords>0x0</Keywords>
+  <TimeCreated SystemTime="2018-06-11T13:26:47.735Z"/>
+  <Correlation ActivityID="{8000000D-0001-FD00-B63F-84710C7967BB}"/>
+  <Execution ProcessID="6232" ThreadID="2764"/>
+  <Computer>DESKTOP-9DPVCS7</Computer>
+ </System>
+ <EventData>
+  <Data Name="ContextId">{8000000D-0001-FD00-B63F-84710C7967BB}</Data>
+  <Data Name="RemoteAddress">::1</Data>
+  <Data Name="RemotePort">57945</Data>
+  <Data Name="LocalAddress">::1</Data>
+  <Data Name="LocalPort">10202</Data>
+ </EventData>
+ <RenderingInfo Culture="zh-CN">
+  <Opcode>GENERAL_ENDPOINT_INFORMATION</Opcode>
+ </RenderingInfo>
+ <ExtendedTracingInfo xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">
+  <EventGuid>{D42CF7EF-DE92-473E-8B6C-621EA663113A}</EventGuid>
+ </ExtendedTracingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+ <System>
+  <Provider Name="WWW Server" Guid="{3A2A4E84-4C21-4981-AE10-3FDA0D9B0F83}"/>
+  <EventID>0</EventID>
+  <Version>1</Version>
+  <Level>4</Level>
+  <Opcode>50</Opcode>
+  <Keywords>0x0</Keywords>
+  <TimeCreated SystemTime="2018-06-11T13:26:47.735Z"/>
+  <Correlation ActivityID="{8000000D-0001-FD00-B63F-84710C7967BB}"/>
+  <Execution ProcessID="6232" ThreadID="2764"/>
+  <Computer>DESKTOP-9DPVCS7</Computer>
+ </System>
+ <EventData>
+  <Data Name="ContextId">{8000000D-0001-FD00-B63F-84710C7967BB}</Data>
+  <Data Name="Headers">Connection: keep-alive
+Accept: */*
+Accept-Encoding: identity;q=1, *;q=0
+Accept-Language: zh-CN,zh;q=0.9
+Host: localhost:10202
+Referer: http://localhost:10202/index.html
+Range: bytes=0-4872
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
+</Data>
+ </EventData>
+ <RenderingInfo Culture="zh-CN">
+  <Opcode>GENERAL_REQUEST_HEADERS</Opcode>
+ </RenderingInfo>
+ <ExtendedTracingInfo xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">
+  <EventGuid>{D42CF7EF-DE92-473E-8B6C-621EA663113A}</EventGuid>
+ </ExtendedTracingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+ <System>
+  <Provider Name="WWW Server" Guid="{3A2A4E84-4C21-4981-AE10-3FDA0D9B0F83}"/>
+  <EventID>0</EventID>
+  <Version>1</Version>
+  <Level>4</Level>
+  <Opcode>12</Opcode>
+  <Keywords>0x80</Keywords>
+  <TimeCreated SystemTime="2018-06-11T13:26:47.735Z"/>
+  <Correlation ActivityID="{8000000D-0001-FD00-B63F-84710C7967BB}"/>
+  <Execution ProcessID="6232" ThreadID="2764"/>
+  <Computer>DESKTOP-9DPVCS7</Computer>
+ </System>
+ <EventData>
+  <Data Name="ContextId">{8000000D-0001-FD00-B63F-84710C7967BB}</Data>
+  <Data Name="RequestURL">/movie.mp4</Data>
+ </EventData>
+ <RenderingInfo Culture="zh-CN">
+  <Opcode>URL_CACHE_ACCESS_START</Opcode>
+  <Keywords>
+   <Keyword>Cache</Keyword>
+  </Keywords>
+ </RenderingInfo>
+ <ExtendedTracingInfo xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">
+  <EventGuid>{AC1D69F1-BF33-4CA0-9313-BCA13873E1DC}</EventGuid>
+ </ExtendedTracingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+ <System>
+  <Provider Name="WWW Server" Guid="{3A2A4E84-4C21-4981-AE10-3FDA0D9B0F83}"/>
+  <EventID>0</EventID>
+  <Version>1</Version>
+  <Level>4</Level>
+  <Opcode>13</Opcode>
+  <Keywords>0x80</Keywords>
+  <TimeCreated SystemTime="2018-06-11T13:26:47.735Z"/>
+  <Correlation ActivityID="{8000000D-0001-FD00-B63F-84710C7967BB}"/>
+  <Execution ProcessID="6232" ThreadID="2764"/>
+  <Computer>DESKTOP-9DPVCS7</Computer>
+ </System>
+ <EventData>
+  <Data Name="ContextId">{8000000D-0001-FD00-B63F-84710C7967BB}</Data>
+  <Data Name="PhysicalPath"></Data>
+  <Data Name="URLInfoFromCache">false</Data>
+  <Data Name="URLInfoAddedToCache">true</Data>
+  <Data Name="ErrorCode">0</Data>
+ </EventData>
+ <RenderingInfo Culture="zh-CN">
+  <Opcode>URL_CACHE_ACCESS_END</Opcode>
+  <Keywords>
+   <Keyword>Cache</Keyword>
+  </Keywords>
+  <freb:Description Data="ErrorCode">操作成功完成。 (0x0)</freb:Description>
+ </RenderingInfo>
+ <ExtendedTracingInfo xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">
+  <EventGuid>{AC1D69F1-BF33-4CA0-9313-BCA13873E1DC}</EventGuid>
+ </ExtendedTracingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+ <System>
+  <Provider Name="WWW Server" Guid="{3A2A4E84-4C21-4981-AE10-3FDA0D9B0F83}"/>
+  <EventID>0</EventID>
+  <Version>1</Version>
+  <Level>4</Level>
+  <Opcode>30</Opcode>
+  <Keywords>0x0</Keywords>
+  <TimeCreated SystemTime="2018-06-11T13:26:47.735Z"/>
+  <Correlation ActivityID="{8000000D-0001-FD00-B63F-84710C7967BB}"/>
+  <Execution ProcessID="6232" ThreadID="2764"/>
+  <Computer>DESKTOP-9DPVCS7</Computer>
+ </System>
+ <EventData>
+  <Data Name="ContextId">{8000000D-0001-FD00-B63F-84710C7967BB}</Data>
+  <Data Name="PhysicalPath"></Data>
+  <Data Name="AccessPerms">513</Data>
+ </EventData>
+ <RenderingInfo Culture="zh-CN">
+  <Opcode>GENERAL_GET_URL_METADATA</Opcode>
+ </RenderingInfo>
+ <ExtendedTracingInfo xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">
+  <EventGuid>{D42CF7EF-DE92-473E-8B6C-621EA663113A}</EventGuid>
+ </ExtendedTracingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+ <System>
+  <Provider Name="WWW Server" Guid="{3A2A4E84-4C21-4981-AE10-3FDA0D9B0F83}"/>
+  <EventID>0</EventID>
+  <Version>1</Version>
+  <Level>4</Level>
+  <Opcode>43</Opcode>
+  <Keywords>0x0</Keywords>
+  <TimeCreated SystemTime="2018-06-11T13:26:47.735Z"/>
+  <Correlation ActivityID="{8000000D-0001-FD00-B63F-84710C7967BB}"/>
+  <Execution ProcessID="6232" ThreadID="2764"/>
+  <Computer>DESKTOP-9DPVCS7</Computer>
+ </System>
+ <EventData>
+  <Data Name="ContextId">{8000000D-0001-FD00-B63F-84710C7967BB}</Data>
+  <Data Name="OldHandlerName"></Data>
+  <Data Name="NewHandlerName">StaticFile</Data>
+  <Data Name="NewHandlerModules">StaticFileModule,DefaultDocumentModule,DirectoryListingModule</Data>
+  <Data Name="NewHandlerScriptProcessor"></Data>
+  <Data Name="NewHandlerType"></Data>
+ </EventData>
+ <RenderingInfo Culture="zh-CN">
+  <Opcode>HANDLER_CHANGED</Opcode>
+ </RenderingInfo>
+ <ExtendedTracingInfo xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">
+  <EventGuid>{D42CF7EF-DE92-473E-8B6C-621EA663113A}</EventGuid>
+ </ExtendedTracingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+ <System>
+  <Provider Name="WWW Server" Guid="{3A2A4E84-4C21-4981-AE10-3FDA0D9B0F83}"/>
+  <EventID>0</EventID>
+  <Version>1</Version>
+  <Level>5</Level>
+  <Opcode>1</Opcode>
+  <Keywords>0x100</Keywords>
+  <TimeCreated SystemTime="2018-06-11T13:26:47.735Z"/>
+  <Correlation ActivityID="{8000000D-0001-FD00-B63F-84710C7967BB}"/>
+  <Execution ProcessID="6232" ThreadID="2764"/>
+  <Computer>DESKTOP-9DPVCS7</Computer>
+ </System>
+ <EventData>
+  <Data Name="ContextId">{8000000D-0001-FD00-B63F-84710C7967BB}</Data>
+  <Data Name="ModuleName">IsapiFilterModule</Data>
+  <Data Name="Notification">2147483648</Data>
+  <Data Name="fIsPostNotification">false</Data>
+ </EventData>
+ <RenderingInfo Culture="zh-CN">
+  <Opcode>NOTIFY_MODULE_START</Opcode>
+  <Keywords>
+   <Keyword>RequestNotifications</Keyword>
+  </Keywords>
+  <freb:Description Data="Notification">MAP_PATH</freb:Description>
+ </RenderingInfo>
+ <ExtendedTracingInfo xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">
+  <EventGuid>{002E91E3-E7AE-44AB-8E07-99230FFA6ADE}</EventGuid>
+ </ExtendedTracingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+ <System>
+  <Provider Name="WWW Server" Guid="{3A2A4E84-4C21-4981-AE10-3FDA0D9B0F83}"/>
+  <EventID>0</EventID>
+  <Version>1</Version>
+  <Level>5</Level>
+  <Opcode>2</Opcode>
+  <Keywords>0x100</Keywords>
+  <TimeCreated SystemTime="2018-06-11T13:26:47.735Z"/>
+  <Correlation ActivityID="{8000000D-0001-FD00-B63F-84710C7967BB}"/>
+  <Execution ProcessID="6232" ThreadID="2764"/>
+  <Computer>DESKTOP-9DPVCS7</Computer>
+ </System>
+ <EventData>
+  <Data Name="ContextId">{8000000D-0001-FD00-B63F-84710C7967BB}</Data>
+  <Data Name="ModuleName">IsapiFilterModule</Data>
+  <Data Name="Notification">2147483648</Data>
+  <Data Name="fIsPostNotificationEvent">false</Data>
+  <Data Name="NotificationStatus">0</Data>
+ </EventData>
+ <RenderingInfo Culture="zh-CN">
+  <Opcode>NOTIFY_MODULE_END</Opcode>
+  <Keywords>
+   <Keyword>RequestNotifications</Keyword>
+  </Keywords>
+  <freb:Description Data="Notification">MAP_PATH</freb:Description>
+  <freb:Description Data="NotificationStatus">NOTIFICATION_CONTINUE</freb:Description>
+ </RenderingInfo>
+ <ExtendedTracingInfo xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">
+  <EventGuid>{002E91E3-E7AE-44AB-8E07-99230FFA6ADE}</EventGuid>
+ </ExtendedTracingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+ <System>
+  <Provider Name="WWW Server" Guid="{3A2A4E84-4C21-4981-AE10-3FDA0D9B0F83}"/>
+  <EventID>0</EventID>
+  <Version>1</Version>
+  <Level>5</Level>
+  <Opcode>1</Opcode>
+  <Keywords>0x100</Keywords>
+  <TimeCreated SystemTime="2018-06-11T13:26:47.735Z"/>
+  <Correlation ActivityID="{8000000D-0001-FD00-B63F-84710C7967BB}"/>
+  <Execution ProcessID="6232" ThreadID="2764"/>
+  <Computer>DESKTOP-9DPVCS7</Computer>
+ </System>
+ <EventData>
+  <Data Name="ContextId">{8000000D-0001-FD00-B63F-84710C7967BB}</Data>
+  <Data Name="ModuleName">WebMatrixSupportModule</Data>
+  <Data Name="Notification">1</Data>
+  <Data Name="fIsPostNotification">false</Data>
+ </EventData>
+ <RenderingInfo Culture="zh-CN">
+  <Opcode>NOTIFY_MODULE_START</Opcode>
+  <Keywords>
+   <Keyword>RequestNotifications</Keyword>
+  </Keywords>
+  <freb:Description Data="Notification">BEGIN_REQUEST</freb:Description>
+ </RenderingInfo>
+ <ExtendedTracingInfo xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">
+  <EventGuid>{002E91E3-E7AE-44AB-8E07-99230FFA6ADE}</EventGuid>
+ </ExtendedTracingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+ <System>
+  <Provider Name="WWW Server" Guid="{3A2A4E84-4C21-4981-AE10-3FDA0D9B0F83}"/>
+  <EventID>0</EventID>
+  <Version>1</Version>
+  <Level>5</Level>
+  <Opcode>2</Opcode>
+  <Keywords>0x100</Keywords>
+  <TimeCreated SystemTime="2018-06-11T13:26:47.735Z"/>
+  <Correlation ActivityID="{8000000D-0001-FD00-B63F-84710C7967BB}"/>
+  <Execution ProcessID="6232" ThreadID="2764"/>
+  <Computer>DESKTOP-9DPVCS7</Computer>
+ </System>
+ <EventData>
+  <Data Name="ContextId">{8000000D-0001-FD00-B63F-84710C7967BB}</Data>
+  <Data Name="ModuleName">WebMatrixSupportModule</Data>
+  <Data Name="Notification">1</Data>
+  <Data Name="fIsPostNotificationEvent">false</Data>
+  <Data Name="NotificationStatus">0</Data>
+ </EventData>
+ <RenderingInfo Culture="zh-CN">
+  <Opcode>NOTIFY_MODULE_END</Opcode>
+  <Keywords>
+   <Keyword>RequestNotifications</Keyword>
+  </Keywords>
+  <freb:Description Data="Notification">BEGIN_REQUEST</freb:Description>
+  <freb:Description Data="NotificationStatus">NOTIFICATION_CONTINUE</freb:Description>
+ </RenderingInfo>
+ <ExtendedTracingInfo xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">
+  <EventGuid>{002E91E3-E7AE-44AB-8E07-99230FFA6ADE}</EventGuid>
+ </ExtendedTracingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+ <System>
+  <Provider Name="WWW Server" Guid="{3A2A4E84-4C21-4981-AE10-3FDA0D9B0F83}"/>
+  <EventID>0</EventID>
+  <Version>1</Version>
+  <Level>5</Level>
+  <Opcode>1</Opcode>
+  <Keywords>0x100</Keywords>
+  <TimeCreated SystemTime="2018-06-11T13:26:47.735Z"/>
+  <Correlation ActivityID="{8000000D-0001-FD00-B63F-84710C7967BB}"/>
+  <Execution ProcessID="6232" ThreadID="2764"/>
+  <Computer>DESKTOP-9DPVCS7</Computer>
+ </System>
+ <EventData>
+  <Data Name="ContextId">{8000000D-0001-FD00-B63F-84710C7967BB}</Data>
+  <Data Name="ModuleName">IpRestrictionModule</Data>
+  <Data Name="Notification">1</Data>
+  <Data Name="fIsPostNotification">false</Data>
+ </EventData>
+ <RenderingInfo Culture="zh-CN">
+  <Opcode>NOTIFY_MODULE_START</Opcode>
+  <Keywords>
+   <Keyword>RequestNotifications</Keyword>
+  </Keywords>
+  <freb:Description Data="Notification">BEGIN_REQUEST</freb:Description>
+ </RenderingInfo>
+ <ExtendedTracingInfo xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">
+  <EventGuid>{002E91E3-E7AE-44AB-8E07-99230FFA6ADE}</EventGuid>
+ </ExtendedTracingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+ <System>
+  <Provider Name="WWW Server" Guid="{3A2A4E84-4C21-4981-AE10-3FDA0D9B0F83}"/>
+  <EventID>0</EventID>
+  <Version>1</Version>
+  <Level>5</Level>
+  <Opcode>2</Opcode>
+  <Keywords>0x100</Keywords>
+  <TimeCreated SystemTime="2018-06-11T13:26:47.735Z"/>
+  <Correlation ActivityID="{8000000D-0001-FD00-B63F-84710C7967BB}"/>
+  <Execution ProcessID="6232" ThreadID="2764"/>
+  <Computer>DESKTOP-9DPVCS7</Computer>
+ </System>
+ <EventData>
+  <Data Name="ContextId">{8000000D-0001-FD00-B63F-84710C7967BB}</Data>
+  <Data Name="ModuleName">IpRestrictionModule</Data>
+  <Data Name="Notification">1</Data>
+  <Data Name="fIsPostNotificationEvent">false</Data>
+  <Data Name="NotificationStatus">0</Data>
+ </EventData>
+ <RenderingInfo Culture="zh-CN">
+  <Opcode>NOTIFY_MODULE_END</Opcode>
+  <Keywords>
+   <Keyword>RequestNotifications</Keyword>
+  </Keywords>
+  <freb:Description Data="Notification">BEGIN_REQUEST</freb:Description>
+  <freb:Description Data="NotificationStatus">NOTIFICATION_CONTINUE</freb:Description>
+ </RenderingInfo>
+ <ExtendedTracingInfo xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">
+  <EventGuid>{002E91E3-E7AE-44AB-8E07-99230FFA6ADE}</EventGuid>
+ </ExtendedTracingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+ <System>
+  <Provider Name="WWW Server" Guid="{3A2A4E84-4C21-4981-AE10-3FDA0D9B0F83}"/>
+  <EventID>0</EventID>
+  <Version>1</Version>
+  <Level>5</Level>
+  <Opcode>1</Opcode>
+  <Keywords>0x100</Keywords>
+  <TimeCreated SystemTime="2018-06-11T13:26:47.735Z"/>
+  <Correlation ActivityID="{8000000D-0001-FD00-B63F-84710C7967BB}"/>
+  <Execution ProcessID="6232" ThreadID="2764"/>
+  <Computer>DESKTOP-9DPVCS7</Computer>
+ </System>
+ <EventData>
+  <Data Name="ContextId">{8000000D-0001-FD00-B63F-84710C7967BB}</Data>
+  <Data Name="ModuleName">RequestFilteringModule</Data>
+  <Data Name="Notification">1</Data>
+  <Data Name="fIsPostNotification">false</Data>
+ </EventData>
+ <RenderingInfo Culture="zh-CN">
+  <Opcode>NOTIFY_MODULE_START</Opcode>
+  <Keywords>
+   <Keyword>RequestNotifications</Keyword>
+  </Keywords>
+  <freb:Description Data="Notification">BEGIN_REQUEST</freb:Description>
+ </RenderingInfo>
+ <ExtendedTracingInfo xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">
+  <EventGuid>{002E91E3-E7AE-44AB-8E07-99230FFA6ADE}</EventGuid>
+ </ExtendedTracingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+ <System>
+  <Provider Name="WWW Server" Guid="{3A2A4E84-4C21-4981-AE10-3FDA0D9B0F83}"/>
+  <EventID>0</EventID>
+  <Version>1</Version>
+  <Level>5</Level>
+  <Opcode>2</Opcode>
+  <Keywords>0x100</Keywords>
+  <TimeCreated SystemTime="2018-06-11T13:26:47.735Z"/>
+  <Correlation ActivityID="{8000000D-0001-FD00-B63F-84710C7967BB}"/>
+  <Execution ProcessID="6232" ThreadID="2764"/>
+  <Computer>DESKTOP-9DPVCS7</Computer>
+ </System>
+ <EventData>
+  <Data Name="ContextId">{8000000D-0001-FD00-B63F-84710C7967BB}</Data>
+  <Data Name="ModuleName">RequestFilteringModule</Data>
+  <Data Name="Notification">1</Data>
+  <Data Name="fIsPostNotificationEvent">false</Data>
+  <Data Name="NotificationStatus">0</Data>
+ </EventData>
+ <RenderingInfo Culture="zh-CN">
+  <Opcode>NOTIFY_MODULE_END</Opcode>
+  <Keywords>
+   <Keyword>RequestNotifications</Keyword>
+  </Keywords>
+  <freb:Description Data="Notification">BEGIN_REQUEST</freb:Description>
+  <freb:Description Data="NotificationStatus">NOTIFICATION_CONTINUE</freb:Description>
+ </RenderingInfo>
+ <ExtendedTracingInfo xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">
+  <EventGuid>{002E91E3-E7AE-44AB-8E07-99230FFA6ADE}</EventGuid>
+ </ExtendedTracingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+ <System>
+  <Provider Name="WWW Server" Guid="{3A2A4E84-4C21-4981-AE10-3FDA0D9B0F83}"/>
+  <EventID>0</EventID>
+  <Version>1</Version>
+  <Level>5</Level>
+  <Opcode>1</Opcode>
+  <Keywords>0x100</Keywords>
+  <TimeCreated SystemTime="2018-06-11T13:26:47.735Z"/>
+  <Correlation ActivityID="{8000000D-0001-FD00-B63F-84710C7967BB}"/>
+  <Execution ProcessID="6232" ThreadID="2764"/>
+  <Computer>DESKTOP-9DPVCS7</Computer>
+ </System>
+ <EventData>
+  <Data Name="ContextId">{8000000D-0001-FD00-B63F-84710C7967BB}</Data>
+  <Data Name="ModuleName">FailedRequestsTracingModule</Data>
+  <Data Name="Notification">1</Data>
+  <Data Name="fIsPostNotification">false</Data>
+ </EventData>
+ <RenderingInfo Culture="zh-CN">
+  <Opcode>NOTIFY_MODULE_START</Opcode>
+  <Keywords>
+   <Keyword>RequestNotifications</Keyword>
+  </Keywords>
+  <freb:Description Data="Notification">BEGIN_REQUEST</freb:Description>
+ </RenderingInfo>
+ <ExtendedTracingInfo xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">
+  <EventGuid>{002E91E3-E7AE-44AB-8E07-99230FFA6ADE}</EventGuid>
+ </ExtendedTracingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+ <System>
+  <Provider Name="WWW Server" Guid="{3A2A4E84-4C21-4981-AE10-3FDA0D9B0F83}"/>
+  <EventID>0</EventID>
+  <Version>1</Version>
+  <Level>5</Level>
+  <Opcode>2</Opcode>
+  <Keywords>0x100</Keywords>
+  <TimeCreated SystemTime="2018-06-11T13:26:47.735Z"/>
+  <Correlation ActivityID="{8000000D-0001-FD00-B63F-84710C7967BB}"/>
+  <Execution ProcessID="6232" ThreadID="2764"/>
+  <Computer>DESKTOP-9DPVCS7</Computer>
+ </System>
+ <EventData>
+  <Data Name="ContextId">{8000000D-0001-FD00-B63F-84710C7967BB}</Data>
+  <Data Name="ModuleName">FailedRequestsTracingModule</Data>
+  <Data Name="Notification">1</Data>
+  <Data Name="fIsPostNotificationEvent">false</Data>
+  <Data Name="NotificationStatus">0</Data>
+ </EventData>
+ <RenderingInfo Culture="zh-CN">
+  <Opcode>NOTIFY_MODULE_END</Opcode>
+  <Keywords>
+   <Keyword>RequestNotifications</Keyword>
+  </Keywords>
+  <freb:Description Data="Notification">BEGIN_REQUEST</freb:Description>
+  <freb:Description Data="NotificationStatus">NOTIFICATION_CONTINUE</freb:Description>
+ </RenderingInfo>
+ <ExtendedTracingInfo xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">
+  <EventGuid>{002E91E3-E7AE-44AB-8E07-99230FFA6ADE}</EventGuid>
+ </ExtendedTracingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+ <System>
+  <Provider Name="WWW Server" Guid="{3A2A4E84-4C21-4981-AE10-3FDA0D9B0F83}"/>
+  <EventID>0</EventID>
+  <Version>1</Version>
+  <Level>5</Level>
+  <Opcode>1</Opcode>
+  <Keywords>0x100</Keywords>
+  <TimeCreated SystemTime="2018-06-11T13:26:47.735Z"/>
+  <Correlation ActivityID="{8000000D-0001-FD00-B63F-84710C7967BB}"/>
+  <Execution ProcessID="6232" ThreadID="2764"/>
+  <Computer>DESKTOP-9DPVCS7</Computer>
+ </System>
+ <EventData>
+  <Data Name="ContextId">{8000000D-0001-FD00-B63F-84710C7967BB}</Data>
+  <Data Name="ModuleName">RewriteModule</Data>
+  <Data Name="Notification">1</Data>
+  <Data Name="fIsPostNotification">false</Data>
+ </EventData>
+ <RenderingInfo Culture="zh-CN">
+  <Opcode>NOTIFY_MODULE_START</Opcode>
+  <Keywords>
+   <Keyword>RequestNotifications</Keyword>
+  </Keywords>
+  <freb:Description Data="Notification">BEGIN_REQUEST</freb:Description>
+ </RenderingInfo>
+ <ExtendedTracingInfo xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">
+  <EventGuid>{002E91E3-E7AE-44AB-8E07-99230FFA6ADE}</EventGuid>
+ </ExtendedTracingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+ <System>
+  <Provider Name="WWW Server" Guid="{3A2A4E84-4C21-4981-AE10-3FDA0D9B0F83}"/>
+  <EventID>0</EventID>
+  <Version>1</Version>
+  <Level>5</Level>
+  <Opcode>2</Opcode>
+  <Keywords>0x100</Keywords>
+  <TimeCreated SystemTime="2018-06-11T13:26:47.735Z"/>
+  <Correlation ActivityID="{8000000D-0001-FD00-B63F-84710C7967BB}"/>
+  <Execution ProcessID="6232" ThreadID="2764"/>
+  <Computer>DESKTOP-9DPVCS7</Computer>
+ </System>
+ <EventData>
+  <Data Name="ContextId">{8000000D-0001-FD00-B63F-84710C7967BB}</Data>
+  <Data Name="ModuleName">RewriteModule</Data>
+  <Data Name="Notification">1</Data>
+  <Data Name="fIsPostNotificationEvent">false</Data>
+  <Data Name="NotificationStatus">0</Data>
+ </EventData>
+ <RenderingInfo Culture="zh-CN">
+  <Opcode>NOTIFY_MODULE_END</Opcode>
+  <Keywords>
+   <Keyword>RequestNotifications</Keyword>
+  </Keywords>
+  <freb:Description Data="Notification">BEGIN_REQUEST</freb:Description>
+  <freb:Description Data="NotificationStatus">NOTIFICATION_CONTINUE</freb:Description>
+ </RenderingInfo>
+ <ExtendedTracingInfo xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">
+  <EventGuid>{002E91E3-E7AE-44AB-8E07-99230FFA6ADE}</EventGuid>
+ </ExtendedTracingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+ <System>
+  <Provider Name="WWW Server" Guid="{3A2A4E84-4C21-4981-AE10-3FDA0D9B0F83}"/>
+  <EventID>0</EventID>
+  <Version>1</Version>
+  <Level>5</Level>
+  <Opcode>1</Opcode>
+  <Keywords>0x100</Keywords>
+  <TimeCreated SystemTime="2018-06-11T13:26:47.735Z"/>
+  <Correlation ActivityID="{8000000D-0001-FD00-B63F-84710C7967BB}"/>
+  <Execution ProcessID="6232" ThreadID="2764"/>
+  <Computer>DESKTOP-9DPVCS7</Computer>
+ </System>
+ <EventData>
+  <Data Name="ContextId">{8000000D-0001-FD00-B63F-84710C7967BB}</Data>
+  <Data Name="ModuleName">ConfigurationValidationModule</Data>
+  <Data Name="Notification">1</Data>
+  <Data Name="fIsPostNotification">false</Data>
+ </EventData>
+ <RenderingInfo Culture="zh-CN">
+  <Opcode>NOTIFY_MODULE_START</Opcode>
+  <Keywords>
+   <Keyword>RequestNotifications</Keyword>
+  </Keywords>
+  <freb:Description Data="Notification">BEGIN_REQUEST</freb:Description>
+ </RenderingInfo>
+ <ExtendedTracingInfo xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">
+  <EventGuid>{002E91E3-E7AE-44AB-8E07-99230FFA6ADE}</EventGuid>
+ </ExtendedTracingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+ <System>
+  <Provider Name="WWW Server" Guid="{3A2A4E84-4C21-4981-AE10-3FDA0D9B0F83}"/>
+  <EventID>0</EventID>
+  <Version>1</Version>
+  <Level>5</Level>
+  <Opcode>2</Opcode>
+  <Keywords>0x100</Keywords>
+  <TimeCreated SystemTime="2018-06-11T13:26:47.735Z"/>
+  <Correlation ActivityID="{8000000D-0001-FD00-B63F-84710C7967BB}"/>
+  <Execution ProcessID="6232" ThreadID="2764"/>
+  <Computer>DESKTOP-9DPVCS7</Computer>
+ </System>
+ <EventData>
+  <Data Name="ContextId">{8000000D-0001-FD00-B63F-84710C7967BB}</Data>
+  <Data Name="ModuleName">ConfigurationValidationModule</Data>
+  <Data Name="Notification">1</Data>
+  <Data Name="fIsPostNotificationEvent">false</Data>
+  <Data Name="NotificationStatus">0</Data>
+ </EventData>
+ <RenderingInfo Culture="zh-CN">
+  <Opcode>NOTIFY_MODULE_END</Opcode>
+  <Keywords>
+   <Keyword>RequestNotifications</Keyword>
+  </Keywords>
+  <freb:Description Data="Notification">BEGIN_REQUEST</freb:Description>
+  <freb:Description Data="NotificationStatus">NOTIFICATION_CONTINUE</freb:Description>
+ </RenderingInfo>
+ <ExtendedTracingInfo xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">
+  <EventGuid>{002E91E3-E7AE-44AB-8E07-99230FFA6ADE}</EventGuid>
+ </ExtendedTracingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+ <System>
+  <Provider Name="WWW Server" Guid="{3A2A4E84-4C21-4981-AE10-3FDA0D9B0F83}"/>
+  <EventID>0</EventID>
+  <Version>1</Version>
+  <Level>5</Level>
+  <Opcode>1</Opcode>
+  <Keywords>0x100</Keywords>
+  <TimeCreated SystemTime="2018-06-11T13:26:47.735Z"/>
+  <Correlation ActivityID="{8000000D-0001-FD00-B63F-84710C7967BB}"/>
+  <Execution ProcessID="6232" ThreadID="2764"/>
+  <Computer>DESKTOP-9DPVCS7</Computer>
+ </System>
+ <EventData>
+  <Data Name="ContextId">{8000000D-0001-FD00-B63F-84710C7967BB}</Data>
+  <Data Name="ModuleName">WebSocketModule</Data>
+  <Data Name="Notification">1</Data>
+  <Data Name="fIsPostNotification">false</Data>
+ </EventData>
+ <RenderingInfo Culture="zh-CN">
+  <Opcode>NOTIFY_MODULE_START</Opcode>
+  <Keywords>
+   <Keyword>RequestNotifications</Keyword>
+  </Keywords>
+  <freb:Description Data="Notification">BEGIN_REQUEST</freb:Description>
+ </RenderingInfo>
+ <ExtendedTracingInfo xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">
+  <EventGuid>{002E91E3-E7AE-44AB-8E07-99230FFA6ADE}</EventGuid>
+ </ExtendedTracingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+ <System>
+  <Provider Name="WWW Server" Guid="{3A2A4E84-4C21-4981-AE10-3FDA0D9B0F83}"/>
+  <EventID>0</EventID>
+  <Version>1</Version>
+  <Level>5</Level>
+  <Opcode>2</Opcode>
+  <Keywords>0x100</Keywords>
+  <TimeCreated SystemTime="2018-06-11T13:26:47.735Z"/>
+  <Correlation ActivityID="{8000000D-0001-FD00-B63F-84710C7967BB}"/>
+  <Execution ProcessID="6232" ThreadID="2764"/>
+  <Computer>DESKTOP-9DPVCS7</Computer>
+ </System>
+ <EventData>
+  <Data Name="ContextId">{8000000D-0001-FD00-B63F-84710C7967BB}</Data>
+  <Data Name="ModuleName">WebSocketModule</Data>
+  <Data Name="Notification">1</Data>
+  <Data Name="fIsPostNotificationEvent">false</Data>
+  <Data Name="NotificationStatus">0</Data>
+ </EventData>
+ <RenderingInfo Culture="zh-CN">
+  <Opcode>NOTIFY_MODULE_END</Opcode>
+  <Keywords>
+   <Keyword>RequestNotifications</Keyword>
+  </Keywords>
+  <freb:Description Data="Notification">BEGIN_REQUEST</freb:Description>
+  <freb:Description Data="NotificationStatus">NOTIFICATION_CONTINUE</freb:Description>
+ </RenderingInfo>
+ <ExtendedTracingInfo xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">
+  <EventGuid>{002E91E3-E7AE-44AB-8E07-99230FFA6ADE}</EventGuid>
+ </ExtendedTracingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+ <System>
+  <Provider Name="WWW Server" Guid="{3A2A4E84-4C21-4981-AE10-3FDA0D9B0F83}"/>
+  <EventID>0</EventID>
+  <Version>1</Version>
+  <Level>5</Level>
+  <Opcode>1</Opcode>
+  <Keywords>0x100</Keywords>
+  <TimeCreated SystemTime="2018-06-11T13:26:47.735Z"/>
+  <Correlation ActivityID="{8000000D-0001-FD00-B63F-84710C7967BB}"/>
+  <Execution ProcessID="6232" ThreadID="2764"/>
+  <Computer>DESKTOP-9DPVCS7</Computer>
+ </System>
+ <EventData>
+  <Data Name="ContextId">{8000000D-0001-FD00-B63F-84710C7967BB}</Data>
+  <Data Name="ModuleName">ApplicationInitializationModule</Data>
+  <Data Name="Notification">1</Data>
+  <Data Name="fIsPostNotification">false</Data>
+ </EventData>
+ <RenderingInfo Culture="zh-CN">
+  <Opcode>NOTIFY_MODULE_START</Opcode>
+  <Keywords>
+   <Keyword>RequestNotifications</Keyword>
+  </Keywords>
+  <freb:Description Data="Notification">BEGIN_REQUEST</freb:Description>
+ </RenderingInfo>
+ <ExtendedTracingInfo xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">
+  <EventGuid>{002E91E3-E7AE-44AB-8E07-99230FFA6ADE}</EventGuid>
+ </ExtendedTracingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+ <System>
+  <Provider Name="WWW Server" Guid="{3A2A4E84-4C21-4981-AE10-3FDA0D9B0F83}"/>
+  <EventID>0</EventID>
+  <Version>1</Version>
+  <Level>5</Level>
+  <Opcode>2</Opcode>
+  <Keywords>0x100</Keywords>
+  <TimeCreated SystemTime="2018-06-11T13:26:47.735Z"/>
+  <Correlation ActivityID="{8000000D-0001-FD00-B63F-84710C7967BB}"/>
+  <Execution ProcessID="6232" ThreadID="2764"/>
+  <Computer>DESKTOP-9DPVCS7</Computer>
+ </System>
+ <EventData>
+  <Data Name="ContextId">{8000000D-0001-FD00-B63F-84710C7967BB}</Data>
+  <Data Name="ModuleName">ApplicationInitializationModule</Data>
+  <Data Name="Notification">1</Data>
+  <Data Name="fIsPostNotificationEvent">false</Data>
+  <Data Name="NotificationStatus">0</Data>
+ </EventData>
+ <RenderingInfo Culture="zh-CN">
+  <Opcode>NOTIFY_MODULE_END</Opcode>
+  <Keywords>
+   <Keyword>RequestNotifications</Keyword>
+  </Keywords>
+  <freb:Description Data="Notification">BEGIN_REQUEST</freb:Description>
+  <freb:Description Data="NotificationStatus">NOTIFICATION_CONTINUE</freb:Description>
+ </RenderingInfo>
+ <ExtendedTracingInfo xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">
+  <EventGuid>{002E91E3-E7AE-44AB-8E07-99230FFA6ADE}</EventGuid>
+ </ExtendedTracingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+ <System>
+  <Provider Name="WWW Server" Guid="{3A2A4E84-4C21-4981-AE10-3FDA0D9B0F83}"/>
+  <EventID>0</EventID>
+  <Version>1</Version>
+  <Level>5</Level>
+  <Opcode>1</Opcode>
+  <Keywords>0x100</Keywords>
+  <TimeCreated SystemTime="2018-06-11T13:26:47.735Z"/>
+  <Correlation ActivityID="{8000000D-0001-FD00-B63F-84710C7967BB}"/>
+  <Execution ProcessID="6232" ThreadID="2764"/>
+  <Computer>DESKTOP-9DPVCS7</Computer>
+ </System>
+ <EventData>
+  <Data Name="ContextId">{8000000D-0001-FD00-B63F-84710C7967BB}</Data>
+  <Data Name="ModuleName">IsapiFilterModule</Data>
+  <Data Name="Notification">2</Data>
+  <Data Name="fIsPostNotification">false</Data>
+ </EventData>
+ <RenderingInfo Culture="zh-CN">
+  <Opcode>NOTIFY_MODULE_START</Opcode>
+  <Keywords>
+   <Keyword>RequestNotifications</Keyword>
+  </Keywords>
+  <freb:Description Data="Notification">AUTHENTICATE_REQUEST</freb:Description>
+ </RenderingInfo>
+ <ExtendedTracingInfo xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">
+  <EventGuid>{002E91E3-E7AE-44AB-8E07-99230FFA6ADE}</EventGuid>
+ </ExtendedTracingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+ <System>
+  <Provider Name="WWW Server" Guid="{3A2A4E84-4C21-4981-AE10-3FDA0D9B0F83}"/>
+  <EventID>0</EventID>
+  <Version>1</Version>
+  <Level>5</Level>
+  <Opcode>2</Opcode>
+  <Keywords>0x100</Keywords>
+  <TimeCreated SystemTime="2018-06-11T13:26:47.735Z"/>
+  <Correlation ActivityID="{8000000D-0001-FD00-B63F-84710C7967BB}"/>
+  <Execution ProcessID="6232" ThreadID="2764"/>
+  <Computer>DESKTOP-9DPVCS7</Computer>
+ </System>
+ <EventData>
+  <Data Name="ContextId">{8000000D-0001-FD00-B63F-84710C7967BB}</Data>
+  <Data Name="ModuleName">IsapiFilterModule</Data>
+  <Data Name="Notification">2</Data>
+  <Data Name="fIsPostNotificationEvent">false</Data>
+  <Data Name="NotificationStatus">0</Data>
+ </EventData>
+ <RenderingInfo Culture="zh-CN">
+  <Opcode>NOTIFY_MODULE_END</Opcode>
+  <Keywords>
+   <Keyword>RequestNotifications</Keyword>
+  </Keywords>
+  <freb:Description Data="Notification">AUTHENTICATE_REQUEST</freb:Description>
+  <freb:Description Data="NotificationStatus">NOTIFICATION_CONTINUE</freb:Description>
+ </RenderingInfo>
+ <ExtendedTracingInfo xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">
+  <EventGuid>{002E91E3-E7AE-44AB-8E07-99230FFA6ADE}</EventGuid>
+ </ExtendedTracingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+ <System>
+  <Provider Name="WWW Server" Guid="{3A2A4E84-4C21-4981-AE10-3FDA0D9B0F83}"/>
+  <EventID>0</EventID>
+  <Version>1</Version>
+  <Level>5</Level>
+  <Opcode>1</Opcode>
+  <Keywords>0x100</Keywords>
+  <TimeCreated SystemTime="2018-06-11T13:26:47.735Z"/>
+  <Correlation ActivityID="{8000000D-0001-FD00-B63F-84710C7967BB}"/>
+  <Execution ProcessID="6232" ThreadID="2764"/>
+  <Computer>DESKTOP-9DPVCS7</Computer>
+ </System>
+ <EventData>
+  <Data Name="ContextId">{8000000D-0001-FD00-B63F-84710C7967BB}</Data>
+  <Data Name="ModuleName">BasicAuthenticationModule</Data>
+  <Data Name="Notification">2</Data>
+  <Data Name="fIsPostNotification">false</Data>
+ </EventData>
+ <RenderingInfo Culture="zh-CN">
+  <Opcode>NOTIFY_MODULE_START</Opcode>
+  <Keywords>
+   <Keyword>RequestNotifications</Keyword>
+  </Keywords>
+  <freb:Description Data="Notification">AUTHENTICATE_REQUEST</freb:Description>
+ </RenderingInfo>
+ <ExtendedTracingInfo xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">
+  <EventGuid>{002E91E3-E7AE-44AB-8E07-99230FFA6ADE}</EventGuid>
+ </ExtendedTracingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+ <System>
+  <Provider Name="WWW Server" Guid="{3A2A4E84-4C21-4981-AE10-3FDA0D9B0F83}"/>
+  <EventID>0</EventID>
+  <Version>1</Version>
+  <Level>4</Level>
+  <Opcode>10</Opcode>
+  <Keywords>0x2</Keywords>
+  <TimeCreated SystemTime="2018-06-11T13:26:47.735Z"/>
+  <Correlation ActivityID="{8000000D-0001-FD00-B63F-84710C7967BB}"/>
+  <Execution ProcessID="6232" ThreadID="2764"/>
+  <Computer>DESKTOP-9DPVCS7</Computer>
+ </System>
+ <EventData>
+  <Data Name="ContextId">{8000000D-0001-FD00-B63F-84710C7967BB}</Data>
+  <Data Name="AuthTypeSupported">2</Data>
+ </EventData>
+ <RenderingInfo Culture="zh-CN">
+  <Opcode>AUTH_START</Opcode>
+  <Keywords>
+   <Keyword>Authentication</Keyword>
+  </Keywords>
+  <freb:Description Data="AuthTypeSupported">Basic</freb:Description>
+ </RenderingInfo>
+ <ExtendedTracingInfo xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">
+  <EventGuid>{C33BBE8F-985B-4080-81E6-005F1A06B9E2}</EventGuid>
+ </ExtendedTracingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+ <System>
+  <Provider Name="WWW Server" Guid="{3A2A4E84-4C21-4981-AE10-3FDA0D9B0F83}"/>
+  <EventID>0</EventID>
+  <Version>1</Version>
+  <Level>4</Level>
+  <Opcode>28</Opcode>
+  <Keywords>0x2</Keywords>
+  <TimeCreated SystemTime="2018-06-11T13:26:47.735Z"/>
+  <Correlation ActivityID="{8000000D-0001-FD00-B63F-84710C7967BB}"/>
+  <Execution ProcessID="6232" ThreadID="2764"/>
+  <Computer>DESKTOP-9DPVCS7</Computer>
+ </System>
+ <EventData>
+  <Data Name="ContextId">{8000000D-0001-FD00-B63F-84710C7967BB}</Data>
+ </EventData>
+ <RenderingInfo Culture="zh-CN">
+  <Opcode>AUTH_END</Opcode>
+  <Keywords>
+   <Keyword>Authentication</Keyword>
+  </Keywords>
+ </RenderingInfo>
+ <ExtendedTracingInfo xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">
+  <EventGuid>{C33BBE8F-985B-4080-81E6-005F1A06B9E2}</EventGuid>
+ </ExtendedTracingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+ <System>
+  <Provider Name="WWW Server" Guid="{3A2A4E84-4C21-4981-AE10-3FDA0D9B0F83}"/>
+  <EventID>0</EventID>
+  <Version>1</Version>
+  <Level>5</Level>
+  <Opcode>2</Opcode>
+  <Keywords>0x100</Keywords>
+  <TimeCreated SystemTime="2018-06-11T13:26:47.735Z"/>
+  <Correlation ActivityID="{8000000D-0001-FD00-B63F-84710C7967BB}"/>
+  <Execution ProcessID="6232" ThreadID="2764"/>
+  <Computer>DESKTOP-9DPVCS7</Computer>
+ </System>
+ <EventData>
+  <Data Name="ContextId">{8000000D-0001-FD00-B63F-84710C7967BB}</Data>
+  <Data Name="ModuleName">BasicAuthenticationModule</Data>
+  <Data Name="Notification">2</Data>
+  <Data Name="fIsPostNotificationEvent">false</Data>
+  <Data Name="NotificationStatus">0</Data>
+ </EventData>
+ <RenderingInfo Culture="zh-CN">
+  <Opcode>NOTIFY_MODULE_END</Opcode>
+  <Keywords>
+   <Keyword>RequestNotifications</Keyword>
+  </Keywords>
+  <freb:Description Data="Notification">AUTHENTICATE_REQUEST</freb:Description>
+  <freb:Description Data="NotificationStatus">NOTIFICATION_CONTINUE</freb:Description>
+ </RenderingInfo>
+ <ExtendedTracingInfo xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">
+  <EventGuid>{002E91E3-E7AE-44AB-8E07-99230FFA6ADE}</EventGuid>
+ </ExtendedTracingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+ <System>
+  <Provider Name="WWW Server" Guid="{3A2A4E84-4C21-4981-AE10-3FDA0D9B0F83}"/>
+  <EventID>0</EventID>
+  <Version>1</Version>
+  <Level>5</Level>
+  <Opcode>1</Opcode>
+  <Keywords>0x100</Keywords>
+  <TimeCreated SystemTime="2018-06-11T13:26:47.735Z"/>
+  <Correlation ActivityID="{8000000D-0001-FD00-B63F-84710C7967BB}"/>
+  <Execution ProcessID="6232" ThreadID="2764"/>
+  <Computer>DESKTOP-9DPVCS7</Computer>
+ </System>
+ <EventData>
+  <Data Name="ContextId">{8000000D-0001-FD00-B63F-84710C7967BB}</Data>
+  <Data Name="ModuleName">CertificateMappingAuthenticationModule</Data>
+  <Data Name="Notification">2</Data>
+  <Data Name="fIsPostNotification">false</Data>
+ </EventData>
+ <RenderingInfo Culture="zh-CN">
+  <Opcode>NOTIFY_MODULE_START</Opcode>
+  <Keywords>
+   <Keyword>RequestNotifications</Keyword>
+  </Keywords>
+  <freb:Description Data="Notification">AUTHENTICATE_REQUEST</freb:Description>
+ </RenderingInfo>
+ <ExtendedTracingInfo xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">
+  <EventGuid>{002E91E3-E7AE-44AB-8E07-99230FFA6ADE}</EventGuid>
+ </ExtendedTracingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+ <System>
+  <Provider Name="WWW Server" Guid="{3A2A4E84-4C21-4981-AE10-3FDA0D9B0F83}"/>
+  <EventID>0</EventID>
+  <Version>1</Version>
+  <Level>4</Level>
+  <Opcode>10</Opcode>
+  <Keywords>0x2</Keywords>
+  <TimeCreated SystemTime="2018-06-11T13:26:47.735Z"/>
+  <Correlation ActivityID="{8000000D-0001-FD00-B63F-84710C7967BB}"/>
+  <Execution ProcessID="6232" ThreadID="2764"/>
+  <Computer>DESKTOP-9DPVCS7</Computer>
+ </System>
+ <EventData>
+  <Data Name="ContextId">{8000000D-0001-FD00-B63F-84710C7967BB}</Data>
+  <Data Name="AuthTypeSupported">128</Data>
+ </EventData>
+ <RenderingInfo Culture="zh-CN">
+  <Opcode>AUTH_START</Opcode>
+  <Keywords>
+   <Keyword>Authentication</Keyword>
+  </Keywords>
+  <freb:Description Data="AuthTypeSupported">MapCliCert</freb:Description>
+ </RenderingInfo>
+ <ExtendedTracingInfo xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">
+  <EventGuid>{C33BBE8F-985B-4080-81E6-005F1A06B9E2}</EventGuid>
+ </ExtendedTracingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+ <System>
+  <Provider Name="WWW Server" Guid="{3A2A4E84-4C21-4981-AE10-3FDA0D9B0F83}"/>
+  <EventID>0</EventID>
+  <Version>1</Version>
+  <Level>4</Level>
+  <Opcode>28</Opcode>
+  <Keywords>0x2</Keywords>
+  <TimeCreated SystemTime="2018-06-11T13:26:47.735Z"/>
+  <Correlation ActivityID="{8000000D-0001-FD00-B63F-84710C7967BB}"/>
+  <Execution ProcessID="6232" ThreadID="2764"/>
+  <Computer>DESKTOP-9DPVCS7</Computer>
+ </System>
+ <EventData>
+  <Data Name="ContextId">{8000000D-0001-FD00-B63F-84710C7967BB}</Data>
+ </EventData>
+ <RenderingInfo Culture="zh-CN">
+  <Opcode>AUTH_END</Opcode>
+  <Keywords>
+   <Keyword>Authentication</Keyword>
+  </Keywords>
+ </RenderingInfo>
+ <ExtendedTracingInfo xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">
+  <EventGuid>{C33BBE8F-985B-4080-81E6-005F1A06B9E2}</EventGuid>
+ </ExtendedTracingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+ <System>
+  <Provider Name="WWW Server" Guid="{3A2A4E84-4C21-4981-AE10-3FDA0D9B0F83}"/>
+  <EventID>0</EventID>
+  <Version>1</Version>
+  <Level>5</Level>
+  <Opcode>2</Opcode>
+  <Keywords>0x100</Keywords>
+  <TimeCreated SystemTime="2018-06-11T13:26:47.735Z"/>
+  <Correlation ActivityID="{8000000D-0001-FD00-B63F-84710C7967BB}"/>
+  <Execution ProcessID="6232" ThreadID="2764"/>
+  <Computer>DESKTOP-9DPVCS7</Computer>
+ </System>
+ <EventData>
+  <Data Name="ContextId">{8000000D-0001-FD00-B63F-84710C7967BB}</Data>
+  <Data Name="ModuleName">CertificateMappingAuthenticationModule</Data>
+  <Data Name="Notification">2</Data>
+  <Data Name="fIsPostNotificationEvent">false</Data>
+  <Data Name="NotificationStatus">0</Data>
+ </EventData>
+ <RenderingInfo Culture="zh-CN">
+  <Opcode>NOTIFY_MODULE_END</Opcode>
+  <Keywords>
+   <Keyword>RequestNotifications</Keyword>
+  </Keywords>
+  <freb:Description Data="Notification">AUTHENTICATE_REQUEST</freb:Description>
+  <freb:Description Data="NotificationStatus">NOTIFICATION_CONTINUE</freb:Description>
+ </RenderingInfo>
+ <ExtendedTracingInfo xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">
+  <EventGuid>{002E91E3-E7AE-44AB-8E07-99230FFA6ADE}</EventGuid>
+ </ExtendedTracingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+ <System>
+  <Provider Name="WWW Server" Guid="{3A2A4E84-4C21-4981-AE10-3FDA0D9B0F83}"/>
+  <EventID>0</EventID>
+  <Version>1</Version>
+  <Level>5</Level>
+  <Opcode>1</Opcode>
+  <Keywords>0x100</Keywords>
+  <TimeCreated SystemTime="2018-06-11T13:26:47.735Z"/>
+  <Correlation ActivityID="{8000000D-0001-FD00-B63F-84710C7967BB}"/>
+  <Execution ProcessID="6232" ThreadID="2764"/>
+  <Computer>DESKTOP-9DPVCS7</Computer>
+ </System>
+ <EventData>
+  <Data Name="ContextId">{8000000D-0001-FD00-B63F-84710C7967BB}</Data>
+  <Data Name="ModuleName">WindowsAuthenticationModule</Data>
+  <Data Name="Notification">2</Data>
+  <Data Name="fIsPostNotification">false</Data>
+ </EventData>
+ <RenderingInfo Culture="zh-CN">
+  <Opcode>NOTIFY_MODULE_START</Opcode>
+  <Keywords>
+   <Keyword>RequestNotifications</Keyword>
+  </Keywords>
+  <freb:Description Data="Notification">AUTHENTICATE_REQUEST</freb:Description>
+ </RenderingInfo>
+ <ExtendedTracingInfo xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">
+  <EventGuid>{002E91E3-E7AE-44AB-8E07-99230FFA6ADE}</EventGuid>
+ </ExtendedTracingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+ <System>
+  <Provider Name="WWW Server" Guid="{3A2A4E84-4C21-4981-AE10-3FDA0D9B0F83}"/>
+  <EventID>0</EventID>
+  <Version>1</Version>
+  <Level>4</Level>
+  <Opcode>10</Opcode>
+  <Keywords>0x2</Keywords>
+  <TimeCreated SystemTime="2018-06-11T13:26:47.735Z"/>
+  <Correlation ActivityID="{8000000D-0001-FD00-B63F-84710C7967BB}"/>
+  <Execution ProcessID="6232" ThreadID="2764"/>
+  <Computer>DESKTOP-9DPVCS7</Computer>
+ </System>
+ <EventData>
+  <Data Name="ContextId">{8000000D-0001-FD00-B63F-84710C7967BB}</Data>
+  <Data Name="AuthTypeSupported">4</Data>
+ </EventData>
+ <RenderingInfo Culture="zh-CN">
+  <Opcode>AUTH_START</Opcode>
+  <Keywords>
+   <Keyword>Authentication</Keyword>
+  </Keywords>
+  <freb:Description Data="AuthTypeSupported">NT</freb:Description>
+ </RenderingInfo>
+ <ExtendedTracingInfo xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">
+  <EventGuid>{C33BBE8F-985B-4080-81E6-005F1A06B9E2}</EventGuid>
+ </ExtendedTracingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+ <System>
+  <Provider Name="WWW Server" Guid="{3A2A4E84-4C21-4981-AE10-3FDA0D9B0F83}"/>
+  <EventID>0</EventID>
+  <Version>1</Version>
+  <Level>4</Level>
+  <Opcode>28</Opcode>
+  <Keywords>0x2</Keywords>
+  <TimeCreated SystemTime="2018-06-11T13:26:47.735Z"/>
+  <Correlation ActivityID="{8000000D-0001-FD00-B63F-84710C7967BB}"/>
+  <Execution ProcessID="6232" ThreadID="2764"/>
+  <Computer>DESKTOP-9DPVCS7</Computer>
+ </System>
+ <EventData>
+  <Data Name="ContextId">{8000000D-0001-FD00-B63F-84710C7967BB}</Data>
+ </EventData>
+ <RenderingInfo Culture="zh-CN">
+  <Opcode>AUTH_END</Opcode>
+  <Keywords>
+   <Keyword>Authentication</Keyword>
+  </Keywords>
+ </RenderingInfo>
+ <ExtendedTracingInfo xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">
+  <EventGuid>{C33BBE8F-985B-4080-81E6-005F1A06B9E2}</EventGuid>
+ </ExtendedTracingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+ <System>
+  <Provider Name="WWW Server" Guid="{3A2A4E84-4C21-4981-AE10-3FDA0D9B0F83}"/>
+  <EventID>0</EventID>
+  <Version>1</Version>
+  <Level>5</Level>
+  <Opcode>2</Opcode>
+  <Keywords>0x100</Keywords>
+  <TimeCreated SystemTime="2018-06-11T13:26:47.735Z"/>
+  <Correlation ActivityID="{8000000D-0001-FD00-B63F-84710C7967BB}"/>
+  <Execution ProcessID="6232" ThreadID="2764"/>
+  <Computer>DESKTOP-9DPVCS7</Computer>
+ </System>
+ <EventData>
+  <Data Name="ContextId">{8000000D-0001-FD00-B63F-84710C7967BB}</Data>
+  <Data Name="ModuleName">WindowsAuthenticationModule</Data>
+  <Data Name="Notification">2</Data>
+  <Data Name="fIsPostNotificationEvent">false</Data>
+  <Data Name="NotificationStatus">0</Data>
+ </EventData>
+ <RenderingInfo Culture="zh-CN">
+  <Opcode>NOTIFY_MODULE_END</Opcode>
+  <Keywords>
+   <Keyword>RequestNotifications</Keyword>
+  </Keywords>
+  <freb:Description Data="Notification">AUTHENTICATE_REQUEST</freb:Description>
+  <freb:Description Data="NotificationStatus">NOTIFICATION_CONTINUE</freb:Description>
+ </RenderingInfo>
+ <ExtendedTracingInfo xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">
+  <EventGuid>{002E91E3-E7AE-44AB-8E07-99230FFA6ADE}</EventGuid>
+ </ExtendedTracingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+ <System>
+  <Provider Name="WWW Server" Guid="{3A2A4E84-4C21-4981-AE10-3FDA0D9B0F83}"/>
+  <EventID>0</EventID>
+  <Version>1</Version>
+  <Level>5</Level>
+  <Opcode>1</Opcode>
+  <Keywords>0x100</Keywords>
+  <TimeCreated SystemTime="2018-06-11T13:26:47.735Z"/>
+  <Correlation ActivityID="{8000000D-0001-FD00-B63F-84710C7967BB}"/>
+  <Execution ProcessID="6232" ThreadID="2764"/>
+  <Computer>DESKTOP-9DPVCS7</Computer>
+ </System>
+ <EventData>
+  <Data Name="ContextId">{8000000D-0001-FD00-B63F-84710C7967BB}</Data>
+  <Data Name="ModuleName">IISCertificateMappingAuthenticationModule</Data>
+  <Data Name="Notification">2</Data>
+  <Data Name="fIsPostNotification">false</Data>
+ </EventData>
+ <RenderingInfo Culture="zh-CN">
+  <Opcode>NOTIFY_MODULE_START</Opcode>
+  <Keywords>
+   <Keyword>RequestNotifications</Keyword>
+  </Keywords>
+  <freb:Description Data="Notification">AUTHENTICATE_REQUEST</freb:Description>
+ </RenderingInfo>
+ <ExtendedTracingInfo xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">
+  <EventGuid>{002E91E3-E7AE-44AB-8E07-99230FFA6ADE}</EventGuid>
+ </ExtendedTracingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+ <System>
+  <Provider Name="WWW Server" Guid="{3A2A4E84-4C21-4981-AE10-3FDA0D9B0F83}"/>
+  <EventID>0</EventID>
+  <Version>1</Version>
+  <Level>4</Level>
+  <Opcode>10</Opcode>
+  <Keywords>0x2</Keywords>
+  <TimeCreated SystemTime="2018-06-11T13:26:47.735Z"/>
+  <Correlation ActivityID="{8000000D-0001-FD00-B63F-84710C7967BB}"/>
+  <Execution ProcessID="6232" ThreadID="2764"/>
+  <Computer>DESKTOP-9DPVCS7</Computer>
+ </System>
+ <EventData>
+  <Data Name="ContextId">{8000000D-0001-FD00-B63F-84710C7967BB}</Data>
+  <Data Name="AuthTypeSupported">128</Data>
+ </EventData>
+ <RenderingInfo Culture="zh-CN">
+  <Opcode>AUTH_START</Opcode>
+  <Keywords>
+   <Keyword>Authentication</Keyword>
+  </Keywords>
+  <freb:Description Data="AuthTypeSupported">MapCliCert</freb:Description>
+ </RenderingInfo>
+ <ExtendedTracingInfo xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">
+  <EventGuid>{C33BBE8F-985B-4080-81E6-005F1A06B9E2}</EventGuid>
+ </ExtendedTracingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+ <System>
+  <Provider Name="WWW Server" Guid="{3A2A4E84-4C21-4981-AE10-3FDA0D9B0F83}"/>
+  <EventID>0</EventID>
+  <Version>1</Version>
+  <Level>4</Level>
+  <Opcode>28</Opcode>
+  <Keywords>0x2</Keywords>
+  <TimeCreated SystemTime="2018-06-11T13:26:47.735Z"/>
+  <Correlation ActivityID="{8000000D-0001-FD00-B63F-84710C7967BB}"/>
+  <Execution ProcessID="6232" ThreadID="2764"/>
+  <Computer>DESKTOP-9DPVCS7</Computer>
+ </System>
+ <EventData>
+  <Data Name="ContextId">{8000000D-0001-FD00-B63F-84710C7967BB}</Data>
+ </EventData>
+ <RenderingInfo Culture="zh-CN">
+  <Opcode>AUTH_END</Opcode>
+  <Keywords>
+   <Keyword>Authentication</Keyword>
+  </Keywords>
+ </RenderingInfo>
+ <ExtendedTracingInfo xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">
+  <EventGuid>{C33BBE8F-985B-4080-81E6-005F1A06B9E2}</EventGuid>
+ </ExtendedTracingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+ <System>
+  <Provider Name="WWW Server" Guid="{3A2A4E84-4C21-4981-AE10-3FDA0D9B0F83}"/>
+  <EventID>0</EventID>
+  <Version>1</Version>
+  <Level>5</Level>
+  <Opcode>2</Opcode>
+  <Keywords>0x100</Keywords>
+  <TimeCreated SystemTime="2018-06-11T13:26:47.735Z"/>
+  <Correlation ActivityID="{8000000D-0001-FD00-B63F-84710C7967BB}"/>
+  <Execution ProcessID="6232" ThreadID="2764"/>
+  <Computer>DESKTOP-9DPVCS7</Computer>
+ </System>
+ <EventData>
+  <Data Name="ContextId">{8000000D-0001-FD00-B63F-84710C7967BB}</Data>
+  <Data Name="ModuleName">IISCertificateMappingAuthenticationModule</Data>
+  <Data Name="Notification">2</Data>
+  <Data Name="fIsPostNotificationEvent">false</Data>
+  <Data Name="NotificationStatus">0</Data>
+ </EventData>
+ <RenderingInfo Culture="zh-CN">
+  <Opcode>NOTIFY_MODULE_END</Opcode>
+  <Keywords>
+   <Keyword>RequestNotifications</Keyword>
+  </Keywords>
+  <freb:Description Data="Notification">AUTHENTICATE_REQUEST</freb:Description>
+  <freb:Description Data="NotificationStatus">NOTIFICATION_CONTINUE</freb:Description>
+ </RenderingInfo>
+ <ExtendedTracingInfo xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">
+  <EventGuid>{002E91E3-E7AE-44AB-8E07-99230FFA6ADE}</EventGuid>
+ </ExtendedTracingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+ <System>
+  <Provider Name="WWW Server" Guid="{3A2A4E84-4C21-4981-AE10-3FDA0D9B0F83}"/>
+  <EventID>0</EventID>
+  <Version>1</Version>
+  <Level>5</Level>
+  <Opcode>1</Opcode>
+  <Keywords>0x100</Keywords>
+  <TimeCreated SystemTime="2018-06-11T13:26:47.735Z"/>
+  <Correlation ActivityID="{8000000D-0001-FD00-B63F-84710C7967BB}"/>
+  <Execution ProcessID="6232" ThreadID="2764"/>
+  <Computer>DESKTOP-9DPVCS7</Computer>
+ </System>
+ <EventData>
+  <Data Name="ContextId">{8000000D-0001-FD00-B63F-84710C7967BB}</Data>
+  <Data Name="ModuleName">AnonymousAuthenticationModule</Data>
+  <Data Name="Notification">2</Data>
+  <Data Name="fIsPostNotification">false</Data>
+ </EventData>
+ <RenderingInfo Culture="zh-CN">
+  <Opcode>NOTIFY_MODULE_START</Opcode>
+  <Keywords>
+   <Keyword>RequestNotifications</Keyword>
+  </Keywords>
+  <freb:Description Data="Notification">AUTHENTICATE_REQUEST</freb:Description>
+ </RenderingInfo>
+ <ExtendedTracingInfo xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">
+  <EventGuid>{002E91E3-E7AE-44AB-8E07-99230FFA6ADE}</EventGuid>
+ </ExtendedTracingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+ <System>
+  <Provider Name="WWW Server" Guid="{3A2A4E84-4C21-4981-AE10-3FDA0D9B0F83}"/>
+  <EventID>0</EventID>
+  <Version>1</Version>
+  <Level>4</Level>
+  <Opcode>10</Opcode>
+  <Keywords>0x2</Keywords>
+  <TimeCreated SystemTime="2018-06-11T13:26:47.735Z"/>
+  <Correlation ActivityID="{8000000D-0001-FD00-B63F-84710C7967BB}"/>
+  <Execution ProcessID="6232" ThreadID="2764"/>
+  <Computer>DESKTOP-9DPVCS7</Computer>
+ </System>
+ <EventData>
+  <Data Name="ContextId">{8000000D-0001-FD00-B63F-84710C7967BB}</Data>
+  <Data Name="AuthTypeSupported">1</Data>
+ </EventData>
+ <RenderingInfo Culture="zh-CN">
+  <Opcode>AUTH_START</Opcode>
+  <Keywords>
+   <Keyword>Authentication</Keyword>
+  </Keywords>
+  <freb:Description Data="AuthTypeSupported">Anonymous</freb:Description>
+ </RenderingInfo>
+ <ExtendedTracingInfo xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">
+  <EventGuid>{C33BBE8F-985B-4080-81E6-005F1A06B9E2}</EventGuid>
+ </ExtendedTracingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+ <System>
+  <Provider Name="WWW Server" Guid="{3A2A4E84-4C21-4981-AE10-3FDA0D9B0F83}"/>
+  <EventID>0</EventID>
+  <Version>1</Version>
+  <Level>4</Level>
+  <Opcode>27</Opcode>
+  <Keywords>0x2</Keywords>
+  <TimeCreated SystemTime="2018-06-11T13:26:47.735Z"/>
+  <Correlation ActivityID="{8000000D-0001-FD00-B63F-84710C7967BB}"/>
+  <Execution ProcessID="6232" ThreadID="2764"/>
+  <Computer>DESKTOP-9DPVCS7</Computer>
+ </System>
+ <EventData>
+  <Data Name="ContextId">{8000000D-0001-FD00-B63F-84710C7967BB}</Data>
+  <Data Name="RequestAuthType">1</Data>
+ </EventData>
+ <RenderingInfo Culture="zh-CN">
+  <Opcode>AUTH_REQUEST_AUTH_TYPE</Opcode>
+  <Keywords>
+   <Keyword>Authentication</Keyword>
+  </Keywords>
+  <freb:Description Data="RequestAuthType">Anonymous</freb:Description>
+ </RenderingInfo>
+ <ExtendedTracingInfo xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">
+  <EventGuid>{C33BBE8F-985B-4080-81E6-005F1A06B9E2}</EventGuid>
+ </ExtendedTracingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+ <System>
+  <Provider Name="WWW Server" Guid="{3A2A4E84-4C21-4981-AE10-3FDA0D9B0F83}"/>
+  <EventID>0</EventID>
+  <Version>1</Version>
+  <Level>4</Level>
+  <Opcode>11</Opcode>
+  <Keywords>0x2</Keywords>
+  <TimeCreated SystemTime="2018-06-11T13:26:47.735Z"/>
+  <Correlation ActivityID="{8000000D-0001-FD00-B63F-84710C7967BB}"/>
+  <Execution ProcessID="6232" ThreadID="2764"/>
+  <Computer>DESKTOP-9DPVCS7</Computer>
+ </System>
+ <EventData>
+  <Data Name="ContextId">{8000000D-0001-FD00-B63F-84710C7967BB}</Data>
+  <Data Name="AuthType">4</Data>
+  <Data Name="NTLMUsed">false</Data>
+  <Data Name="RemoteUserName"></Data>
+  <Data Name="AuthUserName"></Data>
+  <Data Name="TokenImpersonationLevel">3</Data>
+ </EventData>
+ <RenderingInfo Culture="zh-CN">
+  <Opcode>AUTH_SUCCEEDED</Opcode>
+  <Keywords>
+   <Keyword>Authentication</Keyword>
+  </Keywords>
+  <freb:Description Data="AuthType">NT</freb:Description>
+  <freb:Description Data="TokenImpersonationLevel">ImpersonationDelegate</freb:Description>
+ </RenderingInfo>
+ <ExtendedTracingInfo xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">
+  <EventGuid>{C33BBE8F-985B-4080-81E6-005F1A06B9E2}</EventGuid>
+ </ExtendedTracingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+ <System>
+  <Provider Name="WWW Server" Guid="{3A2A4E84-4C21-4981-AE10-3FDA0D9B0F83}"/>
+  <EventID>0</EventID>
+  <Version>1</Version>
+  <Level>4</Level>
+  <Opcode>44</Opcode>
+  <Keywords>0x0</Keywords>
+  <TimeCreated SystemTime="2018-06-11T13:26:47.735Z"/>
+  <Correlation ActivityID="{8000000D-0001-FD00-B63F-84710C7967BB}"/>
+  <Execution ProcessID="6232" ThreadID="2764"/>
+  <Computer>DESKTOP-9DPVCS7</Computer>
+ </System>
+ <EventData>
+  <Data Name="ContextId">{8000000D-0001-FD00-B63F-84710C7967BB}</Data>
+  <Data Name="AuthType"></Data>
+  <Data Name="UserName"></Data>
+  <Data Name="SupportsIsInRole">true</Data>
+ </EventData>
+ <RenderingInfo Culture="zh-CN">
+  <Opcode>USER_SET</Opcode>
+ </RenderingInfo>
+ <ExtendedTracingInfo xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">
+  <EventGuid>{D42CF7EF-DE92-473E-8B6C-621EA663113A}</EventGuid>
+ </ExtendedTracingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+ <System>
+  <Provider Name="WWW Server" Guid="{3A2A4E84-4C21-4981-AE10-3FDA0D9B0F83}"/>
+  <EventID>0</EventID>
+  <Version>1</Version>
+  <Level>4</Level>
+  <Opcode>28</Opcode>
+  <Keywords>0x2</Keywords>
+  <TimeCreated SystemTime="2018-06-11T13:26:47.735Z"/>
+  <Correlation ActivityID="{8000000D-0001-FD00-B63F-84710C7967BB}"/>
+  <Execution ProcessID="6232" ThreadID="2764"/>
+  <Computer>DESKTOP-9DPVCS7</Computer>
+ </System>
+ <EventData>
+  <Data Name="ContextId">{8000000D-0001-FD00-B63F-84710C7967BB}</Data>
+ </EventData>
+ <RenderingInfo Culture="zh-CN">
+  <Opcode>AUTH_END</Opcode>
+  <Keywords>
+   <Keyword>Authentication</Keyword>
+  </Keywords>
+ </RenderingInfo>
+ <ExtendedTracingInfo xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">
+  <EventGuid>{C33BBE8F-985B-4080-81E6-005F1A06B9E2}</EventGuid>
+ </ExtendedTracingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+ <System>
+  <Provider Name="WWW Server" Guid="{3A2A4E84-4C21-4981-AE10-3FDA0D9B0F83}"/>
+  <EventID>0</EventID>
+  <Version>1</Version>
+  <Level>5</Level>
+  <Opcode>2</Opcode>
+  <Keywords>0x100</Keywords>
+  <TimeCreated SystemTime="2018-06-11T13:26:47.735Z"/>
+  <Correlation ActivityID="{8000000D-0001-FD00-B63F-84710C7967BB}"/>
+  <Execution ProcessID="6232" ThreadID="2764"/>
+  <Computer>DESKTOP-9DPVCS7</Computer>
+ </System>
+ <EventData>
+  <Data Name="ContextId">{8000000D-0001-FD00-B63F-84710C7967BB}</Data>
+  <Data Name="ModuleName">AnonymousAuthenticationModule</Data>
+  <Data Name="Notification">2</Data>
+  <Data Name="fIsPostNotificationEvent">false</Data>
+  <Data Name="NotificationStatus">0</Data>
+ </EventData>
+ <RenderingInfo Culture="zh-CN">
+  <Opcode>NOTIFY_MODULE_END</Opcode>
+  <Keywords>
+   <Keyword>RequestNotifications</Keyword>
+  </Keywords>
+  <freb:Description Data="Notification">AUTHENTICATE_REQUEST</freb:Description>
+  <freb:Description Data="NotificationStatus">NOTIFICATION_CONTINUE</freb:Description>
+ </RenderingInfo>
+ <ExtendedTracingInfo xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">
+  <EventGuid>{002E91E3-E7AE-44AB-8E07-99230FFA6ADE}</EventGuid>
+ </ExtendedTracingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+ <System>
+  <Provider Name="WWW Server" Guid="{3A2A4E84-4C21-4981-AE10-3FDA0D9B0F83}"/>
+  <EventID>0</EventID>
+  <Version>1</Version>
+  <Level>5</Level>
+  <Opcode>1</Opcode>
+  <Keywords>0x100</Keywords>
+  <TimeCreated SystemTime="2018-06-11T13:26:47.735Z"/>
+  <Correlation ActivityID="{8000000D-0001-FD00-B63F-84710C7967BB}"/>
+  <Execution ProcessID="6232" ThreadID="2764"/>
+  <Computer>DESKTOP-9DPVCS7</Computer>
+ </System>
+ <EventData>
+  <Data Name="ContextId">{8000000D-0001-FD00-B63F-84710C7967BB}</Data>
+  <Data Name="ModuleName">IsapiFilterModule</Data>
+  <Data Name="Notification">2</Data>
+  <Data Name="fIsPostNotification">true</Data>
+ </EventData>
+ <RenderingInfo Culture="zh-CN">
+  <Opcode>NOTIFY_MODULE_START</Opcode>
+  <Keywords>
+   <Keyword>RequestNotifications</Keyword>
+  </Keywords>
+  <freb:Description Data="Notification">AUTHENTICATE_REQUEST</freb:Description>
+ </RenderingInfo>
+ <ExtendedTracingInfo xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">
+  <EventGuid>{002E91E3-E7AE-44AB-8E07-99230FFA6ADE}</EventGuid>
+ </ExtendedTracingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+ <System>
+  <Provider Name="WWW Server" Guid="{3A2A4E84-4C21-4981-AE10-3FDA0D9B0F83}"/>
+  <EventID>0</EventID>
+  <Version>1</Version>
+  <Level>4</Level>
+  <Opcode>19</Opcode>
+  <Keywords>0x8</Keywords>
+  <TimeCreated SystemTime="2018-06-11T13:26:47.735Z"/>
+  <Correlation ActivityID="{8000000D-0001-FD00-B63F-84710C7967BB}"/>
+  <Execution ProcessID="6232" ThreadID="2764"/>
+  <Computer>DESKTOP-9DPVCS7</Computer>
+ </System>
+ <EventData>
+  <Data Name="ContextId">{8000000D-0001-FD00-B63F-84710C7967BB}</Data>
+ </EventData>
+ <RenderingInfo Culture="zh-CN">
+  <Opcode>FILTER_AUTH_COMPLETE_START</Opcode>
+  <Keywords>
+   <Keyword>Filter</Keyword>
+  </Keywords>
+ </RenderingInfo>
+ <ExtendedTracingInfo xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">
+  <EventGuid>{00237F0D-73EB-4BCF-A232-126693595847}</EventGuid>
+ </ExtendedTracingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+ <System>
+  <Provider Name="WWW Server" Guid="{3A2A4E84-4C21-4981-AE10-3FDA0D9B0F83}"/>
+  <EventID>0</EventID>
+  <Version>1</Version>
+  <Level>4</Level>
+  <Opcode>20</Opcode>
+  <Keywords>0x8</Keywords>
+  <TimeCreated SystemTime="2018-06-11T13:26:47.735Z"/>
+  <Correlation ActivityID="{8000000D-0001-FD00-B63F-84710C7967BB}"/>
+  <Execution ProcessID="6232" ThreadID="2764"/>
+  <Computer>DESKTOP-9DPVCS7</Computer>
+ </System>
+ <EventData>
+  <Data Name="ContextId">{8000000D-0001-FD00-B63F-84710C7967BB}</Data>
+ </EventData>
+ <RenderingInfo Culture="zh-CN">
+  <Opcode>FILTER_AUTH_COMPLETE_END</Opcode>
+  <Keywords>
+   <Keyword>Filter</Keyword>
+  </Keywords>
+ </RenderingInfo>
+ <ExtendedTracingInfo xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">
+  <EventGuid>{00237F0D-73EB-4BCF-A232-126693595847}</EventGuid>
+ </ExtendedTracingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+ <System>
+  <Provider Name="WWW Server" Guid="{3A2A4E84-4C21-4981-AE10-3FDA0D9B0F83}"/>
+  <EventID>0</EventID>
+  <Version>1</Version>
+  <Level>5</Level>
+  <Opcode>2</Opcode>
+  <Keywords>0x100</Keywords>
+  <TimeCreated SystemTime="2018-06-11T13:26:47.735Z"/>
+  <Correlation ActivityID="{8000000D-0001-FD00-B63F-84710C7967BB}"/>
+  <Execution ProcessID="6232" ThreadID="2764"/>
+  <Computer>DESKTOP-9DPVCS7</Computer>
+ </System>
+ <EventData>
+  <Data Name="ContextId">{8000000D-0001-FD00-B63F-84710C7967BB}</Data>
+  <Data Name="ModuleName">IsapiFilterModule</Data>
+  <Data Name="Notification">2</Data>
+  <Data Name="fIsPostNotificationEvent">true</Data>
+  <Data Name="NotificationStatus">0</Data>
+ </EventData>
+ <RenderingInfo Culture="zh-CN">
+  <Opcode>NOTIFY_MODULE_END</Opcode>
+  <Keywords>
+   <Keyword>RequestNotifications</Keyword>
+  </Keywords>
+  <freb:Description Data="Notification">AUTHENTICATE_REQUEST</freb:Description>
+  <freb:Description Data="NotificationStatus">NOTIFICATION_CONTINUE</freb:Description>
+ </RenderingInfo>
+ <ExtendedTracingInfo xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">
+  <EventGuid>{002E91E3-E7AE-44AB-8E07-99230FFA6ADE}</EventGuid>
+ </ExtendedTracingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+ <System>
+  <Provider Name="WWW Server" Guid="{3A2A4E84-4C21-4981-AE10-3FDA0D9B0F83}"/>
+  <EventID>0</EventID>
+  <Version>1</Version>
+  <Level>4</Level>
+  <Opcode>10</Opcode>
+  <Keywords>0x80</Keywords>
+  <TimeCreated SystemTime="2018-06-11T13:26:47.735Z"/>
+  <Correlation ActivityID="{8000000D-0001-FD00-B63F-84710C7967BB}"/>
+  <Execution ProcessID="6232" ThreadID="2764"/>
+  <Computer>DESKTOP-9DPVCS7</Computer>
+ </System>
+ <EventData>
+  <Data Name="ContextId">{8000000D-0001-FD00-B63F-84710C7967BB}</Data>
+  <Data Name="FileName">E:\Visual Studio Program Files\Visual Studio 2017\Projects\网页测试01\网页测试01\movie.mp4</Data>
+  <Data Name="UserName">思之声</Data>
+  <Data Name="DomainName">DESKTOP-9DPVCS7</Data>
+ </EventData>
+ <RenderingInfo Culture="zh-CN">
+  <Opcode>FILE_CACHE_ACCESS_START</Opcode>
+  <Keywords>
+   <Keyword>Cache</Keyword>
+  </Keywords>
+ </RenderingInfo>
+ <ExtendedTracingInfo xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">
+  <EventGuid>{AC1D69F1-BF33-4CA0-9313-BCA13873E1DC}</EventGuid>
+ </ExtendedTracingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+ <System>
+  <Provider Name="WWW Server" Guid="{3A2A4E84-4C21-4981-AE10-3FDA0D9B0F83}"/>
+  <EventID>0</EventID>
+  <Version>1</Version>
+  <Level>4</Level>
+  <Opcode>11</Opcode>
+  <Keywords>0x80</Keywords>
+  <TimeCreated SystemTime="2018-06-11T13:26:47.735Z"/>
+  <Correlation ActivityID="{8000000D-0001-FD00-B63F-84710C7967BB}"/>
+  <Execution ProcessID="6232" ThreadID="2764"/>
+  <Computer>DESKTOP-9DPVCS7</Computer>
+ </System>
+ <EventData>
+  <Data Name="ContextId">{8000000D-0001-FD00-B63F-84710C7967BB}</Data>
+  <Data Name="Successful">false</Data>
+  <Data Name="FileFromCache">false</Data>
+  <Data Name="FileAddedToCache">false</Data>
+  <Data Name="FileDirmoned">true</Data>
+  <Data Name="LastModCheckErrorIgnored">true</Data>
+  <Data Name="ErrorCode">2147942402</Data>
+  <Data Name="LastModifiedTime"></Data>
+ </EventData>
+ <RenderingInfo Culture="zh-CN">
+  <Opcode>FILE_CACHE_ACCESS_END</Opcode>
+  <Keywords>
+   <Keyword>Cache</Keyword>
+  </Keywords>
+  <freb:Description Data="ErrorCode">系统找不到指定的文件。 (0x80070002)</freb:Description>
+ </RenderingInfo>
+ <ExtendedTracingInfo xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">
+  <EventGuid>{AC1D69F1-BF33-4CA0-9313-BCA13873E1DC}</EventGuid>
+ </ExtendedTracingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+ <System>
+  <Provider Name="WWW Server" Guid="{3A2A4E84-4C21-4981-AE10-3FDA0D9B0F83}"/>
+  <EventID>0</EventID>
+  <Version>1</Version>
+  <Level>5</Level>
+  <Opcode>1</Opcode>
+  <Keywords>0x100</Keywords>
+  <TimeCreated SystemTime="2018-06-11T13:26:47.735Z"/>
+  <Correlation ActivityID="{8000000D-0001-FD00-B63F-84710C7967BB}"/>
+  <Execution ProcessID="6232" ThreadID="2764"/>
+  <Computer>DESKTOP-9DPVCS7</Computer>
+ </System>
+ <EventData>
+  <Data Name="ContextId">{8000000D-0001-FD00-B63F-84710C7967BB}</Data>
+  <Data Name="ModuleName">UrlAuthorizationModule</Data>
+  <Data Name="Notification">4</Data>
+  <Data Name="fIsPostNotification">false</Data>
+ </EventData>
+ <RenderingInfo Culture="zh-CN">
+  <Opcode>NOTIFY_MODULE_START</Opcode>
+  <Keywords>
+   <Keyword>RequestNotifications</Keyword>
+  </Keywords>
+  <freb:Description Data="Notification">AUTHORIZE_REQUEST</freb:Description>
+ </RenderingInfo>
+ <ExtendedTracingInfo xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">
+  <EventGuid>{002E91E3-E7AE-44AB-8E07-99230FFA6ADE}</EventGuid>
+ </ExtendedTracingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+ <System>
+  <Provider Name="WWW Server" Guid="{3A2A4E84-4C21-4981-AE10-3FDA0D9B0F83}"/>
+  <EventID>0</EventID>
+  <Version>1</Version>
+  <Level>5</Level>
+  <Opcode>2</Opcode>
+  <Keywords>0x100</Keywords>
+  <TimeCreated SystemTime="2018-06-11T13:26:47.735Z"/>
+  <Correlation ActivityID="{8000000D-0001-FD00-B63F-84710C7967BB}"/>
+  <Execution ProcessID="6232" ThreadID="2764"/>
+  <Computer>DESKTOP-9DPVCS7</Computer>
+ </System>
+ <EventData>
+  <Data Name="ContextId">{8000000D-0001-FD00-B63F-84710C7967BB}</Data>
+  <Data Name="ModuleName">UrlAuthorizationModule</Data>
+  <Data Name="Notification">4</Data>
+  <Data Name="fIsPostNotificationEvent">false</Data>
+  <Data Name="NotificationStatus">0</Data>
+ </EventData>
+ <RenderingInfo Culture="zh-CN">
+  <Opcode>NOTIFY_MODULE_END</Opcode>
+  <Keywords>
+   <Keyword>RequestNotifications</Keyword>
+  </Keywords>
+  <freb:Description Data="Notification">AUTHORIZE_REQUEST</freb:Description>
+  <freb:Description Data="NotificationStatus">NOTIFICATION_CONTINUE</freb:Description>
+ </RenderingInfo>
+ <ExtendedTracingInfo xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">
+  <EventGuid>{002E91E3-E7AE-44AB-8E07-99230FFA6ADE}</EventGuid>
+ </ExtendedTracingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+ <System>
+  <Provider Name="WWW Server" Guid="{3A2A4E84-4C21-4981-AE10-3FDA0D9B0F83}"/>
+  <EventID>0</EventID>
+  <Version>1</Version>
+  <Level>5</Level>
+  <Opcode>1</Opcode>
+  <Keywords>0x100</Keywords>
+  <TimeCreated SystemTime="2018-06-11T13:26:47.735Z"/>
+  <Correlation ActivityID="{8000000D-0001-FD00-B63F-84710C7967BB}"/>
+  <Execution ProcessID="6232" ThreadID="2764"/>
+  <Computer>DESKTOP-9DPVCS7</Computer>
+ </System>
+ <EventData>
+  <Data Name="ContextId">{8000000D-0001-FD00-B63F-84710C7967BB}</Data>
+  <Data Name="ModuleName">StaticCompressionModule</Data>
+  <Data Name="Notification">16</Data>
+  <Data Name="fIsPostNotification">false</Data>
+ </EventData>
+ <RenderingInfo Culture="zh-CN">
+  <Opcode>NOTIFY_MODULE_START</Opcode>
+  <Keywords>
+   <Keyword>RequestNotifications</Keyword>
+  </Keywords>
+  <freb:Description Data="Notification">MAP_REQUEST_HANDLER</freb:Description>
+ </RenderingInfo>
+ <ExtendedTracingInfo xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">
+  <EventGuid>{002E91E3-E7AE-44AB-8E07-99230FFA6ADE}</EventGuid>
+ </ExtendedTracingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+ <System>
+  <Provider Name="WWW Server" Guid="{3A2A4E84-4C21-4981-AE10-3FDA0D9B0F83}"/>
+  <EventID>0</EventID>
+  <Version>1</Version>
+  <Level>5</Level>
+  <Opcode>2</Opcode>
+  <Keywords>0x100</Keywords>
+  <TimeCreated SystemTime="2018-06-11T13:26:47.735Z"/>
+  <Correlation ActivityID="{8000000D-0001-FD00-B63F-84710C7967BB}"/>
+  <Execution ProcessID="6232" ThreadID="2764"/>
+  <Computer>DESKTOP-9DPVCS7</Computer>
+ </System>
+ <EventData>
+  <Data Name="ContextId">{8000000D-0001-FD00-B63F-84710C7967BB}</Data>
+  <Data Name="ModuleName">StaticCompressionModule</Data>
+  <Data Name="Notification">16</Data>
+  <Data Name="fIsPostNotificationEvent">false</Data>
+  <Data Name="NotificationStatus">0</Data>
+ </EventData>
+ <RenderingInfo Culture="zh-CN">
+  <Opcode>NOTIFY_MODULE_END</Opcode>
+  <Keywords>
+   <Keyword>RequestNotifications</Keyword>
+  </Keywords>
+  <freb:Description Data="Notification">MAP_REQUEST_HANDLER</freb:Description>
+  <freb:Description Data="NotificationStatus">NOTIFICATION_CONTINUE</freb:Description>
+ </RenderingInfo>
+ <ExtendedTracingInfo xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">
+  <EventGuid>{002E91E3-E7AE-44AB-8E07-99230FFA6ADE}</EventGuid>
+ </ExtendedTracingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+ <System>
+  <Provider Name="WWW Server" Guid="{3A2A4E84-4C21-4981-AE10-3FDA0D9B0F83}"/>
+  <EventID>0</EventID>
+  <Version>1</Version>
+  <Level>5</Level>
+  <Opcode>1</Opcode>
+  <Keywords>0x100</Keywords>
+  <TimeCreated SystemTime="2018-06-11T13:26:47.735Z"/>
+  <Correlation ActivityID="{8000000D-0001-FD00-B63F-84710C7967BB}"/>
+  <Execution ProcessID="6232" ThreadID="2764"/>
+  <Computer>DESKTOP-9DPVCS7</Computer>
+ </System>
+ <EventData>
+  <Data Name="ContextId">{8000000D-0001-FD00-B63F-84710C7967BB}</Data>
+  <Data Name="ModuleName">HttpRedirectionModule</Data>
+  <Data Name="Notification">16</Data>
+  <Data Name="fIsPostNotification">false</Data>
+ </EventData>
+ <RenderingInfo Culture="zh-CN">
+  <Opcode>NOTIFY_MODULE_START</Opcode>
+  <Keywords>
+   <Keyword>RequestNotifications</Keyword>
+  </Keywords>
+  <freb:Description Data="Notification">MAP_REQUEST_HANDLER</freb:Description>
+ </RenderingInfo>
+ <ExtendedTracingInfo xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">
+  <EventGuid>{002E91E3-E7AE-44AB-8E07-99230FFA6ADE}</EventGuid>
+ </ExtendedTracingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+ <System>
+  <Provider Name="WWW Server" Guid="{3A2A4E84-4C21-4981-AE10-3FDA0D9B0F83}"/>
+  <EventID>0</EventID>
+  <Version>1</Version>
+  <Level>5</Level>
+  <Opcode>2</Opcode>
+  <Keywords>0x100</Keywords>
+  <TimeCreated SystemTime="2018-06-11T13:26:47.735Z"/>
+  <Correlation ActivityID="{8000000D-0001-FD00-B63F-84710C7967BB}"/>
+  <Execution ProcessID="6232" ThreadID="2764"/>
+  <Computer>DESKTOP-9DPVCS7</Computer>
+ </System>
+ <EventData>
+  <Data Name="ContextId">{8000000D-0001-FD00-B63F-84710C7967BB}</Data>
+  <Data Name="ModuleName">HttpRedirectionModule</Data>
+  <Data Name="Notification">16</Data>
+  <Data Name="fIsPostNotificationEvent">false</Data>
+  <Data Name="NotificationStatus">0</Data>
+ </EventData>
+ <RenderingInfo Culture="zh-CN">
+  <Opcode>NOTIFY_MODULE_END</Opcode>
+  <Keywords>
+   <Keyword>RequestNotifications</Keyword>
+  </Keywords>
+  <freb:Description Data="Notification">MAP_REQUEST_HANDLER</freb:Description>
+  <freb:Description Data="NotificationStatus">NOTIFICATION_CONTINUE</freb:Description>
+ </RenderingInfo>
+ <ExtendedTracingInfo xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">
+  <EventGuid>{002E91E3-E7AE-44AB-8E07-99230FFA6ADE}</EventGuid>
+ </ExtendedTracingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+ <System>
+  <Provider Name="WWW Server" Guid="{3A2A4E84-4C21-4981-AE10-3FDA0D9B0F83}"/>
+  <EventID>0</EventID>
+  <Version>1</Version>
+  <Level>3</Level>
+  <Opcode>16</Opcode>
+  <Keywords>0x100</Keywords>
+  <TimeCreated SystemTime="2018-06-11T13:26:47.735Z"/>
+  <Correlation ActivityID="{8000000D-0001-FD00-B63F-84710C7967BB}"/>
+  <Execution ProcessID="6232" ThreadID="2764"/>
+  <Computer>DESKTOP-9DPVCS7</Computer>
+ </System>
+ <EventData>
+  <Data Name="ContextId">{8000000D-0001-FD00-B63F-84710C7967BB}</Data>
+  <Data Name="ModuleName">IIS Web Core</Data>
+  <Data Name="Notification">16</Data>
+  <Data Name="HttpStatus">404</Data>
+  <Data Name="HttpReason">Not Found</Data>
+  <Data Name="HttpSubStatus">0</Data>
+  <Data Name="ErrorCode">2147942402</Data>
+  <Data Name="ConfigExceptionInfo"></Data>
+ </EventData>
+ <RenderingInfo Culture="zh-CN">
+  <Opcode>MODULE_SET_RESPONSE_ERROR_STATUS</Opcode>
+  <Keywords>
+   <Keyword>RequestNotifications</Keyword>
+  </Keywords>
+  <freb:Description Data="Notification">MAP_REQUEST_HANDLER</freb:Description>
+  <freb:Description Data="ErrorCode">系统找不到指定的文件。 (0x80070002)</freb:Description>
+ </RenderingInfo>
+ <ExtendedTracingInfo xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">
+  <EventGuid>{002E91E3-E7AE-44AB-8E07-99230FFA6ADE}</EventGuid>
+ </ExtendedTracingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+ <System>
+  <Provider Name="WWW Server" Guid="{3A2A4E84-4C21-4981-AE10-3FDA0D9B0F83}"/>
+  <EventID>0</EventID>
+  <Version>1</Version>
+  <Level>5</Level>
+  <Opcode>1</Opcode>
+  <Keywords>0x100</Keywords>
+  <TimeCreated SystemTime="2018-06-11T13:26:47.735Z"/>
+  <Correlation ActivityID="{8000000D-0001-FD00-B63F-84710C7967BB}"/>
+  <Execution ProcessID="6232" ThreadID="2764"/>
+  <Computer>DESKTOP-9DPVCS7</Computer>
+ </System>
+ <EventData>
+  <Data Name="ContextId">{8000000D-0001-FD00-B63F-84710C7967BB}</Data>
+  <Data Name="ModuleName">CustomLoggingModule</Data>
+  <Data Name="Notification">1024</Data>
+  <Data Name="fIsPostNotification">false</Data>
+ </EventData>
+ <RenderingInfo Culture="zh-CN">
+  <Opcode>NOTIFY_MODULE_START</Opcode>
+  <Keywords>
+   <Keyword>RequestNotifications</Keyword>
+  </Keywords>
+  <freb:Description Data="Notification">LOG_REQUEST</freb:Description>
+ </RenderingInfo>
+ <ExtendedTracingInfo xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">
+  <EventGuid>{002E91E3-E7AE-44AB-8E07-99230FFA6ADE}</EventGuid>
+ </ExtendedTracingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+ <System>
+  <Provider Name="WWW Server" Guid="{3A2A4E84-4C21-4981-AE10-3FDA0D9B0F83}"/>
+  <EventID>0</EventID>
+  <Version>1</Version>
+  <Level>5</Level>
+  <Opcode>2</Opcode>
+  <Keywords>0x100</Keywords>
+  <TimeCreated SystemTime="2018-06-11T13:26:47.735Z"/>
+  <Correlation ActivityID="{8000000D-0001-FD00-B63F-84710C7967BB}"/>
+  <Execution ProcessID="6232" ThreadID="2764"/>
+  <Computer>DESKTOP-9DPVCS7</Computer>
+ </System>
+ <EventData>
+  <Data Name="ContextId">{8000000D-0001-FD00-B63F-84710C7967BB}</Data>
+  <Data Name="ModuleName">CustomLoggingModule</Data>
+  <Data Name="Notification">1024</Data>
+  <Data Name="fIsPostNotificationEvent">false</Data>
+  <Data Name="NotificationStatus">0</Data>
+ </EventData>
+ <RenderingInfo Culture="zh-CN">
+  <Opcode>NOTIFY_MODULE_END</Opcode>
+  <Keywords>
+   <Keyword>RequestNotifications</Keyword>
+  </Keywords>
+  <freb:Description Data="Notification">LOG_REQUEST</freb:Description>
+  <freb:Description Data="NotificationStatus">NOTIFICATION_CONTINUE</freb:Description>
+ </RenderingInfo>
+ <ExtendedTracingInfo xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">
+  <EventGuid>{002E91E3-E7AE-44AB-8E07-99230FFA6ADE}</EventGuid>
+ </ExtendedTracingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+ <System>
+  <Provider Name="WWW Server" Guid="{3A2A4E84-4C21-4981-AE10-3FDA0D9B0F83}"/>
+  <EventID>0</EventID>
+  <Version>1</Version>
+  <Level>5</Level>
+  <Opcode>1</Opcode>
+  <Keywords>0x100</Keywords>
+  <TimeCreated SystemTime="2018-06-11T13:26:47.735Z"/>
+  <Correlation ActivityID="{8000000D-0001-FD00-B63F-84710C7967BB}"/>
+  <Execution ProcessID="6232" ThreadID="2764"/>
+  <Computer>DESKTOP-9DPVCS7</Computer>
+ </System>
+ <EventData>
+  <Data Name="ContextId">{8000000D-0001-FD00-B63F-84710C7967BB}</Data>
+  <Data Name="ModuleName">DynamicIpRestrictionModule</Data>
+  <Data Name="Notification">2048</Data>
+  <Data Name="fIsPostNotification">false</Data>
+ </EventData>
+ <RenderingInfo Culture="zh-CN">
+  <Opcode>NOTIFY_MODULE_START</Opcode>
+  <Keywords>
+   <Keyword>RequestNotifications</Keyword>
+  </Keywords>
+  <freb:Description Data="Notification">END_REQUEST</freb:Description>
+ </RenderingInfo>
+ <ExtendedTracingInfo xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">
+  <EventGuid>{002E91E3-E7AE-44AB-8E07-99230FFA6ADE}</EventGuid>
+ </ExtendedTracingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+ <System>
+  <Provider Name="WWW Server" Guid="{3A2A4E84-4C21-4981-AE10-3FDA0D9B0F83}"/>
+  <EventID>0</EventID>
+  <Version>1</Version>
+  <Level>5</Level>
+  <Opcode>2</Opcode>
+  <Keywords>0x100</Keywords>
+  <TimeCreated SystemTime="2018-06-11T13:26:47.735Z"/>
+  <Correlation ActivityID="{8000000D-0001-FD00-B63F-84710C7967BB}"/>
+  <Execution ProcessID="6232" ThreadID="2764"/>
+  <Computer>DESKTOP-9DPVCS7</Computer>
+ </System>
+ <EventData>
+  <Data Name="ContextId">{8000000D-0001-FD00-B63F-84710C7967BB}</Data>
+  <Data Name="ModuleName">DynamicIpRestrictionModule</Data>
+  <Data Name="Notification">2048</Data>
+  <Data Name="fIsPostNotificationEvent">false</Data>
+  <Data Name="NotificationStatus">0</Data>
+ </EventData>
+ <RenderingInfo Culture="zh-CN">
+  <Opcode>NOTIFY_MODULE_END</Opcode>
+  <Keywords>
+   <Keyword>RequestNotifications</Keyword>
+  </Keywords>
+  <freb:Description Data="Notification">END_REQUEST</freb:Description>
+  <freb:Description Data="NotificationStatus">NOTIFICATION_CONTINUE</freb:Description>
+ </RenderingInfo>
+ <ExtendedTracingInfo xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">
+  <EventGuid>{002E91E3-E7AE-44AB-8E07-99230FFA6ADE}</EventGuid>
+ </ExtendedTracingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+ <System>
+  <Provider Name="WWW Server" Guid="{3A2A4E84-4C21-4981-AE10-3FDA0D9B0F83}"/>
+  <EventID>0</EventID>
+  <Version>1</Version>
+  <Level>5</Level>
+  <Opcode>1</Opcode>
+  <Keywords>0x100</Keywords>
+  <TimeCreated SystemTime="2018-06-11T13:26:47.735Z"/>
+  <Correlation ActivityID="{8000000D-0001-FD00-B63F-84710C7967BB}"/>
+  <Execution ProcessID="6232" ThreadID="2764"/>
+  <Computer>DESKTOP-9DPVCS7</Computer>
+ </System>
+ <EventData>
+  <Data Name="ContextId">{8000000D-0001-FD00-B63F-84710C7967BB}</Data>
+  <Data Name="ModuleName">WebSocketModule</Data>
+  <Data Name="Notification">2048</Data>
+  <Data Name="fIsPostNotification">true</Data>
+ </EventData>
+ <RenderingInfo Culture="zh-CN">
+  <Opcode>NOTIFY_MODULE_START</Opcode>
+  <Keywords>
+   <Keyword>RequestNotifications</Keyword>
+  </Keywords>
+  <freb:Description Data="Notification">END_REQUEST</freb:Description>
+ </RenderingInfo>
+ <ExtendedTracingInfo xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">
+  <EventGuid>{002E91E3-E7AE-44AB-8E07-99230FFA6ADE}</EventGuid>
+ </ExtendedTracingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+ <System>
+  <Provider Name="WWW Server" Guid="{3A2A4E84-4C21-4981-AE10-3FDA0D9B0F83}"/>
+  <EventID>0</EventID>
+  <Version>1</Version>
+  <Level>5</Level>
+  <Opcode>2</Opcode>
+  <Keywords>0x100</Keywords>
+  <TimeCreated SystemTime="2018-06-11T13:26:47.735Z"/>
+  <Correlation ActivityID="{8000000D-0001-FD00-B63F-84710C7967BB}"/>
+  <Execution ProcessID="6232" ThreadID="2764"/>
+  <Computer>DESKTOP-9DPVCS7</Computer>
+ </System>
+ <EventData>
+  <Data Name="ContextId">{8000000D-0001-FD00-B63F-84710C7967BB}</Data>
+  <Data Name="ModuleName">WebSocketModule</Data>
+  <Data Name="Notification">2048</Data>
+  <Data Name="fIsPostNotificationEvent">true</Data>
+  <Data Name="NotificationStatus">0</Data>
+ </EventData>
+ <RenderingInfo Culture="zh-CN">
+  <Opcode>NOTIFY_MODULE_END</Opcode>
+  <Keywords>
+   <Keyword>RequestNotifications</Keyword>
+  </Keywords>
+  <freb:Description Data="Notification">END_REQUEST</freb:Description>
+  <freb:Description Data="NotificationStatus">NOTIFICATION_CONTINUE</freb:Description>
+ </RenderingInfo>
+ <ExtendedTracingInfo xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">
+  <EventGuid>{002E91E3-E7AE-44AB-8E07-99230FFA6ADE}</EventGuid>
+ </ExtendedTracingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+ <System>
+  <Provider Name="WWW Server" Guid="{3A2A4E84-4C21-4981-AE10-3FDA0D9B0F83}"/>
+  <EventID>0</EventID>
+  <Version>1</Version>
+  <Level>5</Level>
+  <Opcode>1</Opcode>
+  <Keywords>0x100</Keywords>
+  <TimeCreated SystemTime="2018-06-11T13:26:47.735Z"/>
+  <Correlation ActivityID="{8000000D-0001-FD00-B63F-84710C7967BB}"/>
+  <Execution ProcessID="6232" ThreadID="2764"/>
+  <Computer>DESKTOP-9DPVCS7</Computer>
+ </System>
+ <EventData>
+  <Data Name="ContextId">{8000000D-0001-FD00-B63F-84710C7967BB}</Data>
+  <Data Name="ModuleName">ApplicationInitializationModule</Data>
+  <Data Name="Notification">536870912</Data>
+  <Data Name="fIsPostNotification">false</Data>
+ </EventData>
+ <RenderingInfo Culture="zh-CN">
+  <Opcode>NOTIFY_MODULE_START</Opcode>
+  <Keywords>
+   <Keyword>RequestNotifications</Keyword>
+  </Keywords>
+  <freb:Description Data="Notification">SEND_RESPONSE</freb:Description>
+ </RenderingInfo>
+ <ExtendedTracingInfo xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">
+  <EventGuid>{002E91E3-E7AE-44AB-8E07-99230FFA6ADE}</EventGuid>
+ </ExtendedTracingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+ <System>
+  <Provider Name="WWW Server" Guid="{3A2A4E84-4C21-4981-AE10-3FDA0D9B0F83}"/>
+  <EventID>0</EventID>
+  <Version>1</Version>
+  <Level>5</Level>
+  <Opcode>2</Opcode>
+  <Keywords>0x100</Keywords>
+  <TimeCreated SystemTime="2018-06-11T13:26:47.735Z"/>
+  <Correlation ActivityID="{8000000D-0001-FD00-B63F-84710C7967BB}"/>
+  <Execution ProcessID="6232" ThreadID="2764"/>
+  <Computer>DESKTOP-9DPVCS7</Computer>
+ </System>
+ <EventData>
+  <Data Name="ContextId">{8000000D-0001-FD00-B63F-84710C7967BB}</Data>
+  <Data Name="ModuleName">ApplicationInitializationModule</Data>
+  <Data Name="Notification">536870912</Data>
+  <Data Name="fIsPostNotificationEvent">false</Data>
+  <Data Name="NotificationStatus">0</Data>
+ </EventData>
+ <RenderingInfo Culture="zh-CN">
+  <Opcode>NOTIFY_MODULE_END</Opcode>
+  <Keywords>
+   <Keyword>RequestNotifications</Keyword>
+  </Keywords>
+  <freb:Description Data="Notification">SEND_RESPONSE</freb:Description>
+  <freb:Description Data="NotificationStatus">NOTIFICATION_CONTINUE</freb:Description>
+ </RenderingInfo>
+ <ExtendedTracingInfo xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">
+  <EventGuid>{002E91E3-E7AE-44AB-8E07-99230FFA6ADE}</EventGuid>
+ </ExtendedTracingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+ <System>
+  <Provider Name="WWW Server" Guid="{3A2A4E84-4C21-4981-AE10-3FDA0D9B0F83}"/>
+  <EventID>0</EventID>
+  <Version>1</Version>
+  <Level>5</Level>
+  <Opcode>1</Opcode>
+  <Keywords>0x100</Keywords>
+  <TimeCreated SystemTime="2018-06-11T13:26:47.735Z"/>
+  <Correlation ActivityID="{8000000D-0001-FD00-B63F-84710C7967BB}"/>
+  <Execution ProcessID="6232" ThreadID="2764"/>
+  <Computer>DESKTOP-9DPVCS7</Computer>
+ </System>
+ <EventData>
+  <Data Name="ContextId">{8000000D-0001-FD00-B63F-84710C7967BB}</Data>
+  <Data Name="ModuleName">WebSocketModule</Data>
+  <Data Name="Notification">536870912</Data>
+  <Data Name="fIsPostNotification">false</Data>
+ </EventData>
+ <RenderingInfo Culture="zh-CN">
+  <Opcode>NOTIFY_MODULE_START</Opcode>
+  <Keywords>
+   <Keyword>RequestNotifications</Keyword>
+  </Keywords>
+  <freb:Description Data="Notification">SEND_RESPONSE</freb:Description>
+ </RenderingInfo>
+ <ExtendedTracingInfo xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">
+  <EventGuid>{002E91E3-E7AE-44AB-8E07-99230FFA6ADE}</EventGuid>
+ </ExtendedTracingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+ <System>
+  <Provider Name="WWW Server" Guid="{3A2A4E84-4C21-4981-AE10-3FDA0D9B0F83}"/>
+  <EventID>0</EventID>
+  <Version>1</Version>
+  <Level>5</Level>
+  <Opcode>2</Opcode>
+  <Keywords>0x100</Keywords>
+  <TimeCreated SystemTime="2018-06-11T13:26:47.735Z"/>
+  <Correlation ActivityID="{8000000D-0001-FD00-B63F-84710C7967BB}"/>
+  <Execution ProcessID="6232" ThreadID="2764"/>
+  <Computer>DESKTOP-9DPVCS7</Computer>
+ </System>
+ <EventData>
+  <Data Name="ContextId">{8000000D-0001-FD00-B63F-84710C7967BB}</Data>
+  <Data Name="ModuleName">WebSocketModule</Data>
+  <Data Name="Notification">536870912</Data>
+  <Data Name="fIsPostNotificationEvent">false</Data>
+  <Data Name="NotificationStatus">0</Data>
+ </EventData>
+ <RenderingInfo Culture="zh-CN">
+  <Opcode>NOTIFY_MODULE_END</Opcode>
+  <Keywords>
+   <Keyword>RequestNotifications</Keyword>
+  </Keywords>
+  <freb:Description Data="Notification">SEND_RESPONSE</freb:Description>
+  <freb:Description Data="NotificationStatus">NOTIFICATION_CONTINUE</freb:Description>
+ </RenderingInfo>
+ <ExtendedTracingInfo xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">
+  <EventGuid>{002E91E3-E7AE-44AB-8E07-99230FFA6ADE}</EventGuid>
+ </ExtendedTracingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+ <System>
+  <Provider Name="WWW Server" Guid="{3A2A4E84-4C21-4981-AE10-3FDA0D9B0F83}"/>
+  <EventID>0</EventID>
+  <Version>1</Version>
+  <Level>5</Level>
+  <Opcode>1</Opcode>
+  <Keywords>0x100</Keywords>
+  <TimeCreated SystemTime="2018-06-11T13:26:47.735Z"/>
+  <Correlation ActivityID="{8000000D-0001-FD00-B63F-84710C7967BB}"/>
+  <Execution ProcessID="6232" ThreadID="2764"/>
+  <Computer>DESKTOP-9DPVCS7</Computer>
+ </System>
+ <EventData>
+  <Data Name="ContextId">{8000000D-0001-FD00-B63F-84710C7967BB}</Data>
+  <Data Name="ModuleName">WebMatrixSupportModule</Data>
+  <Data Name="Notification">536870912</Data>
+  <Data Name="fIsPostNotification">false</Data>
+ </EventData>
+ <RenderingInfo Culture="zh-CN">
+  <Opcode>NOTIFY_MODULE_START</Opcode>
+  <Keywords>
+   <Keyword>RequestNotifications</Keyword>
+  </Keywords>
+  <freb:Description Data="Notification">SEND_RESPONSE</freb:Description>
+ </RenderingInfo>
+ <ExtendedTracingInfo xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">
+  <EventGuid>{002E91E3-E7AE-44AB-8E07-99230FFA6ADE}</EventGuid>
+ </ExtendedTracingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+ <System>
+  <Provider Name="WWW Server" Guid="{3A2A4E84-4C21-4981-AE10-3FDA0D9B0F83}"/>
+  <EventID>0</EventID>
+  <Version>1</Version>
+  <Level>4</Level>
+  <Opcode>56</Opcode>
+  <Keywords>0x0</Keywords>
+  <TimeCreated SystemTime="2018-06-11T13:26:47.735Z"/>
+  <Correlation ActivityID="{8000000D-0001-FD00-B63F-84710C7967BB}"/>
+  <Execution ProcessID="6232" ThreadID="2764"/>
+  <Computer>DESKTOP-9DPVCS7</Computer>
+ </System>
+ <EventData>
+  <Data Name="ContextId">{8000000D-0001-FD00-B63F-84710C7967BB}</Data>
+  <Data Name="HeaderName">X-SourceFiles</Data>
+  <Data Name="HeaderValue">=?UTF-8?B?RTpcVmlzdWFsIFN0dWRpbyBQcm9ncmFtIEZpbGVzXFZpc3VhbCBTdHVkaW8gMjAxN1xQcm9qZWN0c1znvZHpobXmtYvor5UwMVznvZHpobXmtYvor5UwMVxtb3ZpZS5tcDQ=?=</Data>
+  <Data Name="Replace">false</Data>
+ </EventData>
+ <RenderingInfo Culture="zh-CN">
+  <Opcode>GENERAL_SET_RESPONSE_HEADER</Opcode>
+ </RenderingInfo>
+ <ExtendedTracingInfo xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">
+  <EventGuid>{D42CF7EF-DE92-473E-8B6C-621EA663113A}</EventGuid>
+ </ExtendedTracingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+ <System>
+  <Provider Name="WWW Server" Guid="{3A2A4E84-4C21-4981-AE10-3FDA0D9B0F83}"/>
+  <EventID>0</EventID>
+  <Version>1</Version>
+  <Level>5</Level>
+  <Opcode>2</Opcode>
+  <Keywords>0x100</Keywords>
+  <TimeCreated SystemTime="2018-06-11T13:26:47.735Z"/>
+  <Correlation ActivityID="{8000000D-0001-FD00-B63F-84710C7967BB}"/>
+  <Execution ProcessID="6232" ThreadID="2764"/>
+  <Computer>DESKTOP-9DPVCS7</Computer>
+ </System>
+ <EventData>
+  <Data Name="ContextId">{8000000D-0001-FD00-B63F-84710C7967BB}</Data>
+  <Data Name="ModuleName">WebMatrixSupportModule</Data>
+  <Data Name="Notification">536870912</Data>
+  <Data Name="fIsPostNotificationEvent">false</Data>
+  <Data Name="NotificationStatus">0</Data>
+ </EventData>
+ <RenderingInfo Culture="zh-CN">
+  <Opcode>NOTIFY_MODULE_END</Opcode>
+  <Keywords>
+   <Keyword>RequestNotifications</Keyword>
+  </Keywords>
+  <freb:Description Data="Notification">SEND_RESPONSE</freb:Description>
+  <freb:Description Data="NotificationStatus">NOTIFICATION_CONTINUE</freb:Description>
+ </RenderingInfo>
+ <ExtendedTracingInfo xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">
+  <EventGuid>{002E91E3-E7AE-44AB-8E07-99230FFA6ADE}</EventGuid>
+ </ExtendedTracingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+ <System>
+  <Provider Name="WWW Server" Guid="{3A2A4E84-4C21-4981-AE10-3FDA0D9B0F83}"/>
+  <EventID>0</EventID>
+  <Version>1</Version>
+  <Level>5</Level>
+  <Opcode>1</Opcode>
+  <Keywords>0x100</Keywords>
+  <TimeCreated SystemTime="2018-06-11T13:26:47.735Z"/>
+  <Correlation ActivityID="{8000000D-0001-FD00-B63F-84710C7967BB}"/>
+  <Execution ProcessID="6232" ThreadID="2764"/>
+  <Computer>DESKTOP-9DPVCS7</Computer>
+ </System>
+ <EventData>
+  <Data Name="ContextId">{8000000D-0001-FD00-B63F-84710C7967BB}</Data>
+  <Data Name="ModuleName">WindowsAuthenticationModule</Data>
+  <Data Name="Notification">536870912</Data>
+  <Data Name="fIsPostNotification">false</Data>
+ </EventData>
+ <RenderingInfo Culture="zh-CN">
+  <Opcode>NOTIFY_MODULE_START</Opcode>
+  <Keywords>
+   <Keyword>RequestNotifications</Keyword>
+  </Keywords>
+  <freb:Description Data="Notification">SEND_RESPONSE</freb:Description>
+ </RenderingInfo>
+ <ExtendedTracingInfo xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">
+  <EventGuid>{002E91E3-E7AE-44AB-8E07-99230FFA6ADE}</EventGuid>
+ </ExtendedTracingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+ <System>
+  <Provider Name="WWW Server" Guid="{3A2A4E84-4C21-4981-AE10-3FDA0D9B0F83}"/>
+  <EventID>0</EventID>
+  <Version>1</Version>
+  <Level>5</Level>
+  <Opcode>2</Opcode>
+  <Keywords>0x100</Keywords>
+  <TimeCreated SystemTime="2018-06-11T13:26:47.735Z"/>
+  <Correlation ActivityID="{8000000D-0001-FD00-B63F-84710C7967BB}"/>
+  <Execution ProcessID="6232" ThreadID="2764"/>
+  <Computer>DESKTOP-9DPVCS7</Computer>
+ </System>
+ <EventData>
+  <Data Name="ContextId">{8000000D-0001-FD00-B63F-84710C7967BB}</Data>
+  <Data Name="ModuleName">WindowsAuthenticationModule</Data>
+  <Data Name="Notification">536870912</Data>
+  <Data Name="fIsPostNotificationEvent">false</Data>
+  <Data Name="NotificationStatus">0</Data>
+ </EventData>
+ <RenderingInfo Culture="zh-CN">
+  <Opcode>NOTIFY_MODULE_END</Opcode>
+  <Keywords>
+   <Keyword>RequestNotifications</Keyword>
+  </Keywords>
+  <freb:Description Data="Notification">SEND_RESPONSE</freb:Description>
+  <freb:Description Data="NotificationStatus">NOTIFICATION_CONTINUE</freb:Description>
+ </RenderingInfo>
+ <ExtendedTracingInfo xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">
+  <EventGuid>{002E91E3-E7AE-44AB-8E07-99230FFA6ADE}</EventGuid>
+ </ExtendedTracingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+ <System>
+  <Provider Name="WWW Server" Guid="{3A2A4E84-4C21-4981-AE10-3FDA0D9B0F83}"/>
+  <EventID>0</EventID>
+  <Version>1</Version>
+  <Level>5</Level>
+  <Opcode>1</Opcode>
+  <Keywords>0x100</Keywords>
+  <TimeCreated SystemTime="2018-06-11T13:26:47.735Z"/>
+  <Correlation ActivityID="{8000000D-0001-FD00-B63F-84710C7967BB}"/>
+  <Execution ProcessID="6232" ThreadID="2764"/>
+  <Computer>DESKTOP-9DPVCS7</Computer>
+ </System>
+ <EventData>
+  <Data Name="ContextId">{8000000D-0001-FD00-B63F-84710C7967BB}</Data>
+  <Data Name="ModuleName">ProtocolSupportModule</Data>
+  <Data Name="Notification">536870912</Data>
+  <Data Name="fIsPostNotification">false</Data>
+ </EventData>
+ <RenderingInfo Culture="zh-CN">
+  <Opcode>NOTIFY_MODULE_START</Opcode>
+  <Keywords>
+   <Keyword>RequestNotifications</Keyword>
+  </Keywords>
+  <freb:Description Data="Notification">SEND_RESPONSE</freb:Description>
+ </RenderingInfo>
+ <ExtendedTracingInfo xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">
+  <EventGuid>{002E91E3-E7AE-44AB-8E07-99230FFA6ADE}</EventGuid>
+ </ExtendedTracingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+ <System>
+  <Provider Name="WWW Server" Guid="{3A2A4E84-4C21-4981-AE10-3FDA0D9B0F83}"/>
+  <EventID>0</EventID>
+  <Version>1</Version>
+  <Level>4</Level>
+  <Opcode>56</Opcode>
+  <Keywords>0x0</Keywords>
+  <TimeCreated SystemTime="2018-06-11T13:26:47.735Z"/>
+  <Correlation ActivityID="{8000000D-0001-FD00-B63F-84710C7967BB}"/>
+  <Execution ProcessID="6232" ThreadID="2764"/>
+  <Computer>DESKTOP-9DPVCS7</Computer>
+ </System>
+ <EventData>
+  <Data Name="ContextId">{8000000D-0001-FD00-B63F-84710C7967BB}</Data>
+  <Data Name="HeaderName">X-Powered-By</Data>
+  <Data Name="HeaderValue">ASP.NET</Data>
+  <Data Name="Replace">false</Data>
+ </EventData>
+ <RenderingInfo Culture="zh-CN">
+  <Opcode>GENERAL_SET_RESPONSE_HEADER</Opcode>
+ </RenderingInfo>
+ <ExtendedTracingInfo xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">
+  <EventGuid>{D42CF7EF-DE92-473E-8B6C-621EA663113A}</EventGuid>
+ </ExtendedTracingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+ <System>
+  <Provider Name="WWW Server" Guid="{3A2A4E84-4C21-4981-AE10-3FDA0D9B0F83}"/>
+  <EventID>0</EventID>
+  <Version>1</Version>
+  <Level>5</Level>
+  <Opcode>2</Opcode>
+  <Keywords>0x100</Keywords>
+  <TimeCreated SystemTime="2018-06-11T13:26:47.735Z"/>
+  <Correlation ActivityID="{8000000D-0001-FD00-B63F-84710C7967BB}"/>
+  <Execution ProcessID="6232" ThreadID="2764"/>
+  <Computer>DESKTOP-9DPVCS7</Computer>
+ </System>
+ <EventData>
+  <Data Name="ContextId">{8000000D-0001-FD00-B63F-84710C7967BB}</Data>
+  <Data Name="ModuleName">ProtocolSupportModule</Data>
+  <Data Name="Notification">536870912</Data>
+  <Data Name="fIsPostNotificationEvent">false</Data>
+  <Data Name="NotificationStatus">0</Data>
+ </EventData>
+ <RenderingInfo Culture="zh-CN">
+  <Opcode>NOTIFY_MODULE_END</Opcode>
+  <Keywords>
+   <Keyword>RequestNotifications</Keyword>
+  </Keywords>
+  <freb:Description Data="Notification">SEND_RESPONSE</freb:Description>
+  <freb:Description Data="NotificationStatus">NOTIFICATION_CONTINUE</freb:Description>
+ </RenderingInfo>
+ <ExtendedTracingInfo xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">
+  <EventGuid>{002E91E3-E7AE-44AB-8E07-99230FFA6ADE}</EventGuid>
+ </ExtendedTracingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+ <System>
+  <Provider Name="WWW Server" Guid="{3A2A4E84-4C21-4981-AE10-3FDA0D9B0F83}"/>
+  <EventID>0</EventID>
+  <Version>1</Version>
+  <Level>5</Level>
+  <Opcode>1</Opcode>
+  <Keywords>0x100</Keywords>
+  <TimeCreated SystemTime="2018-06-11T13:26:47.735Z"/>
+  <Correlation ActivityID="{8000000D-0001-FD00-B63F-84710C7967BB}"/>
+  <Execution ProcessID="6232" ThreadID="2764"/>
+  <Computer>DESKTOP-9DPVCS7</Computer>
+ </System>
+ <EventData>
+  <Data Name="ContextId">{8000000D-0001-FD00-B63F-84710C7967BB}</Data>
+  <Data Name="ModuleName">DynamicCompressionModule</Data>
+  <Data Name="Notification">536870912</Data>
+  <Data Name="fIsPostNotification">false</Data>
+ </EventData>
+ <RenderingInfo Culture="zh-CN">
+  <Opcode>NOTIFY_MODULE_START</Opcode>
+  <Keywords>
+   <Keyword>RequestNotifications</Keyword>
+  </Keywords>
+  <freb:Description Data="Notification">SEND_RESPONSE</freb:Description>
+ </RenderingInfo>
+ <ExtendedTracingInfo xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">
+  <EventGuid>{002E91E3-E7AE-44AB-8E07-99230FFA6ADE}</EventGuid>
+ </ExtendedTracingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+ <System>
+  <Provider Name="WWW Server" Guid="{3A2A4E84-4C21-4981-AE10-3FDA0D9B0F83}"/>
+  <EventID>0</EventID>
+  <Version>1</Version>
+  <Level>5</Level>
+  <Opcode>2</Opcode>
+  <Keywords>0x100</Keywords>
+  <TimeCreated SystemTime="2018-06-11T13:26:47.735Z"/>
+  <Correlation ActivityID="{8000000D-0001-FD00-B63F-84710C7967BB}"/>
+  <Execution ProcessID="6232" ThreadID="2764"/>
+  <Computer>DESKTOP-9DPVCS7</Computer>
+ </System>
+ <EventData>
+  <Data Name="ContextId">{8000000D-0001-FD00-B63F-84710C7967BB}</Data>
+  <Data Name="ModuleName">DynamicCompressionModule</Data>
+  <Data Name="Notification">536870912</Data>
+  <Data Name="fIsPostNotificationEvent">false</Data>
+  <Data Name="NotificationStatus">0</Data>
+ </EventData>
+ <RenderingInfo Culture="zh-CN">
+  <Opcode>NOTIFY_MODULE_END</Opcode>
+  <Keywords>
+   <Keyword>RequestNotifications</Keyword>
+  </Keywords>
+  <freb:Description Data="Notification">SEND_RESPONSE</freb:Description>
+  <freb:Description Data="NotificationStatus">NOTIFICATION_CONTINUE</freb:Description>
+ </RenderingInfo>
+ <ExtendedTracingInfo xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">
+  <EventGuid>{002E91E3-E7AE-44AB-8E07-99230FFA6ADE}</EventGuid>
+ </ExtendedTracingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+ <System>
+  <Provider Name="WWW Server" Guid="{3A2A4E84-4C21-4981-AE10-3FDA0D9B0F83}"/>
+  <EventID>0</EventID>
+  <Version>1</Version>
+  <Level>5</Level>
+  <Opcode>1</Opcode>
+  <Keywords>0x100</Keywords>
+  <TimeCreated SystemTime="2018-06-11T13:26:47.735Z"/>
+  <Correlation ActivityID="{8000000D-0001-FD00-B63F-84710C7967BB}"/>
+  <Execution ProcessID="6232" ThreadID="2764"/>
+  <Computer>DESKTOP-9DPVCS7</Computer>
+ </System>
+ <EventData>
+  <Data Name="ContextId">{8000000D-0001-FD00-B63F-84710C7967BB}</Data>
+  <Data Name="ModuleName">HttpLoggingModule</Data>
+  <Data Name="Notification">536870912</Data>
+  <Data Name="fIsPostNotification">false</Data>
+ </EventData>
+ <RenderingInfo Culture="zh-CN">
+  <Opcode>NOTIFY_MODULE_START</Opcode>
+  <Keywords>
+   <Keyword>RequestNotifications</Keyword>
+  </Keywords>
+  <freb:Description Data="Notification">SEND_RESPONSE</freb:Description>
+ </RenderingInfo>
+ <ExtendedTracingInfo xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">
+  <EventGuid>{002E91E3-E7AE-44AB-8E07-99230FFA6ADE}</EventGuid>
+ </ExtendedTracingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+ <System>
+  <Provider Name="WWW Server" Guid="{3A2A4E84-4C21-4981-AE10-3FDA0D9B0F83}"/>
+  <EventID>0</EventID>
+  <Version>1</Version>
+  <Level>5</Level>
+  <Opcode>2</Opcode>
+  <Keywords>0x100</Keywords>
+  <TimeCreated SystemTime="2018-06-11T13:26:47.735Z"/>
+  <Correlation ActivityID="{8000000D-0001-FD00-B63F-84710C7967BB}"/>
+  <Execution ProcessID="6232" ThreadID="2764"/>
+  <Computer>DESKTOP-9DPVCS7</Computer>
+ </System>
+ <EventData>
+  <Data Name="ContextId">{8000000D-0001-FD00-B63F-84710C7967BB}</Data>
+  <Data Name="ModuleName">HttpLoggingModule</Data>
+  <Data Name="Notification">536870912</Data>
+  <Data Name="fIsPostNotificationEvent">false</Data>
+  <Data Name="NotificationStatus">0</Data>
+ </EventData>
+ <RenderingInfo Culture="zh-CN">
+  <Opcode>NOTIFY_MODULE_END</Opcode>
+  <Keywords>
+   <Keyword>RequestNotifications</Keyword>
+  </Keywords>
+  <freb:Description Data="Notification">SEND_RESPONSE</freb:Description>
+  <freb:Description Data="NotificationStatus">NOTIFICATION_CONTINUE</freb:Description>
+ </RenderingInfo>
+ <ExtendedTracingInfo xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">
+  <EventGuid>{002E91E3-E7AE-44AB-8E07-99230FFA6ADE}</EventGuid>
+ </ExtendedTracingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+ <System>
+  <Provider Name="WWW Server" Guid="{3A2A4E84-4C21-4981-AE10-3FDA0D9B0F83}"/>
+  <EventID>0</EventID>
+  <Version>1</Version>
+  <Level>5</Level>
+  <Opcode>1</Opcode>
+  <Keywords>0x100</Keywords>
+  <TimeCreated SystemTime="2018-06-11T13:26:47.735Z"/>
+  <Correlation ActivityID="{8000000D-0001-FD00-B63F-84710C7967BB}"/>
+  <Execution ProcessID="6232" ThreadID="2764"/>
+  <Computer>DESKTOP-9DPVCS7</Computer>
+ </System>
+ <EventData>
+  <Data Name="ContextId">{8000000D-0001-FD00-B63F-84710C7967BB}</Data>
+  <Data Name="ModuleName">IsapiModule</Data>
+  <Data Name="Notification">536870912</Data>
+  <Data Name="fIsPostNotification">false</Data>
+ </EventData>
+ <RenderingInfo Culture="zh-CN">
+  <Opcode>NOTIFY_MODULE_START</Opcode>
+  <Keywords>
+   <Keyword>RequestNotifications</Keyword>
+  </Keywords>
+  <freb:Description Data="Notification">SEND_RESPONSE</freb:Description>
+ </RenderingInfo>
+ <ExtendedTracingInfo xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">
+  <EventGuid>{002E91E3-E7AE-44AB-8E07-99230FFA6ADE}</EventGuid>
+ </ExtendedTracingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+ <System>
+  <Provider Name="WWW Server" Guid="{3A2A4E84-4C21-4981-AE10-3FDA0D9B0F83}"/>
+  <EventID>0</EventID>
+  <Version>1</Version>
+  <Level>5</Level>
+  <Opcode>2</Opcode>
+  <Keywords>0x100</Keywords>
+  <TimeCreated SystemTime="2018-06-11T13:26:47.735Z"/>
+  <Correlation ActivityID="{8000000D-0001-FD00-B63F-84710C7967BB}"/>
+  <Execution ProcessID="6232" ThreadID="2764"/>
+  <Computer>DESKTOP-9DPVCS7</Computer>
+ </System>
+ <EventData>
+  <Data Name="ContextId">{8000000D-0001-FD00-B63F-84710C7967BB}</Data>
+  <Data Name="ModuleName">IsapiModule</Data>
+  <Data Name="Notification">536870912</Data>
+  <Data Name="fIsPostNotificationEvent">false</Data>
+  <Data Name="NotificationStatus">0</Data>
+ </EventData>
+ <RenderingInfo Culture="zh-CN">
+  <Opcode>NOTIFY_MODULE_END</Opcode>
+  <Keywords>
+   <Keyword>RequestNotifications</Keyword>
+  </Keywords>
+  <freb:Description Data="Notification">SEND_RESPONSE</freb:Description>
+  <freb:Description Data="NotificationStatus">NOTIFICATION_CONTINUE</freb:Description>
+ </RenderingInfo>
+ <ExtendedTracingInfo xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">
+  <EventGuid>{002E91E3-E7AE-44AB-8E07-99230FFA6ADE}</EventGuid>
+ </ExtendedTracingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+ <System>
+  <Provider Name="WWW Server" Guid="{3A2A4E84-4C21-4981-AE10-3FDA0D9B0F83}"/>
+  <EventID>0</EventID>
+  <Version>1</Version>
+  <Level>5</Level>
+  <Opcode>1</Opcode>
+  <Keywords>0x100</Keywords>
+  <TimeCreated SystemTime="2018-06-11T13:26:47.735Z"/>
+  <Correlation ActivityID="{8000000D-0001-FD00-B63F-84710C7967BB}"/>
+  <Execution ProcessID="6232" ThreadID="2764"/>
+  <Computer>DESKTOP-9DPVCS7</Computer>
+ </System>
+ <EventData>
+  <Data Name="ContextId">{8000000D-0001-FD00-B63F-84710C7967BB}</Data>
+  <Data Name="ModuleName">BasicAuthenticationModule</Data>
+  <Data Name="Notification">536870912</Data>
+  <Data Name="fIsPostNotification">false</Data>
+ </EventData>
+ <RenderingInfo Culture="zh-CN">
+  <Opcode>NOTIFY_MODULE_START</Opcode>
+  <Keywords>
+   <Keyword>RequestNotifications</Keyword>
+  </Keywords>
+  <freb:Description Data="Notification">SEND_RESPONSE</freb:Description>
+ </RenderingInfo>
+ <ExtendedTracingInfo xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">
+  <EventGuid>{002E91E3-E7AE-44AB-8E07-99230FFA6ADE}</EventGuid>
+ </ExtendedTracingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+ <System>
+  <Provider Name="WWW Server" Guid="{3A2A4E84-4C21-4981-AE10-3FDA0D9B0F83}"/>
+  <EventID>0</EventID>
+  <Version>1</Version>
+  <Level>5</Level>
+  <Opcode>2</Opcode>
+  <Keywords>0x100</Keywords>
+  <TimeCreated SystemTime="2018-06-11T13:26:47.735Z"/>
+  <Correlation ActivityID="{8000000D-0001-FD00-B63F-84710C7967BB}"/>
+  <Execution ProcessID="6232" ThreadID="2764"/>
+  <Computer>DESKTOP-9DPVCS7</Computer>
+ </System>
+ <EventData>
+  <Data Name="ContextId">{8000000D-0001-FD00-B63F-84710C7967BB}</Data>
+  <Data Name="ModuleName">BasicAuthenticationModule</Data>
+  <Data Name="Notification">536870912</Data>
+  <Data Name="fIsPostNotificationEvent">false</Data>
+  <Data Name="NotificationStatus">0</Data>
+ </EventData>
+ <RenderingInfo Culture="zh-CN">
+  <Opcode>NOTIFY_MODULE_END</Opcode>
+  <Keywords>
+   <Keyword>RequestNotifications</Keyword>
+  </Keywords>
+  <freb:Description Data="Notification">SEND_RESPONSE</freb:Description>
+  <freb:Description Data="NotificationStatus">NOTIFICATION_CONTINUE</freb:Description>
+ </RenderingInfo>
+ <ExtendedTracingInfo xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">
+  <EventGuid>{002E91E3-E7AE-44AB-8E07-99230FFA6ADE}</EventGuid>
+ </ExtendedTracingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+ <System>
+  <Provider Name="WWW Server" Guid="{3A2A4E84-4C21-4981-AE10-3FDA0D9B0F83}"/>
+  <EventID>0</EventID>
+  <Version>1</Version>
+  <Level>5</Level>
+  <Opcode>1</Opcode>
+  <Keywords>0x100</Keywords>
+  <TimeCreated SystemTime="2018-06-11T13:26:47.735Z"/>
+  <Correlation ActivityID="{8000000D-0001-FD00-B63F-84710C7967BB}"/>
+  <Execution ProcessID="6232" ThreadID="2764"/>
+  <Computer>DESKTOP-9DPVCS7</Computer>
+ </System>
+ <EventData>
+  <Data Name="ContextId">{8000000D-0001-FD00-B63F-84710C7967BB}</Data>
+  <Data Name="ModuleName">IsapiFilterModule</Data>
+  <Data Name="Notification">536870912</Data>
+  <Data Name="fIsPostNotification">false</Data>
+ </EventData>
+ <RenderingInfo Culture="zh-CN">
+  <Opcode>NOTIFY_MODULE_START</Opcode>
+  <Keywords>
+   <Keyword>RequestNotifications</Keyword>
+  </Keywords>
+  <freb:Description Data="Notification">SEND_RESPONSE</freb:Description>
+ </RenderingInfo>
+ <ExtendedTracingInfo xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">
+  <EventGuid>{002E91E3-E7AE-44AB-8E07-99230FFA6ADE}</EventGuid>
+ </ExtendedTracingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+ <System>
+  <Provider Name="WWW Server" Guid="{3A2A4E84-4C21-4981-AE10-3FDA0D9B0F83}"/>
+  <EventID>0</EventID>
+  <Version>1</Version>
+  <Level>5</Level>
+  <Opcode>2</Opcode>
+  <Keywords>0x100</Keywords>
+  <TimeCreated SystemTime="2018-06-11T13:26:47.735Z"/>
+  <Correlation ActivityID="{8000000D-0001-FD00-B63F-84710C7967BB}"/>
+  <Execution ProcessID="6232" ThreadID="2764"/>
+  <Computer>DESKTOP-9DPVCS7</Computer>
+ </System>
+ <EventData>
+  <Data Name="ContextId">{8000000D-0001-FD00-B63F-84710C7967BB}</Data>
+  <Data Name="ModuleName">IsapiFilterModule</Data>
+  <Data Name="Notification">536870912</Data>
+  <Data Name="fIsPostNotificationEvent">false</Data>
+  <Data Name="NotificationStatus">0</Data>
+ </EventData>
+ <RenderingInfo Culture="zh-CN">
+  <Opcode>NOTIFY_MODULE_END</Opcode>
+  <Keywords>
+   <Keyword>RequestNotifications</Keyword>
+  </Keywords>
+  <freb:Description Data="Notification">SEND_RESPONSE</freb:Description>
+  <freb:Description Data="NotificationStatus">NOTIFICATION_CONTINUE</freb:Description>
+ </RenderingInfo>
+ <ExtendedTracingInfo xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">
+  <EventGuid>{002E91E3-E7AE-44AB-8E07-99230FFA6ADE}</EventGuid>
+ </ExtendedTracingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+ <System>
+  <Provider Name="WWW Server" Guid="{3A2A4E84-4C21-4981-AE10-3FDA0D9B0F83}"/>
+  <EventID>0</EventID>
+  <Version>1</Version>
+  <Level>5</Level>
+  <Opcode>1</Opcode>
+  <Keywords>0x100</Keywords>
+  <TimeCreated SystemTime="2018-06-11T13:26:47.735Z"/>
+  <Correlation ActivityID="{8000000D-0001-FD00-B63F-84710C7967BB}"/>
+  <Execution ProcessID="6232" ThreadID="2764"/>
+  <Computer>DESKTOP-9DPVCS7</Computer>
+ </System>
+ <EventData>
+  <Data Name="ContextId">{8000000D-0001-FD00-B63F-84710C7967BB}</Data>
+  <Data Name="ModuleName">RewriteModule</Data>
+  <Data Name="Notification">536870912</Data>
+  <Data Name="fIsPostNotification">false</Data>
+ </EventData>
+ <RenderingInfo Culture="zh-CN">
+  <Opcode>NOTIFY_MODULE_START</Opcode>
+  <Keywords>
+   <Keyword>RequestNotifications</Keyword>
+  </Keywords>
+  <freb:Description Data="Notification">SEND_RESPONSE</freb:Description>
+ </RenderingInfo>
+ <ExtendedTracingInfo xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">
+  <EventGuid>{002E91E3-E7AE-44AB-8E07-99230FFA6ADE}</EventGuid>
+ </ExtendedTracingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+ <System>
+  <Provider Name="WWW Server" Guid="{3A2A4E84-4C21-4981-AE10-3FDA0D9B0F83}"/>
+  <EventID>0</EventID>
+  <Version>1</Version>
+  <Level>5</Level>
+  <Opcode>2</Opcode>
+  <Keywords>0x100</Keywords>
+  <TimeCreated SystemTime="2018-06-11T13:26:47.735Z"/>
+  <Correlation ActivityID="{8000000D-0001-FD00-B63F-84710C7967BB}"/>
+  <Execution ProcessID="6232" ThreadID="2764"/>
+  <Computer>DESKTOP-9DPVCS7</Computer>
+ </System>
+ <EventData>
+  <Data Name="ContextId">{8000000D-0001-FD00-B63F-84710C7967BB}</Data>
+  <Data Name="ModuleName">RewriteModule</Data>
+  <Data Name="Notification">536870912</Data>
+  <Data Name="fIsPostNotificationEvent">false</Data>
+  <Data Name="NotificationStatus">0</Data>
+ </EventData>
+ <RenderingInfo Culture="zh-CN">
+  <Opcode>NOTIFY_MODULE_END</Opcode>
+  <Keywords>
+   <Keyword>RequestNotifications</Keyword>
+  </Keywords>
+  <freb:Description Data="Notification">SEND_RESPONSE</freb:Description>
+  <freb:Description Data="NotificationStatus">NOTIFICATION_CONTINUE</freb:Description>
+ </RenderingInfo>
+ <ExtendedTracingInfo xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">
+  <EventGuid>{002E91E3-E7AE-44AB-8E07-99230FFA6ADE}</EventGuid>
+ </ExtendedTracingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+ <System>
+  <Provider Name="WWW Server" Guid="{3A2A4E84-4C21-4981-AE10-3FDA0D9B0F83}"/>
+  <EventID>0</EventID>
+  <Version>1</Version>
+  <Level>5</Level>
+  <Opcode>1</Opcode>
+  <Keywords>0x100</Keywords>
+  <TimeCreated SystemTime="2018-06-11T13:26:47.735Z"/>
+  <Correlation ActivityID="{8000000D-0001-FD00-B63F-84710C7967BB}"/>
+  <Execution ProcessID="6232" ThreadID="2764"/>
+  <Computer>DESKTOP-9DPVCS7</Computer>
+ </System>
+ <EventData>
+  <Data Name="ContextId">{8000000D-0001-FD00-B63F-84710C7967BB}</Data>
+  <Data Name="ModuleName">CustomErrorModule</Data>
+  <Data Name="Notification">536870912</Data>
+  <Data Name="fIsPostNotification">false</Data>
+ </EventData>
+ <RenderingInfo Culture="zh-CN">
+  <Opcode>NOTIFY_MODULE_START</Opcode>
+  <Keywords>
+   <Keyword>RequestNotifications</Keyword>
+  </Keywords>
+  <freb:Description Data="Notification">SEND_RESPONSE</freb:Description>
+ </RenderingInfo>
+ <ExtendedTracingInfo xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">
+  <EventGuid>{002E91E3-E7AE-44AB-8E07-99230FFA6ADE}</EventGuid>
+ </ExtendedTracingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+ <System>
+  <Provider Name="WWW Server" Guid="{3A2A4E84-4C21-4981-AE10-3FDA0D9B0F83}"/>
+  <EventID>0</EventID>
+  <Version>1</Version>
+  <Level>0</Level>
+  <Opcode>33</Opcode>
+  <Keywords>0x0</Keywords>
+  <TimeCreated SystemTime="2018-06-11T13:26:47.735Z"/>
+  <Correlation ActivityID="{8000000D-0001-FD00-B63F-84710C7967BB}"/>
+  <Execution ProcessID="6232" ThreadID="2764"/>
+  <Computer>DESKTOP-9DPVCS7</Computer>
+ </System>
+ <EventData>
+  <Data Name="ContextId">{8000000D-0001-FD00-B63F-84710C7967BB}</Data>
+  <Data Name="HttpStatus">404</Data>
+  <Data Name="HttpSubStatus">0</Data>
+  <Data Name="FileNameOrURL">404.htm</Data>
+ </EventData>
+ <RenderingInfo Culture="zh-CN">
+  <Opcode>GENERAL_SEND_CUSTOM_ERROR</Opcode>
+ </RenderingInfo>
+ <ExtendedTracingInfo xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">
+  <EventGuid>{D42CF7EF-DE92-473E-8B6C-621EA663113A}</EventGuid>
+ </ExtendedTracingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+ <System>
+  <Provider Name="WWW Server" Guid="{3A2A4E84-4C21-4981-AE10-3FDA0D9B0F83}"/>
+  <EventID>0</EventID>
+  <Version>1</Version>
+  <Level>5</Level>
+  <Opcode>2</Opcode>
+  <Keywords>0x100</Keywords>
+  <TimeCreated SystemTime="2018-06-11T13:26:47.735Z"/>
+  <Correlation ActivityID="{8000000D-0001-FD00-B63F-84710C7967BB}"/>
+  <Execution ProcessID="6232" ThreadID="2764"/>
+  <Computer>DESKTOP-9DPVCS7</Computer>
+ </System>
+ <EventData>
+  <Data Name="ContextId">{8000000D-0001-FD00-B63F-84710C7967BB}</Data>
+  <Data Name="ModuleName">CustomErrorModule</Data>
+  <Data Name="Notification">536870912</Data>
+  <Data Name="fIsPostNotificationEvent">false</Data>
+  <Data Name="NotificationStatus">0</Data>
+ </EventData>
+ <RenderingInfo Culture="zh-CN">
+  <Opcode>NOTIFY_MODULE_END</Opcode>
+  <Keywords>
+   <Keyword>RequestNotifications</Keyword>
+  </Keywords>
+  <freb:Description Data="Notification">SEND_RESPONSE</freb:Description>
+  <freb:Description Data="NotificationStatus">NOTIFICATION_CONTINUE</freb:Description>
+ </RenderingInfo>
+ <ExtendedTracingInfo xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">
+  <EventGuid>{002E91E3-E7AE-44AB-8E07-99230FFA6ADE}</EventGuid>
+ </ExtendedTracingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+ <System>
+  <Provider Name="WWW Server" Guid="{3A2A4E84-4C21-4981-AE10-3FDA0D9B0F83}"/>
+  <EventID>0</EventID>
+  <Version>1</Version>
+  <Level>5</Level>
+  <Opcode>1</Opcode>
+  <Keywords>0x100</Keywords>
+  <TimeCreated SystemTime="2018-06-11T13:26:47.735Z"/>
+  <Correlation ActivityID="{8000000D-0001-FD00-B63F-84710C7967BB}"/>
+  <Execution ProcessID="6232" ThreadID="2764"/>
+  <Computer>DESKTOP-9DPVCS7</Computer>
+ </System>
+ <EventData>
+  <Data Name="ContextId">{8000000D-0001-FD00-B63F-84710C7967BB}</Data>
+  <Data Name="ModuleName">DynamicIpRestrictionModule</Data>
+  <Data Name="Notification">536870912</Data>
+  <Data Name="fIsPostNotification">false</Data>
+ </EventData>
+ <RenderingInfo Culture="zh-CN">
+  <Opcode>NOTIFY_MODULE_START</Opcode>
+  <Keywords>
+   <Keyword>RequestNotifications</Keyword>
+  </Keywords>
+  <freb:Description Data="Notification">SEND_RESPONSE</freb:Description>
+ </RenderingInfo>
+ <ExtendedTracingInfo xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">
+  <EventGuid>{002E91E3-E7AE-44AB-8E07-99230FFA6ADE}</EventGuid>
+ </ExtendedTracingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+ <System>
+  <Provider Name="WWW Server" Guid="{3A2A4E84-4C21-4981-AE10-3FDA0D9B0F83}"/>
+  <EventID>0</EventID>
+  <Version>1</Version>
+  <Level>5</Level>
+  <Opcode>2</Opcode>
+  <Keywords>0x100</Keywords>
+  <TimeCreated SystemTime="2018-06-11T13:26:47.735Z"/>
+  <Correlation ActivityID="{8000000D-0001-FD00-B63F-84710C7967BB}"/>
+  <Execution ProcessID="6232" ThreadID="2764"/>
+  <Computer>DESKTOP-9DPVCS7</Computer>
+ </System>
+ <EventData>
+  <Data Name="ContextId">{8000000D-0001-FD00-B63F-84710C7967BB}</Data>
+  <Data Name="ModuleName">DynamicIpRestrictionModule</Data>
+  <Data Name="Notification">536870912</Data>
+  <Data Name="fIsPostNotificationEvent">false</Data>
+  <Data Name="NotificationStatus">0</Data>
+ </EventData>
+ <RenderingInfo Culture="zh-CN">
+  <Opcode>NOTIFY_MODULE_END</Opcode>
+  <Keywords>
+   <Keyword>RequestNotifications</Keyword>
+  </Keywords>
+  <freb:Description Data="Notification">SEND_RESPONSE</freb:Description>
+  <freb:Description Data="NotificationStatus">NOTIFICATION_CONTINUE</freb:Description>
+ </RenderingInfo>
+ <ExtendedTracingInfo xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">
+  <EventGuid>{002E91E3-E7AE-44AB-8E07-99230FFA6ADE}</EventGuid>
+ </ExtendedTracingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+ <System>
+  <Provider Name="WWW Server" Guid="{3A2A4E84-4C21-4981-AE10-3FDA0D9B0F83}"/>
+  <EventID>0</EventID>
+  <Version>1</Version>
+  <Level>4</Level>
+  <Opcode>14</Opcode>
+  <Keywords>0x80</Keywords>
+  <TimeCreated SystemTime="2018-06-11T13:26:47.735Z"/>
+  <Correlation ActivityID="{8000000D-0001-FD00-B63F-84710C7967BB}"/>
+  <Execution ProcessID="6232" ThreadID="2764"/>
+  <Computer>DESKTOP-9DPVCS7</Computer>
+ </System>
+ <EventData>
+  <Data Name="ContextId">{8000000D-0001-FD00-B63F-84710C7967BB}</Data>
+  <Data Name="HttpsysCacheable">false</Data>
+  <Data Name="Reason">21</Data>
+  <Data Name="CachePolicy">0</Data>
+  <Data Name="TimeToLive">0</Data>
+ </EventData>
+ <RenderingInfo Culture="zh-CN">
+  <Opcode>HTTPSYS_CACHEABLE</Opcode>
+  <Keywords>
+   <Keyword>Cache</Keyword>
+  </Keywords>
+  <freb:Description Data="Reason">NO_PIPELINE_ENABLE</freb:Description>
+  <freb:Description Data="CachePolicy">NO_CACHE</freb:Description>
+ </RenderingInfo>
+ <ExtendedTracingInfo xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">
+  <EventGuid>{AC1D69F1-BF33-4CA0-9313-BCA13873E1DC}</EventGuid>
+ </ExtendedTracingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+ <System>
+  <Provider Name="WWW Server" Guid="{3A2A4E84-4C21-4981-AE10-3FDA0D9B0F83}"/>
+  <EventID>0</EventID>
+  <Version>1</Version>
+  <Level>4</Level>
+  <Opcode>35</Opcode>
+  <Keywords>0x0</Keywords>
+  <TimeCreated SystemTime="2018-06-11T13:26:47.735Z"/>
+  <Correlation ActivityID="{8000000D-0001-FD00-B63F-84710C7967BB}"/>
+  <Execution ProcessID="6232" ThreadID="2764"/>
+  <Computer>DESKTOP-9DPVCS7</Computer>
+ </System>
+ <EventData>
+  <Data Name="ContextId">{8000000D-0001-FD00-B63F-84710C7967BB}</Data>
+ </EventData>
+ <RenderingInfo Culture="zh-CN">
+  <Opcode>GENERAL_FLUSH_RESPONSE_START</Opcode>
+ </RenderingInfo>
+ <ExtendedTracingInfo xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">
+  <EventGuid>{D42CF7EF-DE92-473E-8B6C-621EA663113A}</EventGuid>
+ </ExtendedTracingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+ <System>
+  <Provider Name="WWW Server" Guid="{3A2A4E84-4C21-4981-AE10-3FDA0D9B0F83}"/>
+  <EventID>0</EventID>
+  <Version>1</Version>
+  <Level>4</Level>
+  <Opcode>47</Opcode>
+  <Keywords>0x0</Keywords>
+  <TimeCreated SystemTime="2018-06-11T13:26:47.735Z"/>
+  <Correlation ActivityID="{8000000D-0001-FD00-B63F-84710C7967BB}"/>
+  <Execution ProcessID="6232" ThreadID="2764"/>
+  <Computer>DESKTOP-9DPVCS7</Computer>
+ </System>
+ <EventData>
+  <Data Name="ContextId">{8000000D-0001-FD00-B63F-84710C7967BB}</Data>
+  <Data Name="Headers">Cache-Control: private
+Content-Type: text/html; charset=utf-8
+Server: Microsoft-IIS/10.0
+X-SourceFiles: =?UTF-8?B?RTpcVmlzdWFsIFN0dWRpbyBQcm9ncmFtIEZpbGVzXFZpc3VhbCBTdHVkaW8gMjAxN1xQcm9qZWN0c1znvZHpobXmtYvor5UwMVznvZHpobXmtYvor5UwMVxtb3ZpZS5tcDQ=?=
+X-Powered-By: ASP.NET
+</Data>
+ </EventData>
+ <RenderingInfo Culture="zh-CN">
+  <Opcode>GENERAL_RESPONSE_HEADERS</Opcode>
+ </RenderingInfo>
+ <ExtendedTracingInfo xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">
+  <EventGuid>{D42CF7EF-DE92-473E-8B6C-621EA663113A}</EventGuid>
+ </ExtendedTracingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+ <System>
+  <Provider Name="WWW Server" Guid="{3A2A4E84-4C21-4981-AE10-3FDA0D9B0F83}"/>
+  <EventID>0</EventID>
+  <Version>1</Version>
+  <Level>5</Level>
+  <Opcode>49</Opcode>
+  <Keywords>0x0</Keywords>
+  <TimeCreated SystemTime="2018-06-11T13:26:47.735Z"/>
+  <Correlation ActivityID="{8000000D-0001-FD00-B63F-84710C7967BB}"/>
+  <Execution ProcessID="6232" ThreadID="2764"/>
+  <Computer>DESKTOP-9DPVCS7</Computer>
+ </System>
+ <EventData>
+  <Data Name="ContextId">{8000000D-0001-FD00-B63F-84710C7967BB}</Data>
+  <Data Name="Buffer">&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Strict//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd&quot;&gt; 
+&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt; 
+&lt;head&gt; 
+&lt;title&gt;IIS 10.0 Detailed Error - 404.0 - Not Found&lt;/title&gt; 
+&lt;style type=&quot;text/css&quot;&gt; 
+&lt;!-- 
+body{margin:0;font-size:.7em;font-family:Verdana,Arial,Helvetica,sans-serif;} 
+code{margin:0;color:#006600;font-size:1.1em;font-weight:bold;} 
+.config_source code{font-size:.8em;color:#000000;} 
+pre{margin:0;font-size:1.4em;word-wrap:break-word;} 
+ul,ol{margin:10px 0 10px 5px;} 
+ul.first,ol.first{margin-top:5px;} 
+fieldset{padding:0 15px 10px 15px;word-break:break-all;} 
+.summary-container fieldset{padding-bottom:5px;margin-top:4px;} 
+legend.no-expand-all{padding:2px 15px 4px 10px;margin:0 0 0 -12px;} 
+legend{color:#333333;;margin:4px 0 8px -12px;_margin-top:0px; 
+font-weight:bold;font-size:1em;} 
+a:link,a:visited{color:#007EFF;font-weight:bold;} 
+a:hover{text-decoration:none;} 
+h1{font-size:2.4em;margin:0;color:#FFF;} 
+h2{font-size:1.7em;margin:0;color:#CC0000;} 
+h3{font-size:1.4em;margin:10px 0 0 0;color:#CC0000;} 
+h4{font-size:1.2em;margin:10px 0 5px 0; 
+}#header{width:96%;margin:0 0 0 0;padding:6px 2% 6px 2%;font-family:&quot;trebuchet MS&quot;,Verdana,sans-serif; 
+ color:#FFF;background-color:#5C87B2; 
+}#content{margin:0 0 0 2%;position:relative;} 
+.summary-container,.content-container{background:#FFF;width:96%;margin-top:8px;padding:10px;position:relative;} 
+.content-container p{margin:0 0 10px 0; 
+}#details-left{width:35%;float:left;margin-right:2%; 
+}#details-right{width:63%;float:left;overflow:hidden; 
+}#server_version{width:96%;_height:1px;min-height:1px;margin:0 0 5px 0;padding:11px 2% 8px 2%;color:#FFFFFF; 
+ background-color:#5A7FA5;border-bottom:1px solid #C1CFDD;border-top:1px solid #4A6C8E;font-weight:normal; 
+ font-size:1em;color:#FFF;text-align:right; 
+}#server_version p{margin:5px 0;} 
+table{margin:4px 0 4px 0;width:100%;border:none;} 
+td,th{vertical-align:top;padding:3px 0;text-align:left;font-weight:normal;border:none;} 
+th{width:30%;text-align:right;padding-right:2%;font-weight:bold;} 
+thead th{background-color:#ebebeb;width:25%; 
+}#details-right th{width:20%;} 
+table tr.alt td,table tr.alt th{} 
+.highlight-code{color:#CC0000;font-weight:bold;font-style:italic;} 
+.clear{clear:both;} 
+.preferred{padding:0 5px 2px 5px;font-weight:normal;background:#006633;color:#FFF;font-size:.8em;} 
+--&gt; 
+&lt;/style&gt; 
+ 
+&lt;/head&gt; 
+&lt;body&gt; 
+&lt;div id=&quot;content&quot;&gt; 
+&lt;div class=&quot;content-container&quot;&gt; 
+  &lt;h3&gt;HTTP Error 404.0 - Not Found&lt;/h3&gt; 
+  &lt;h4&gt;%E6%82%A8%E8%A6%81%E6%89%BE%E7%9A%84%E8%B5%84%E6%BA%90%E5%B7%B2%E8%A2%AB%E5%88%A0%E9%99%A4%E3%80%81%E5%B7%B2%E6%9B%B4%E5%90%8D%E6%88%96%E6%9A%82%E6%97%B6%E4%B8%8D%E5%8F%AF%E7%94%A8%E3%80%82&lt;/h4&gt; 
+&lt;/div&gt; 
+&lt;div class=&quot;content-container&quot;&gt; 
+ &lt;fieldset&gt;&lt;h4&gt;%E6%9C%80%E5%8F%AF%E8%83%BD%E7%9A%84%E5%8E%9F%E5%9B%A0:&lt;/h4&gt; 
+  &lt;ul&gt; %09&lt;li&gt;%E6%8C%87%E5%AE%9A%E7%9A%84%E7%9B%AE%E5%BD%95%E6%88%96%E6%96%87%E4%BB%B6%E5%9C%A8 Web %E6%9C%8D%E5%8A%A1%E5%99%A8%E4%B8%8A%E4%B8%8D%E5%AD%98%E5%9C%A8%E3%80%82&lt;/li&gt; %09&lt;li&gt;URL %E6%8B%BC%E5%86%99%E9%94%99%E8%AF%AF%E3%80%82&lt;/li&gt; %09&lt;li&gt;%E6%9F%90%E4%B8%AA%E8%87%AA%E5%AE%9A%E4%B9%89%E7%AD%9B%E9%80%89%E5%99%A8%E6%88%96%E6%A8%A1%E5%9D%97(%E5%A6%82 URLScan)%E9%99%90%E5%88%B6%E4%BA%86%E5%AF%B9%E8%AF%A5%E6%96%87%E4%BB%B6%E7%9A%84%E8%AE%BF%E9%97%AE%E3%80%82&lt;/li&gt; &lt;/ul&gt; 
+ &lt;/fieldset&gt; 
+&lt;/div&gt; 
+&lt;div class=&quot;content-container&quot;&gt; 
+ &lt;fieldset&gt;&lt;h4&gt;%E5%8F%AF%E5%B0%9D%E8%AF%95%E7%9A%84%E6%93%8D%E4%BD%9C:&lt;/h4&gt; 
+  &lt;ul&gt; %09&lt;li&gt;%E5%9C%A8 Web %E6%9C%8D%E5%8A%A1%E5%99%A8%E4%B8%8A%E5%88%9B%E5%BB%BA%E5%86%85%E5%AE%B9%E3%80%82&lt;/li&gt; %09&lt;li&gt;%E6%A3%80%E6%9F%A5%E6%B5%8F%E8%A7%88%E5%99%A8 URL%E3%80%82&lt;/li&gt; %09&lt;li&gt;%E6%A3%80%E6%9F%A5%E5%A4%B1%E8%B4%A5%E8%AF%B7%E6%B1%82%E8%B7%9F%E8%B8%AA%E6%97%A5%E5%BF%97%E5%B9%B6%E6%9F%A5%E7%9C%8B%E5%93%AA%E4%B8%AA%E6%A8%A1%E5%9D%97%E6%AD%A3%E5%9C%A8%E8%B0%83%E7%94%A8 SetStatus%E3%80%82%E6%9C%89%E5%85%B3%E8%AF%A6%E7%BB%86%E4%BF%A1%E6%81%AF%EF%BC%8C%E8%AF%B7%E5%8D%95%E5%87%BB&lt;a href=&quot;http://go.microsoft.com/fwlink/?LinkID=66439&quot;&gt;%E6%AD%A4%E5%A4%84&lt;/a&gt;%E3%80%82&lt;/li&gt; &lt;/ul&gt; 
+ &lt;/fieldset&gt; 
+&lt;/div&gt; 
+ 
+&lt;div class=&quot;content-container&quot;&gt; 
+ &lt;fieldset&gt;&lt;h4&gt;Detailed Error Information:&lt;/h4&gt; 
+  &lt;div id=&quot;details-left&quot;&gt; 
+   &lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt; 
+    &lt;tr class=&quot;alt&quot;&gt;&lt;th&gt;Module&lt;/th&gt;&lt;td&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;IIS Web Core&lt;/td&gt;&lt;/tr&gt; 
+    &lt;tr&gt;&lt;th&gt;Notification&lt;/th&gt;&lt;td&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;MapRequestHandler&lt;/td&gt;&lt;/tr&gt; 
+    &lt;tr class=&quot;alt&quot;&gt;&lt;th&gt;Handler&lt;/th&gt;&lt;td&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;StaticFile&lt;/td&gt;&lt;/tr&gt; 
+    &lt;tr&gt;&lt;th&gt;Error Code&lt;/th&gt;&lt;td&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;0x80070002&lt;/td&gt;&lt;/tr&gt; 
+     
+   &lt;/table&gt; 
+  &lt;/div&gt; 
+  &lt;div id=&quot;details-right&quot;&gt; 
+   &lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt; 
+    &lt;tr class=&quot;alt&quot;&gt;&lt;th&gt;Requested URL&lt;/th&gt;&lt;td&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;http://localhost:10202/movie.mp4&lt;/td&gt;&lt;/tr&gt; 
+    &lt;tr&gt;&lt;th&gt;Physical Path&lt;/th&gt;&lt;td&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;E:\Visual Studio Program Files\Visual Studio 2017\Projects\%E7%BD%91%E9%A1%B5%E6%B5%8B%E8%AF%9501\%E7%BD%91%E9%A1%B5%E6%B5%8B%E8%AF%9501\movie.mp4&lt;/td&gt;&lt;/tr&gt; 
+    &lt;tr class=&quot;alt&quot;&gt;&lt;th&gt;Logon Method&lt;/th&gt;&lt;td&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;%E5%8C%BF%E5%90%8D&lt;/td&gt;&lt;/tr&gt; 
+    &lt;tr&gt;&lt;th&gt;Logon User&lt;/th&gt;&lt;td&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;%E5%8C%BF%E5%90%8D&lt;/td&gt;&lt;/tr&gt; 
+    &lt;tr class=&quot;alt&quot;&gt;&lt;th&gt;%E8%AF%B7%E6%B1%82%E8%B7%9F%E8%B8%AA%E7%9B%AE%E5%BD%95&lt;/th&gt;&lt;td&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;C:\Users\%E6%80%9D%E4%B9%8B%E5%A3%B0\Documents\IISExpress\TraceLogFiles\%E7%BD%91%E9%A1%B5%E6%B5%8B%E8%AF%9501&lt;/td&gt;&lt;/tr&gt; 
+   &lt;/table&gt; 
+   &lt;div class=&quot;clear&quot;&gt;&lt;/div&gt; 
+  &lt;/div&gt; 
+ &lt;/fieldset&gt; 
+&lt;/div&gt; 
+ 
+&lt;div class=&quot;content-container&quot;&gt; 
+ &lt;fieldset&gt;&lt;h4&gt;More Information:&lt;/h4&gt; 
+  %E6%AD%A4%E9%94%99%E8%AF%AF%E8%A1%A8%E6%98%8E%E6%96%87%E4%BB%B6%E6%88%96%E7%9B%AE%E5%BD%95%E5%9C%A8%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%B8%8A%E4%B8%8D%E5%AD%98%E5%9C%A8%E3%80%82%E8%AF%B7%E5%88%9B%E5%BB%BA%E6%96%87%E4%BB%B6%E6%88%96%E7%9B%AE%E5%BD%95%E5%B9%B6%E9%87%8D%E6%96%B0%E5%B0%9D%E8%AF%95%E8%AF%B7%E6%B1%82%E3%80%82 
+  &lt;p&gt;&lt;a href=&quot;https://go.microsoft.com/fwlink/?LinkID=62293&amp;amp;IIS70Error=404,0,0x80070002,16299&quot;&gt;View more information &amp;raquo;&lt;/a&gt;&lt;/p&gt; 
+   
+ &lt;/fieldset&gt; 
+&lt;/div&gt; 
+&lt;/div&gt; 
+&lt;/body&gt; 
+&lt;/html&gt; 
+</Data>
+ </EventData>
+ <RenderingInfo Culture="zh-CN">
+  <Opcode>GENERAL_RESPONSE_ENTITY_BUFFER</Opcode>
+ </RenderingInfo>
+ <ExtendedTracingInfo xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">
+  <EventGuid>{D42CF7EF-DE92-473E-8B6C-621EA663113A}</EventGuid>
+ </ExtendedTracingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+ <System>
+  <Provider Name="WWW Server" Guid="{3A2A4E84-4C21-4981-AE10-3FDA0D9B0F83}"/>
+  <EventID>0</EventID>
+  <Version>1</Version>
+  <Level>4</Level>
+  <Opcode>36</Opcode>
+  <Keywords>0x0</Keywords>
+  <TimeCreated SystemTime="2018-06-11T13:26:47.735Z"/>
+  <Correlation ActivityID="{8000000D-0001-FD00-B63F-84710C7967BB}"/>
+  <Execution ProcessID="6232" ThreadID="2764"/>
+  <Computer>DESKTOP-9DPVCS7</Computer>
+ </System>
+ <EventData>
+  <Data Name="ContextId">{8000000D-0001-FD00-B63F-84710C7967BB}</Data>
+  <Data Name="BytesSent">5234</Data>
+  <Data Name="ErrorCode">0</Data>
+ </EventData>
+ <RenderingInfo Culture="zh-CN">
+  <Opcode>GENERAL_FLUSH_RESPONSE_END</Opcode>
+  <freb:Description Data="ErrorCode">操作成功完成。 (0x0)</freb:Description>
+ </RenderingInfo>
+ <ExtendedTracingInfo xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">
+  <EventGuid>{D42CF7EF-DE92-473E-8B6C-621EA663113A}</EventGuid>
+ </ExtendedTracingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+ <System>
+  <Provider Name="WWW Server" Guid="{3A2A4E84-4C21-4981-AE10-3FDA0D9B0F83}"/>
+  <EventID>0</EventID>
+  <Version>1</Version>
+  <Level>0</Level>
+  <Opcode>2</Opcode>
+  <Keywords>0x0</Keywords>
+  <TimeCreated SystemTime="2018-06-11T13:26:47.735Z"/>
+  <Correlation ActivityID="{8000000D-0001-FD00-B63F-84710C7967BB}"/>
+  <Execution ProcessID="6232" ThreadID="2764"/>
+  <Computer>DESKTOP-9DPVCS7</Computer>
+ </System>
+ <EventData>
+  <Data Name="ContextId">{8000000D-0001-FD00-B63F-84710C7967BB}</Data>
+  <Data Name="BytesSent">5234</Data>
+  <Data Name="BytesReceived">347</Data>
+  <Data Name="HttpStatus">404</Data>
+  <Data Name="HttpSubStatus">0</Data>
+ </EventData>
+ <RenderingInfo Culture="zh-CN">
+  <Opcode>GENERAL_REQUEST_END</Opcode>
+ </RenderingInfo>
+ <ExtendedTracingInfo xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">
+  <EventGuid>{D42CF7EF-DE92-473E-8B6C-621EA663113A}</EventGuid>
+ </ExtendedTracingInfo>
+</Event>
+</failedRequest>

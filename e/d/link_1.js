@@ -1,0 +1,2 @@
+﻿
+document.write("<select onChange=Link_Open(this.options[this.selectedIndex].value,'link')><option value=''>全国站群导航</option><option value='http://www.gov.cn/'>中国政府网</option><option value='http://www.most.gov.cn/'>中国科技部</option></select>");

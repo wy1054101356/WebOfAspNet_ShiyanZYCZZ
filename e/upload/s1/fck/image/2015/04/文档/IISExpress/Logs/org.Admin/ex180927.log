@@ -1,0 +1,37 @@
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2018-09-27 03:29:01
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2018-09-27 03:29:01 ::1 GET / - 64290 - ::1 Mozilla/5.0+(Windows+NT+10.0;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/63.0.3239.132+Safari/537.36 - 302 0 0 5717
+2018-09-27 03:29:01 ::1 GET /Login - 64290 - ::1 Mozilla/5.0+(Windows+NT+10.0;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/63.0.3239.132+Safari/537.36 - 200 0 0 867
+2018-09-27 03:29:01 ::1 GET /static/js/jquery.min.js - 64290 - ::1 Mozilla/5.0+(Windows+NT+10.0;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/63.0.3239.132+Safari/537.36 http://localhost:64290/Login 200 0 0 15
+2018-09-27 03:29:01 ::1 GET /static/css/docs.css v=1 64290 - ::1 Mozilla/5.0+(Windows+NT+10.0;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/63.0.3239.132+Safari/537.36 http://localhost:64290/Login 200 0 0 14
+2018-09-27 03:29:01 ::1 GET /static/js/admin.js - 64290 - ::1 Mozilla/5.0+(Windows+NT+10.0;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/63.0.3239.132+Safari/537.36 http://localhost:64290/Login 200 0 0 17
+2018-09-27 03:29:01 ::1 GET /static/js/docs.js - 64290 - ::1 Mozilla/5.0+(Windows+NT+10.0;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/63.0.3239.132+Safari/537.36 http://localhost:64290/Login 200 0 0 18
+2018-09-27 03:29:01 ::1 GET /static/js/semantic.min.js - 64290 - ::1 Mozilla/5.0+(Windows+NT+10.0;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/63.0.3239.132+Safari/537.36 http://localhost:64290/Login 200 0 0 20
+2018-09-27 03:29:01 ::1 GET /static/css/admin.css v=1 64290 - ::1 Mozilla/5.0+(Windows+NT+10.0;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/63.0.3239.132+Safari/537.36 http://localhost:64290/Login 200 0 0 8
+2018-09-27 03:29:01 ::1 GET /static/css/semantic.min.css - 64290 - ::1 Mozilla/5.0+(Windows+NT+10.0;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/63.0.3239.132+Safari/537.36 http://localhost:64290/Login 200 0 0 94
+2018-09-27 03:29:02 ::1 GET /static/images/00.jpg - 64290 - ::1 Mozilla/5.0+(Windows+NT+10.0;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/63.0.3239.132+Safari/537.36 http://localhost:64290/Login 200 0 0 69
+2018-09-27 03:29:02 ::1 GET /login/code - 64290 - ::1 Mozilla/5.0+(Windows+NT+10.0;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/63.0.3239.132+Safari/537.36 http://localhost:64290/Login 200 0 0 37
+2018-09-27 03:29:02 ::1 GET /login/code update=95967 64290 - ::1 Mozilla/5.0+(Windows+NT+10.0;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/63.0.3239.132+Safari/537.36 http://localhost:64290/Login 200 0 0 20
+2018-09-27 03:29:02 ::1 GET /static/fonts/Lato-Bold.woff2 - 64290 - ::1 Mozilla/5.0+(Windows+NT+10.0;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/63.0.3239.132+Safari/537.36 http://localhost:64290/static/css/docs.css?v=1 200 0 0 5
+2018-09-27 03:29:02 ::1 GET /static/fonts/Lato-Regular.woff2 - 64290 - ::1 Mozilla/5.0+(Windows+NT+10.0;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/63.0.3239.132+Safari/537.36 http://localhost:64290/static/css/docs.css?v=1 200 0 0 26
+2018-09-27 03:29:02 ::1 GET /favicon.ico - 64290 - ::1 Mozilla/5.0+(Windows+NT+10.0;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/63.0.3239.132+Safari/537.36 http://localhost:64290/Login 404 0 0 28
+2018-09-27 03:29:23 ::1 GET /login/code update=29161 64290 - ::1 Mozilla/5.0+(Windows+NT+10.0;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/63.0.3239.132+Safari/537.36 http://localhost:64290/Login 200 0 0 9
+2018-09-27 03:29:28 ::1 POST /login/check - 64290 - ::1 Mozilla/5.0+(Windows+NT+10.0;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/63.0.3239.132+Safari/537.36 http://localhost:64290/Login 200 0 0 1157
+2018-09-27 03:29:29 ::1 GET / - 64290 - ::1 Mozilla/5.0+(Windows+NT+10.0;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/63.0.3239.132+Safari/537.36 http://localhost:64290/Login 200 0 0 1197
+2018-09-27 03:29:29 ::1 GET /static/css/admin.css v=20180502v2 64290 - ::1 Mozilla/5.0+(Windows+NT+10.0;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/63.0.3239.132+Safari/537.36 http://localhost:64290/ 200 0 0 6
+2018-09-27 03:29:29 ::1 GET /static/css/docs.css v=20180502v2 64290 - ::1 Mozilla/5.0+(Windows+NT+10.0;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/63.0.3239.132+Safari/537.36 http://localhost:64290/ 200 0 0 16
+2018-09-27 03:29:29 ::1 GET /static/js/admin.js 20180503 64290 - ::1 Mozilla/5.0+(Windows+NT+10.0;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/63.0.3239.132+Safari/537.36 http://localhost:64290/ 200 0 0 18
+2018-09-27 03:29:29 ::1 GET /Static/js/lodash.js - 64290 - ::1 Mozilla/5.0+(Windows+NT+10.0;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/63.0.3239.132+Safari/537.36 http://localhost:64290/ 200 0 0 23
+2018-09-27 03:29:29 ::1 GET /Static/js/semanticModelEXT.js - 64290 - ::1 Mozilla/5.0+(Windows+NT+10.0;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/63.0.3239.132+Safari/537.36 http://localhost:64290/ 200 0 0 22
+2018-09-27 03:29:29 ::1 GET /static/images/logo.png - 64290 - ::1 Mozilla/5.0+(Windows+NT+10.0;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/63.0.3239.132+Safari/537.36 http://localhost:64290/ 200 0 0 28
+2018-09-27 03:29:34 ::1 GET /Record - 64290 - ::1 Mozilla/5.0+(Windows+NT+10.0;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/63.0.3239.132+Safari/537.36 http://localhost:64290/ 200 0 0 694
+2018-09-27 03:29:34 ::1 GET /static/js/jquery.datetimepicker.js - 64290 - ::1 Mozilla/5.0+(Windows+NT+10.0;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/63.0.3239.132+Safari/537.36 http://localhost:64290/Record 200 0 0 15
+2018-09-27 03:29:34 ::1 GET /static/css/jquery.datetimepicker.css - 64290 - ::1 Mozilla/5.0+(Windows+NT+10.0;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/63.0.3239.132+Safari/537.36 http://localhost:64290/Record 200 0 0 17
+2018-09-27 03:29:34 ::1 GET /static/fonts/icons.woff2 - 64290 - ::1 Mozilla/5.0+(Windows+NT+10.0;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/63.0.3239.132+Safari/537.36 http://localhost:64290/static/css/semantic.min.css 200 0 0 14
+2018-09-27 03:29:38 ::1 GET /User - 64290 - ::1 Mozilla/5.0+(Windows+NT+10.0;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/63.0.3239.132+Safari/537.36 http://localhost:64290/Record 200 0 0 660
+2018-09-27 03:29:49 ::1 GET /Reward - 64290 - ::1 Mozilla/5.0+(Windows+NT+10.0;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/63.0.3239.132+Safari/537.36 http://localhost:64290/User 200 0 0 549
+2018-09-27 03:29:51 ::1 GET /Record - 64290 - ::1 Mozilla/5.0+(Windows+NT+10.0;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/63.0.3239.132+Safari/537.36 http://localhost:64290/Reward 200 0 0 219
+2018-09-27 03:29:53 ::1 GET /Record date=2018-09-27 64290 - ::1 Mozilla/5.0+(Windows+NT+10.0;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/63.0.3239.132+Safari/537.36 http://localhost:64290/Record 200 0 0 220
+2018-09-27 03:29:58 ::1 GET /Record date=2018-09-13 64290 - ::1 Mozilla/5.0+(Windows+NT+10.0;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/63.0.3239.132+Safari/537.36 http://localhost:64290/Record?date=2018-09-27 200 0 0 227

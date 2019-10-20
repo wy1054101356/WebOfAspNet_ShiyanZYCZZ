@@ -1,0 +1,1 @@
+﻿<% @ Page language="c#" Inherits="PageAdmin.data_post"%>

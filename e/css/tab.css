@@ -1,0 +1,25 @@
+﻿/*产品tab*/
+.prodinfotab{display:block}
+.prodinfotab .tabheader{clear:both;height:28px;text-align:left;background:url(images/detailinto_title.jpg) repeat-x 0 0;padding-left:5px;}
+
+.prodinfotab .tab_t dd.current{background:url(images/tab_1_over.jpg) no-repeat 0 0;font-weight:bold;}
+
+.prodinfotab .tab_t dd{float:left;text-align:center;width:100px;height:20px;padding:8px 0 0 0;cursor:pointer;background:url(images/tab_1.jpg) no-repeat left top;}
+
+.prodinfotab .tabcontent{clear:both;border:0px solid #ADC2BD;padding:10px 5px 10px 10px;;line-height:180%;height:100%}
+
+
+
+/*tab*/
+.tab{clear:both;border:1px solid #ddd;overflow:hidden}
+.tab .tabheader{clear:both;height:30px;text-align:left;overflow:hidden;padding:0 0 0 10px;border:0 solid #075190;border-width:0 0 2px 0;background:#eee url(images/tabheadbg.jpg) repeat-x 0 0;}
+.tab .tabheader dd.current{float:top;height:36px;padding:7px 16px 0 16px;font-weight:bold;font-size:14px;background:url(images/mainbox_tag.png) no-repeat 0 27px;}
+.tab .tabheader dd{float:left;text-align:center;font-weight:bold;height:36px;padding:7px 16px 0 16px;cursor:pointer;font-size:14px;}
+.tab .tabheader dd a{color:#333;}
+.tab .tabheader dd.current a{color:#cc0000;font-weight:bold;font-size:14px;text-decoration:none;text-align:center;}
+
+.tab .tabcontent{clear:both;padding:5px 15px 9px 15px;}
+.tab .tabcontent dd{display:none}
+
+
+

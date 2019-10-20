@@ -1,0 +1,29 @@
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2018-06-06 13:56:39
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2018-06-06 13:56:39 ::1 GET /index.html - 10202 - ::1 Mozilla/5.0+(Windows+NT+10.0;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/63.0.3239.132+Safari/537.36 - 200 0 0 27
+2018-06-06 13:57:00 ::1 GET / - 10202 - ::1 Mozilla/5.0+(Windows+NT+10.0;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/63.0.3239.132+Safari/537.36 - 200 0 0 955
+2018-06-06 13:57:46 ::1 GET /index.html - 10202 - ::1 Mozilla/5.0+(Windows+NT+10.0;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/63.0.3239.132+Safari/537.36 - 304 0 0 1
+2018-06-06 13:58:55 ::1 GET /index.html - 10202 - ::1 Mozilla/5.0+(Windows+NT+10.0;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/63.0.3239.132+Safari/537.36 - 200 0 0 14
+2018-06-06 14:00:27 ::1 GET /index.html - 10202 - ::1 Mozilla/5.0+(Windows+NT+10.0;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/63.0.3239.132+Safari/537.36 - 200 0 0 2
+2018-06-06 14:00:39 ::1 GET /index.html - 10202 - ::1 Mozilla/5.0+(Windows+NT+10.0;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/63.0.3239.132+Safari/537.36 - 200 0 0 2
+2018-06-06 14:00:48 ::1 GET /index.html - 10202 - ::1 Mozilla/5.0+(Windows+NT+10.0;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/63.0.3239.132+Safari/537.36 - 304 0 0 4
+2018-06-06 14:01:00 ::1 GET /index.html - 10202 - ::1 Mozilla/5.0+(Windows+NT+10.0;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/63.0.3239.132+Safari/537.36 - 200 0 0 5
+2018-06-06 14:01:36 ::1 GET /index.html - 10202 - ::1 Mozilla/5.0+(Windows+NT+10.0;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/63.0.3239.132+Safari/537.36 - 304 0 0 4
+2018-06-06 14:01:41 ::1 GET /index.html - 10202 - ::1 Mozilla/5.0+(Windows+NT+10.0;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/63.0.3239.132+Safari/537.36 - 200 0 0 4
+2018-06-06 14:01:48 ::1 GET /index.html - 10202 - ::1 Mozilla/5.0+(Windows+NT+10.0;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/63.0.3239.132+Safari/537.36 - 200 0 0 1
+2018-06-06 14:02:23 ::1 GET /index.html - 10202 - ::1 Mozilla/5.0+(Windows+NT+10.0;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/63.0.3239.132+Safari/537.36 - 200 0 0 3
+2018-06-06 14:04:23 ::1 GET /index.html - 10202 - ::1 Mozilla/5.0+(Windows+NT+10.0;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/63.0.3239.132+Safari/537.36 - 200 0 0 2
+2018-06-06 14:05:13 ::1 GET /index.html - 10202 - ::1 Mozilla/5.0+(Windows+NT+10.0;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/63.0.3239.132+Safari/537.36 - 200 0 0 1
+2018-06-06 14:10:02 ::1 GET /index.html - 10202 - ::1 Mozilla/5.0+(Windows+NT+10.0;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/63.0.3239.132+Safari/537.36 - 200 0 0 2
+2018-06-06 14:22:04 ::1 GET /index.html - 10202 - ::1 Mozilla/5.0+(Windows+NT+10.0;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/63.0.3239.132+Safari/537.36 - 200 0 0 4
+2018-06-06 14:24:31 ::1 GET /index.html - 10202 - ::1 Mozilla/5.0+(Windows+NT+10.0;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/63.0.3239.132+Safari/537.36 - 200 0 0 9
+2018-06-06 14:24:40 ::1 GET /index.html - 10202 - ::1 Mozilla/5.0+(Windows+NT+10.0;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/63.0.3239.132+Safari/537.36 - 200 0 0 3
+2018-06-06 14:25:00 ::1 GET /index.html - 10202 - ::1 Mozilla/5.0+(Windows+NT+10.0;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/63.0.3239.132+Safari/537.36 - 200 0 0 28
+2018-06-06 14:25:31 ::1 GET /index.html - 10202 - ::1 Mozilla/5.0+(Windows+NT+10.0;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/63.0.3239.132+Safari/537.36 - 200 0 0 3
+2018-06-06 14:25:36 ::1 GET /index.html - 10202 - ::1 Mozilla/5.0+(Windows+NT+10.0;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/63.0.3239.132+Safari/537.36 - 200 0 0 5
+2018-06-06 14:26:20 ::1 GET /index.html - 10202 - ::1 Mozilla/5.0+(Windows+NT+10.0;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/63.0.3239.132+Safari/537.36 - 200 0 0 9
+2018-06-06 14:26:25 ::1 GET /index.html - 10202 - ::1 Mozilla/5.0+(Windows+NT+10.0;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/63.0.3239.132+Safari/537.36 - 200 0 0 2
+2018-06-06 14:26:39 ::1 GET /index.html - 10202 - ::1 Mozilla/5.0+(Windows+NT+10.0;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/63.0.3239.132+Safari/537.36 - 200 0 0 2
+2018-06-06 14:26:55 ::1 GET /index.html - 10202 - ::1 Mozilla/5.0+(Windows+NT+10.0;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/63.0.3239.132+Safari/537.36 - 200 0 0 2

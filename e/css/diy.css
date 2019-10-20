@@ -1,0 +1,11 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+
+/*首页-幼儿作品*/
+.youer{;width:1020px;height:300px; float: left;}
+.youer .tit{height:30px;text-align:right;}
+.youer .tit a{width:50px;height:20px;display:inline-block;margin:5px 10px 0 0;}
+.youer .con{width:1020px;height:300px; padding-left:7px; float: left;}
+
+

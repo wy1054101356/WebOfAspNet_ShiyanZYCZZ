@@ -1,0 +1,40 @@
+﻿/*首页顶部日期*/
+#logo{width:349px;height:82px;float:left;display:inline;margin:25px 0 0 0;}
+.seacher{float:right;text-align:right;width:400px;height:80px;padding:15px 0 0 0;}
+.info{position:absolute;bottom:0;width:980px;height:30px;overflow:hidden;display:block;color:#212f53;}
+ 
+
+/* 快速通道  */
+.quicklist{padding:5px 0 0 15px;}
+.quicklist li{float:left;height:26px; line-height:26px;}
+.quicklist li a{float:left;padding:0px 10px 0 20px;margin:5px 0 8px 0;display:inline;background:url(images/qli.jpg) no-repeat 0 center;}
+
+.quicklist1{padding:5px 0 0 15px;}
+.quicklist1 li{float:left;height:26px; line-height:26px;}
+.quicklist1 li a{float:left;padding:0px 10px 0 20px;margin:5px 0 8px 0;display:inline;background:url(images/qli.gif) no-repeat 0 center;}
+
+/*横向分类*/
+.sortlist {height:23px;border:0px solid #ccc;}
+.sortlist li{float:left;margin-right:10px;}
+.sortlist li a{float:left;display:inline;padding:0 0 0 20px;background:url(images/sortlist.jpg) no-repeat 0 0;color:#285f86;}
+h3{font-size:12px;font-weight:bold;border-bottom:1px solid #365c9a;}
+
+/*新闻页*/
+.flash{width:300px;height:200px;float:left;margin:20px 0 15px 20px;display:inline;}
+.news{width:410px;height:200px;float:right;margin:20px 0 15px 0;display:inline;}
+
+h2{width:120px;height:42px;background:url(images/NodeNameBg.png) no-repeat 0 0;padding-top:12px;font-size:12px;color:#fff;text-align:center;}
+
+/*在线报名*/
+#module_234 table{border-collapse:collapse;border:1px solid #ccc;width:100%;}
+#module_234 td{border:1px solid #ccc;padding:8px;}
+#module_234 .module_content{padding:0;}
+
+/*内页模块标题*/
+.title3{background:none;border:none;}
+.title3 .module_title{background:none;border:none;height:50px;}
+.title3 .module_sign{margin:10px 0 0 20px;width:100px;height:32px;background:url(/e/templates/style/images/NodeNameBg.png) no-repeat 0 0;font-size:12px;line-height:32px;}
+.title3 .module_content{border:none;padding:10px 30px 10px 20px ;}
+
+/*资源下载*/
+#module_232{padding:30px;}
